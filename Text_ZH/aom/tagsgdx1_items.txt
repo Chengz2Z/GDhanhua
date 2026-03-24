@@ -1738,18 +1738,18 @@ tagGDX1PrefixB103_WpnMelee1h_A=^g符刻(元/物转火/HP/CS)·
 tagGDX1PrefixB104_WpnMelee1h_A=^g幽灵束缚(召唤)·
 tagGDX1PrefixB105_WpnMelee1h_A=^g魔法风暴(电虚)·
 
-tagGDX1PrefixB101_Ar_A=^g石面(物/穿晕抗/护甲/DA)·
+tagGDX1PrefixB101_Ar_A=^g石面(物/穿晕抗/甲/DA)·
 tagGDX1PrefixB102_Ar_A=^g符刻(元/元血抗/HP) ·
 tagGDX1PrefixB103_Ar_A=^g幽灵束缚(召唤)·
 tagGDX1PrefixB104_Ar_A=^g魔法风暴(电虚)·
 
 tagPrefixB022_Class_A=^g战术家(物元/活抗/DA)·
 tagPrefixB023_Class_A=^g净化者(元/冻抗/OA)·
-tagPrefixB024_Class_A=^g欺诈者(火混/流血抗/DA)·
+tagPrefixB024_Class_A=^g欺诈者(火混/血抗/DA)·
 tagPrefixB025_Class_A=^g潜伏者(穿冰/晕抗/OA)·
 tagPrefixB026_Class_A=^g法师猎人(虚元/%精神/减速抗)·
 tagPrefixB027_Class_A=^g维护者(穿电/酸抗/DA)·
-tagPrefixB028_Class_A=^g变节者(活元/%精神/冻结抗)·
+tagPrefixB028_Class_A=^g变节者(活元/%精神/冻抗)·
 tagPrefixB029_Class_A=^g死亡骑士(物活/%体格/石抗)·
 tagPrefixB030_Class_A=^g污染者(火虚/晕抗/OA)·
 tagPrefixB031_Class_A=^g秘术师(召唤)·
@@ -1761,7 +1761,7 @@ tagPrefixB036_Class_A=^g法术师(召唤)·
 
 tagGDX1PrefixB101_Sh_A=^g精华饮者(活虚/穿抗/CS)·
 tagGDX1PrefixB102_Sh_A=^g充满毒液(酸活/穿抗/OA)·
-tagGDX1PrefixB103_Sh_A=^g符刻(元素/元血抗/HP) ·
+tagGDX1PrefixB103_Sh_A=^g符刻(元/元血抗/HP) ·
 tagGDX1PrefixB104_Sh_A=^g魔法风暴(电虚/穿抗/OA)·
 tagGDX1PrefixB105_Sh_A=^g幽灵束缚(召唤)·
 tagGDX1PrefixB106_Sh_A=^g幽灵守护(活虚/活血抗/HP)·
@@ -1789,7 +1789,7 @@ tagGDX1SuffixB102_Sh_A=^g·焚烧符文(元/元抗/AS/CS)
 tagGDX1SuffixB103_Sh_A=^g·灵魂牢笼(召唤)
 tagGDX1SuffixB104_Sh_A=^g·天神愤怒(电虚/精神/CS)
 tagGDX1SuffixB105_Sh_A=^g·虚灵屏障(虚/活元抗/HP/OA)
-tagGDX1SuffixB106_Sh_A=^g·威风降临(物/盾挡/体格HP)
+tagGDX1SuffixB106_Sh_A=^g·威风降临(物/盾挡/体格/HP)
 
 
 #ItemSkills

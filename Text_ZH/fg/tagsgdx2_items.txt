@@ -1319,15 +1319,15 @@ tagGDX2EpicDoor_TombOfHeretic=摩根尼斯之愚的封印
 tagGDX2EpicDoor_TombOfHereticLocked= {^R} ~ 被黑暗封印着 (需要一把骸骨钥匙)
 
 
-tagPrefixB037_Class_A=^g战争领主(物/虚抗/%护甲/反伤)·
+tagPrefixB037_Class_A=^g战争领主(物/虚抗/甲/反伤)·
 tagPrefixB038_Class_A=^g破盾者(物火/减速抗/OA)·
 tagPrefixB039_Class_A=^g哨兵(酸/虚抗/精神/反伤)·
-tagPrefixB040_Class_A=^g狂舞者(酸穿/活抗/%护甲)·
-tagPrefixB041_Class_A=^g圣殿骑士(虚元/混抗/%护甲)·
+tagPrefixB040_Class_A=^g狂舞者(酸穿/活抗/甲)·
+tagPrefixB041_Class_A=^g圣殿骑士(虚元/混抗/甲)·
 tagPrefixB042_Class_A=^g执政官(活血/酸抗/OA)·
 tagPrefixB043_Class_A=^g帕拉丁(物元/冻抗/DA)·
 tagPrefixB044_Class_A=^g压迫者(活虚/体格/酸抗)·
-tagPrefixB045_Class_A=^g救世者(物火/混抗/盾挡值)·
+tagPrefixB045_Class_A=^g救世者(物火/混抗/盾挡)·
 
 
 #Affixes
