@@ -19,6 +19,7 @@
 
 # ignored file
 *.patch
+origin/Text*
 
 # ignored dir
 out
