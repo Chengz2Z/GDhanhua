@@ -23,7 +23,11 @@ Project/
 │  ├─ split.bat       一键解包脚本
 │  └─ text_*/         示例：解包后的目录
 ├─ out/               编译输出目录
-│  └─ *.arc           示例：编译生成的文件
+│  ├─ *.arc           示例：编译生成的文件
+│  └─ _build/         示例：无词缀简述的临时文件
+├─ scripts/           构建辅助脚本目录
+│  └─ prepare-build.ps1
+│                     编译前处理词缀简述开关
 ├─ ArchiveTool.exe    归档打包/解包工具
 ├─ zlibwapi.dll       ArchiveTool 运行依赖
 ├─ build.bat          一键编译脚本
@@ -57,15 +61,44 @@ Project/
 build.bat
 ```
 
+`build.bat` 内默认带有：
+
+```bat
+set ENABLE_DESC=1
+```
+
+双击脚本时，会按这个变量决定是否保留前后缀括号里的属性简述：
+
+- `set ENABLE_DESC=1`：保留词缀属性简述
+- `set ENABLE_DESC=0`：去掉词缀属性简述
+
+如果需要临时按参数覆盖这个默认值，可使用：
+
+去掉词缀名后面的属性简述括号：
+
+```bat
+build.bat no-desc
+```
+
+显式保留简述：
+
+```bat
+build.bat with-desc
+```
+
 ## 编译脚本行为
 
 执行 `build.bat` 时，脚本会按以下顺序处理：
 
 1. 检查 `./out` 目录是否存在，不存在则自动创建。
 2. 检查 `./out/Text_ZH.arc` 是否已存在，若存在则先删除旧文件。
-3. 调用 `ArchiveTool.exe` 将 `./Text_ZH` 目录重新打包。
-4. 编译成功后输出成功提示。
-5. 编译失败时输出失败提示，并暂停窗口，方便查看日志。
+3. 根据 `build.bat` 里的 `ENABLE_DESC` 变量，或命令行传入的覆盖参数，决定是否保留前后缀属性简述。
+4. 如果最终为“不带简述”模式，则先复制 `./Text_ZH` 到临时目录，并移除 `tagPrefix/tagSuffix` 项末尾括号中的属性简述。
+5. 调用 `ArchiveTool.exe` 将构建源目录重新打包。
+6. 编译成功后输出成功提示。
+7. 编译失败时输出失败提示，并暂停窗口，方便查看日志。
+
+不带简述模式只影响编译时的临时副本，不会修改仓库里的原始 `Text_ZH` 文本。
 
 ## 输出文件
 
