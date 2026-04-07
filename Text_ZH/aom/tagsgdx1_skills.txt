@@ -6,13 +6,13 @@ tagSkillClassName0108=死亡骑士^T（士兵+死灵）
 tagSkillClassName0207=净化者^T（爆破+审判）
 tagSkillClassName0208=污染者^T（爆破+死灵）
 tagSkillClassName0307=欺诈者^T（神秘+审判）
-tagSkillClassName0308=[ms]秘术师^T（神秘+死灵）[fs]女秘术^T（神秘+死灵）
-tagSkillClassName0407=[ms]潜伏者^T（夜刃+审判）[fs]渗透者^T（夜刃+审判）
+tagSkillClassName0308=秘术师^T（神秘+死灵）
+tagSkillClassName0407=潜伏者^T（夜刃+审判）
 tagSkillClassName0408=收割者^T（夜刃+死灵）
-tagSkillClassName0507=[ms]法师猎人^T（奥术+审判）[fs]法师女猎人^T（奥术+审判）
+tagSkillClassName0507=法师猎人^T（奥术+审判）
 tagSkillClassName0508=缚法者^T（奥术+死灵）
 tagSkillClassName0607=维护者^T（萨满+审判）
-tagSkillClassName0608=[ms]祭司^T（萨满+死灵）[fs]女祭司^T（萨满+死灵）
+tagSkillClassName0608=祭司^T（萨满+死灵）
 tagSkillClassName0708=变节者^T（审判+死灵）
 
 

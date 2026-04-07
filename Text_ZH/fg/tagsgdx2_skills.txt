@@ -1,13 +1,13 @@
 tagSkillClassName09=守誓者
 
 tagSkillClassName0109=战争领主^T（士兵+守誓）
-tagSkillClassName0209=破坏盾卫^T（爆破+守誓）
+tagSkillClassName0209=破盾者^T（爆破+守誓）
 tagSkillClassName0309=哨兵^T（神秘+守誓）
-tagSkillClassName0409=[ms]苦头陀^T（夜刃+守誓）[fs]苦师太^T（夜刃+守誓）
+tagSkillClassName0409=狂舞者^T（夜刃+守誓）
 tagSkillClassName0509=圣殿骑士^T（奥术+守誓）
 tagSkillClassName0609=执政官^T（萨满+守誓）
 tagSkillClassName0709=帕拉丁^T（审判+守誓）
-tagSkillClassName0809=[ms]暴君^T（死灵+守誓）[fs]压迫者 ^T（死灵+守誓）
+tagSkillClassName0809=压迫者^T（死灵+守誓）
 
 tagSkillClassDescription09=无论是出身于曼海尔神庙，抑或者将自己的灵魂奉献给巫神，所有的守誓者依然有着共通的两点：毫不动摇的忠诚与对宗教的狂热。守誓者是神圣墓地的保卫者，遵循着神圣的意志并且保持着忠诚。他们并不会躲藏在他们的神力与盾牌之下；对守誓者而言，这些就是他们的武器与伸张正义的手段来对付那些应该流血的恶人。
 

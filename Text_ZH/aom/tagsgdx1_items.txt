@@ -1732,64 +1732,64 @@ tagGDX1PrefixAD101=^y坚不可摧·
 
 tagGDX1PrefixAO101=^y卓越·
 
-tagGDX1PrefixB101_WpnMelee1h_A=^g精华饮者(活虚/CS)·
-tagGDX1PrefixB102_WpnMelee1h_A=^g石面(DA/晕抗)·
-tagGDX1PrefixB103_WpnMelee1h_A=^g符刻(元/物转火/HP/CS)·
-tagGDX1PrefixB104_WpnMelee1h_A=^g幽灵束缚(召唤)·
-tagGDX1PrefixB105_WpnMelee1h_A=^g魔法风暴(电虚)·
+tagGDX1PrefixB101_WpnMelee1h_A=^g精华饮者(活虚/物转虚/CS)·
+tagGDX1PrefixB102_WpnMelee1h_A=^g石面(物/DA/甲/晕抗)·
+tagGDX1PrefixB103_WpnMelee1h_A=^g符刻(元/物转元/%HP/CS)·
+tagGDX1PrefixB104_WpnMelee1h_A=^g幽灵束缚(召唤/物转活/%HP/DA)·
+tagGDX1PrefixB105_WpnMelee1h_A=^g魔法风暴(电虚/物转虚)·
 
-tagGDX1PrefixB101_Ar_A=^g石面(物/穿晕抗/甲/DA)·
-tagGDX1PrefixB102_Ar_A=^g符刻(元/元血抗/HP) ·
-tagGDX1PrefixB103_Ar_A=^g幽灵束缚(召唤)·
-tagGDX1PrefixB104_Ar_A=^g魔法风暴(电虚)·
+tagGDX1PrefixB101_Ar_A=^g石面(物/DA/甲/穿晕抗)·
+tagGDX1PrefixB102_Ar_A=^g符刻(元/%HP/元血抗)·
+tagGDX1PrefixB103_Ar_A=^g幽灵束缚(召唤/%HP/穿晕抗)·
+tagGDX1PrefixB104_Ar_A=^g魔法风暴(电虚/OA/穿活抗)·
 
-tagPrefixB022_Class_A=^g战术家(物元/活抗/DA)·
-tagPrefixB023_Class_A=^g净化者(元/冻抗/OA)·
-tagPrefixB024_Class_A=^g欺诈者(火混/血抗/DA)·
-tagPrefixB025_Class_A=^g潜伏者(穿冰/晕抗/OA)·
+tagPrefixB022_Class_A=^g战术家(物元/%DA/活抗)·
+tagPrefixB023_Class_A=^g净化者(元/%OA/冻抗)·
+tagPrefixB024_Class_A=^g欺诈者(火混/%DA/血抗)·
+tagPrefixB025_Class_A=^g潜伏者(穿冰/%OA/晕抗)·
 tagPrefixB026_Class_A=^g法师猎人(虚元/%精神/减速抗)·
-tagPrefixB027_Class_A=^g维护者(穿电/酸抗/DA)·
+tagPrefixB027_Class_A=^g维护者(穿电/%DA/酸抗)·
 tagPrefixB028_Class_A=^g变节者(活元/%精神/冻抗)·
 tagPrefixB029_Class_A=^g死亡骑士(物活/%体格/石抗)·
-tagPrefixB030_Class_A=^g污染者(火虚/晕抗/OA)·
-tagPrefixB031_Class_A=^g秘术师(召唤)·
-tagPrefixB032_Class_A=^g收割者(冰活/混抗/OA)·
-tagPrefixB033_Class_A=^g缚法者(活虚/穿抗/精神)·
-tagPrefixB034_Class_A=^g祭司(召唤)·
+tagPrefixB030_Class_A=^g污染者(火虚/%OA/晕抗)·
+tagPrefixB031_Class_A=^g秘术师(召唤/活/冻抗)·
+tagPrefixB032_Class_A=^g收割者(冰活/%OA/混抗)·
+tagPrefixB033_Class_A=^g缚法者(活虚/%精神/穿抗)·
+tagPrefixB034_Class_A=^g祭司(召唤/活/晕抗)·
 tagPrefixB035_Class_A=^g审问者(穿元/酸抗/CDR)·
-tagPrefixB036_Class_A=^g法术师(召唤)·
+tagPrefixB036_Class_A=^g法术师(召唤/活/血抗/CDR)·
 
-tagGDX1PrefixB101_Sh_A=^g精华饮者(活虚/穿抗/CS)·
-tagGDX1PrefixB102_Sh_A=^g充满毒液(酸活/穿抗/OA)·
-tagGDX1PrefixB103_Sh_A=^g符刻(元/元血抗/HP) ·
-tagGDX1PrefixB104_Sh_A=^g魔法风暴(电虚/穿抗/OA)·
-tagGDX1PrefixB105_Sh_A=^g幽灵束缚(召唤)·
-tagGDX1PrefixB106_Sh_A=^g幽灵守护(活虚/活血抗/HP)·
-tagGDX1PrefixB107_Sh_A=^g石面(物/晕抗/盾挡/DA)·
+tagGDX1PrefixB101_Sh_A=^g精华饮者(活虚/CS/穿抗)·
+tagGDX1PrefixB102_Sh_A=^g充满毒液(酸活/OA/穿抗)·
+tagGDX1PrefixB103_Sh_A=^g符刻(元/%HP/元血抗)·
+tagGDX1PrefixB104_Sh_A=^g魔法风暴(电虚/OA/穿抗)·
+tagGDX1PrefixB105_Sh_A=^g幽灵束缚(召唤/%HP/%OA)·
+tagGDX1PrefixB106_Sh_A=^g幽灵守护(活虚/%HP/活血抗)·
+tagGDX1PrefixB107_Sh_A=^g石面(物/DA/甲/晕抗/盾挡)·
 
 
 #Suffixes
 tagGDX1SuffixA101=之
 
-tagGDX1SuffixB101_Wpn_A=^g·受折磨灵魂(活虚/暴/OA)
-tagGDX1SuffixB102_Wpn_A=^g·灵魂守护(冰活/暴/OA)
+tagGDX1SuffixB101_Wpn_A=^g·受折磨灵魂(暴/活虚/OA)
+tagGDX1SuffixB102_Wpn_A=^g·灵魂守护(暴/冰活/OA)
 tagGDX1SuffixB103_Wpn_A=^g·焚烧符文(元/AS/CS)
-tagGDX1SuffixB104_Wpn_A=^g·灵魂牢笼(召唤)
-tagGDX1SuffixB105_Wpn_A=^g·天神愤怒(电虚/暴/OA)
+tagGDX1SuffixB104_Wpn_A=^g·灵魂牢笼(召唤/疫病恶魔/OA/CS)
+tagGDX1SuffixB105_Wpn_A=^g·天神愤怒(暴/电虚/OA)
 
-tagGDX1SuffixB101_Ar_A=^g·受折磨灵魂(活虚/OA)
-tagGDX1SuffixB102_Ar_A=^g·受折磨灵魂(活虚/OA)
-tagGDX1SuffixB103_Ar_A=^g·灵魂守护(物活/虚抗/HP)
-tagGDX1SuffixB104_Ar_A=^g·焚烧符文(元/穿元抗/HP)
-tagGDX1SuffixB105_Ar_A=^g·灵魂牢笼(召唤)
-tagGDX1SuffixB106_Ar_A=^g·灵魂牢笼(召唤)
+tagGDX1SuffixB101_Ar_A=^g·受折磨灵魂(活虚/OA/穿抗)
+tagGDX1SuffixB102_Ar_A=^g·受折磨灵魂(活虚/OA/穿抗)
+tagGDX1SuffixB103_Ar_A=^g·灵魂守护(物活/HP/虚抗)
+tagGDX1SuffixB104_Ar_A=^g·焚烧符文(元/HP/穿元抗)
+tagGDX1SuffixB105_Ar_A=^g·灵魂牢笼(召唤/骷髅/血抗)
+tagGDX1SuffixB106_Ar_A=^g·灵魂牢笼(召唤/骷髅/血抗)
 
-tagGDX1SuffixB101_Sh_A=^g·受折磨灵魂(活虚/CS/OA)
-tagGDX1SuffixB102_Sh_A=^g·焚烧符文(元/元抗/AS/CS) 
-tagGDX1SuffixB103_Sh_A=^g·灵魂牢笼(召唤)
-tagGDX1SuffixB104_Sh_A=^g·天神愤怒(电虚/精神/CS)
-tagGDX1SuffixB105_Sh_A=^g·虚灵屏障(虚/活元抗/HP/OA)
-tagGDX1SuffixB106_Sh_A=^g·威风降临(物/盾挡/体格/HP)
+tagGDX1SuffixB101_Sh_A=^g·受折磨灵魂(暴/活虚/OA/CS)
+tagGDX1SuffixB102_Sh_A=^g·焚烧符文(元/AS/CS/元抗)
+tagGDX1SuffixB103_Sh_A=^g·灵魂牢笼(召唤/地狱犬/HP/CS)
+tagGDX1SuffixB104_Sh_A=^g·天神愤怒(电虚/%精神/CS)
+tagGDX1SuffixB105_Sh_A=^g·虚灵屏障(虚/%HP/OA/活元抗)
+tagGDX1SuffixB106_Sh_A=^g·威风降临(物/%体格/%HP/盾挡)
 
 
 #ItemSkills
