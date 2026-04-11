@@ -524,15 +524,15 @@ tagGDX2WaistF203B=索拉尔邪恶束腰
 tagGDX2RingB201=^l爬藤指环
 
 tagGDX2RingC201=血红荆棘指环
-tagGDX2RingC202=☆纱幕守望指环
-tagGDX2RingC203=☆赛瑟瑞斯的印戒
+tagGDX2RingC202=纱幕守望指环
+tagGDX2RingC203=赛瑟瑞斯的印戒
 tagGDX2RingC203_Desc="科凡法师七印戒之一。用来纪念他们在科凡人民中地位的小饰品。"
-tagGDX2RingC204=☆奥利西亚的印戒
-tagGDX2RingC205=☆阿努巴的印戒
-tagGDX2RingC206=☆塔罗特的印戒
-tagGDX2RingC207=☆巴斯蒂的印戒
-tagGDX2RingC208=☆舒罗斯的印戒
-tagGDX2RingC209=☆孔萨尔的印戒
+tagGDX2RingC204=奥利西亚的印戒
+tagGDX2RingC205=阿努巴的印戒
+tagGDX2RingC206=塔罗特的印戒
+tagGDX2RingC207=巴斯蒂的印戒
+tagGDX2RingC208=舒罗斯的印戒
+tagGDX2RingC209=孔萨尔的印戒
 
 tagGDX2RingD201=曼海尔的印记
 tagGDX2RingD201_Desc="曼海尔神殿的印记，授予其最忠诚狂热的追随者。"
