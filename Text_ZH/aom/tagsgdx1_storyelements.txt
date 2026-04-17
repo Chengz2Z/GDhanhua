@@ -266,10 +266,10 @@ tagGDX1NPC_AreaF_27=薇薇安·内文
 tagNPC_UgdenbogBridge=巫登沼泽桥梁修理点
 
 tagGDX1_NPC_S=罗卡
-tagGDX1_NPC_S_H=罗卡的凝视
-tagGDX1_NPC_S_S=罗卡的斗篷
-tagGDX1_NPC_S_T=罗卡的外套
-tagGDX1_NPC_S_F=罗卡的靴子
+tagGDX1_NPC_S_H=★罗卡的凝视
+tagGDX1_NPC_S_S=★罗卡的斗篷
+tagGDX1_NPC_S_T=★罗卡的外套
+tagGDX1_NPC_S_F=★罗卡的靴子
 tagGDX1_NPC_S_Set=罗卡的战利品
 tagGDX1_NPC_S_SetDesc="从血战中获得半神的装扮。"
 

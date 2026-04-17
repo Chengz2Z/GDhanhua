@@ -167,9 +167,9 @@ tagGDX2EndlessDungeon_Key_07=死亡引路石
 tagGDX2EndlessDungeon_Key_07_Desc=被死亡力量污染了的引路石，现在打开一条危险莫测的道路，在那里等待你的只有征服的荣耀。^n^n它能使玛赞打开通往第38层碎境及之后的道路。^n^n胆小的人不应该使用这种引路石。
 tagGDX2EndlessDungeon_Key_07_Blueprint=设计图：死亡引路石
 
-tagGDX2ItemTest=^m人形凝视者♀
+tagGDX2ItemTest=★人形凝视者^f♀
 tagGDX2ItemTestDesc="一个成就不凡的家伙把凝视者套在了身上。"
-tagGDX2ItemTest2=^m温和有趣的盒子
+tagGDX2ItemTest2=★温和有趣的盒子
 tagGDX2ItemTest2Desc="受现实生活的启发"
 
 #Traps
