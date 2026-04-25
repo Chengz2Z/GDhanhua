@@ -24,6 +24,7 @@ tagMenuButton08=默认
 tagMenuButton09=确定
 tagMenuButton10=创建
 tagMenuButton11=下载
+tagMenuButton12=创建
 tagMenuChar={%d0} ~ {%d1}
 tagCharLevelClass= {%d0} 级{%t1}
 

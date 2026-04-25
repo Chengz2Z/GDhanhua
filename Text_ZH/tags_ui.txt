@@ -2237,6 +2237,8 @@ DefenseAllMaxResist={^O}{%+.0f0}% {^O}最大全抗性
 DefenseAllMaxResistR={^O}{%+.0f0}-{%.0f1}% {^O}最大全抗性
 DefenseReflectResist={%.0f0}% {^E}反弹伤害减免
 DefenseReflectResistR={%+.0f0}-{%.0f1}% {^E}反弹伤害减免
+DefenseCrowdControl={^E}控制持续时间减少 {^H}{%.0f0}%
+DefenseCrowdControlMaxResist={%+.0f0}% {^E}最大控制抗性
 
 RacialBonusPercentDamage={%+.0f0}% {^E}对{^E}{%s1}的伤害
 RacialBonusAbsoluteDamage={%+.0f0} {^E}对{^E}{%s1}的伤害
