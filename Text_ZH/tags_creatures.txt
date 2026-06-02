@@ -1296,5 +1296,9 @@ tagRace013P=魔法生物
 tagRace014P=天神
 tagRace015P=蜘蛛族
 tagRace016P=植物
+tagRace017=守卫
+tagRace017P=守卫
+tagRace018=血缚
+tagRace018P=血缚
 
 

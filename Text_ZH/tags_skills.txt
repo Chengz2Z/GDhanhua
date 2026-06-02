@@ -76,6 +76,9 @@ tagSkillDefaultMoveToDescription=移动至选定的地点。
 tagSkillDefaultPetAttack=战宠攻击
 tagSkillDefaultPetAttackDescription=命令所有可控的宠物进行攻击。
 
+tagSkillDefaultEvade01=闪避
+tagSkillDefaultEvadeDescription01=快速向目标方向冲刺以躲避攻击。
+
 tagSkillInnate=天赋
 tagSkillSumLVL=随着技能等级而提升。
 
