@@ -14,6 +14,9 @@
 
 !.gitignore
 
+# ignored cache file
+.DS_Store
+
 # ignored generated file
 *.arc
 
@@ -23,3 +26,4 @@ origin/Text*
 
 # ignored dir
 out
+__pycache__

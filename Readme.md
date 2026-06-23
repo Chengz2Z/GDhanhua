@@ -20,7 +20,8 @@ Project/
 │  └─ foa/            扩展内容文本
 ├─ origin/            原始归档与解包输出目录
 │  ├─ *.arc           示例：待解包的文件
-│  ├─ split.bat       一键解包脚本
+│  ├─ split.bat       一键解包脚本（Windows）
+│  ├─ split.py        一键解包脚本（跨平台）
 │  └─ text_*/         示例：解包后的目录
 ├─ out/               编译输出目录
 │  ├─ *.arc           示例：编译生成的文件
@@ -28,9 +29,11 @@ Project/
 ├─ scripts/           构建辅助脚本目录
 │  └─ prepare-build.ps1
 │                     编译前处理词缀简述开关
-├─ ArchiveTool.exe    归档打包/解包工具
-├─ zlibwapi.dll       ArchiveTool 运行依赖
-├─ build.bat          一键编译脚本
+├─ ArchiveTool.exe    归档打包/解包工具（Windows）
+├─ zlibwapi.dll       ArchiveTool 运行依赖（Windows）
+├─ arc_tool.py        归档打包/解包工具（跨平台，使用原生 LZ4 库）
+├─ build.bat          一键编译脚本（Windows）
+├─ build.py           一键编译脚本（跨平台）
 ├─ .gitignore         Git 忽略配置
 ├─ LICENSE            项目许可证
 └─ Readme.md          项目说明
@@ -46,14 +49,28 @@ Project/
 
 请确认以下内容位于项目根目录：
 
-- `ArchiveTool.exe`
-- `zlibwapi.dll`
-- `build.bat`
+- `arc_tool.py`（Python 归档工具）
 - `Text_ZH` 目录
 
 如果缺少上述文件，脚本将无法正常完成打包。
 
+### macOS / Linux 额外准备
+
+`arc_tool.py` 使用系统原生 LZ4 库进行压缩（速度快），请确保已安装：
+
+```bash
+# macOS
+brew install lz4
+
+# Ubuntu / Debian
+sudo apt install liblz4-dev
+```
+
+如果未安装 LZ4 库，工具会自动回退到纯 Python 实现（速度较慢）。
+
 ## 编译方法
+
+### Windows
 
 在项目根目录下直接双击 `build.bat`，或在命令行中执行：
 
@@ -84,6 +101,16 @@ build.bat no-desc
 
 ```bat
 build.bat with-desc
+```
+
+### macOS / Linux
+
+在项目根目录下使用 Python 脚本（无需额外安装依赖）：
+
+```bash
+python3 build.py              # 默认保留词缀简述
+python3 build.py with-desc    # 保留词缀简述
+python3 build.py no-desc      # 去除词缀简述
 ```
 
 ## 编译脚本行为
@@ -119,17 +146,25 @@ build.bat with-desc
 
 请确认以下内容存在：
 
-- `ArchiveTool.exe`
-- `origin\split.bat`
+- `arc_tool.py`（位于项目根目录）
 - `origin` 目录中的 `.arc` 文件
 
 ### 解包方法
+
+#### Windows
 
 进入 `origin` 目录后，直接双击 `split.bat`，或在命令行中执行：
 
 ```bat
 cd origin
 split.bat
+```
+
+#### macOS / Linux
+
+```bash
+cd origin
+python3 split.py
 ```
 
 ### 解包脚本行为
@@ -157,9 +192,70 @@ origin/Text_JP.arc  -> origin/text_jp
 ## 日常使用流程
 
 1. 修改 `Text_ZH` 目录中的文本文件。
-2. 运行 `build.bat`。
+2. 运行构建脚本：
+   - Windows：`build.bat`
+   - macOS / Linux：`python3 build.py`
 3. 检查是否成功生成 `./out/Text_ZH.arc`。
 4. 将生成结果用于后续测试、替换或发布。
+
+## arc_tool.py 使用说明
+
+`arc_tool.py` 是跨平台的 `.arc` 归档工具，支持以下命令：
+
+### 打包
+
+```bash
+python3 arc_tool.py pack <output.arc> <input_dir> [--level N] [--algo lz4|zlib]
+```
+
+- `--level N`：压缩级别 0-9，默认 6（仅 zlib 有效）
+- `--algo lz4|zlib`：压缩算法，默认 LZ4（与 ArchiveTool.exe 兼容）
+
+示例：
+
+```bash
+python3 arc_tool.py pack out/Text_ZH.arc Text_ZH
+python3 arc_tool.py pack out/Text_ZH.arc Text_ZH --algo zlib --level 9
+```
+
+**压缩算法说明**：
+- `lz4`（默认）：使用系统原生 liblz4 库，速度快，与游戏完全兼容
+- `zlib`：压缩率更高，文件更小，但游戏可能无法识别
+
+### 解包
+
+```bash
+python3 arc_tool.py unpack <input.arc> <output_dir>
+```
+
+自动检测压缩算法（LZ4/zlib），兼容所有 `.arc` 文件。
+
+### 提取数据库文件
+
+```bash
+python3 arc_tool.py database <input.arc> <output_dir> [file]
+```
+
+类似 ArchiveTool.exe 的 `-database` 命令，可提取特定文件：
+
+```bash
+python3 arc_tool.py database origin/Text_EN.arc origin/text_en
+python3 arc_tool.py database origin/Text_EN.arc origin/text_en tags_items
+```
+
+### 列出内容
+
+```bash
+python3 arc_tool.py list <input.arc>
+```
+
+### 查看详细信息
+
+```bash
+python3 arc_tool.py info <input.arc>
+```
+
+显示文件头、压缩算法检测、EntryType 分布等信息。
 
 ## 常见问题
 
