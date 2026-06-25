@@ -2,6 +2,8 @@
 """
 条目更新工具：将文件1的所有条目替换更新到文件2中。
 
+最低支持 Python 版本: 3.7
+
 用法: python update_entries.py <源文件> <目标文件>
 示例: python update_entries.py text_zh1.txt text_zh2.txt
 
@@ -9,6 +11,13 @@
   - 纯键值对格式: "key": "value",
   - JS对象格式: b_l10n_texts['zh'] = { ... };
 """
+
+from __future__ import annotations
+
+import sys
+
+if sys.version_info < (3, 7):
+    sys.exit("错误: 本脚本需要 Python 3.7 或更高版本，当前版本: {}.{}".format(*sys.version_info[:2]))
 
 import re
 import sys

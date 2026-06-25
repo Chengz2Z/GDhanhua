@@ -2,6 +2,8 @@
 """
 Grim Dawn .arc 归档工具 — 纯 Python 实现，跨平台，无外部依赖。
 
+最低支持 Python 版本: 3.7
+
 用法:
     python arc_tool.py pack     <output.arc> <input_dir> [--level N] [--algo lz4|zlib]
     python arc_tool.py unpack   <input.arc>  <output_dir>
@@ -14,6 +16,11 @@ Grim Dawn .arc 归档工具 — 纯 Python 实现，跨平台，无外部依赖�
 """
 
 from __future__ import annotations
+
+import sys
+
+if sys.version_info < (3, 7):
+    sys.exit("错误: 本脚本需要 Python 3.7 或更高版本，当前版本: {}.{}".format(*sys.version_info[:2]))
 
 import os
 import struct

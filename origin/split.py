@@ -3,10 +3,19 @@
 跨平台解包脚本 — 替代 origin/split.bat
 纯 Python 实现，无需 Wine 或外部依赖。
 
+最低支持 Python 版本: 3.7
+
 用法:
     cd origin
     python split.py
 """
+
+from __future__ import annotations
+
+import sys
+
+if sys.version_info < (3, 7):
+    sys.exit("错误: 本脚本需要 Python 3.7 或更高版本，当前版本: {}.{}".format(*sys.version_info[:2]))
 
 import glob
 import os

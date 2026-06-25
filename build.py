@@ -3,12 +3,21 @@
 跨平台构建脚本 — 替代 build.bat + prepare-build.ps1
 纯 Python 实现，无需 Wine 或外部依赖。
 
+最低支持 Python 版本: 3.7
+
 用法:
     python build.py              # 默认保留词缀简述
     python build.py with-desc    # 保留词缀简述
     python build.py no-desc      # 去除词缀简述
     python build.py -h / --help  # 显示帮助
 """
+
+from __future__ import annotations
+
+import sys
+
+if sys.version_info < (3, 7):
+    sys.exit("错误: 本脚本需要 Python 3.7 或更高版本，当前版本: {}.{}".format(*sys.version_info[:2]))
 
 import argparse
 import os
