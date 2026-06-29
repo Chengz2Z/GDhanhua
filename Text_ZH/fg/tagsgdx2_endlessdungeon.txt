@@ -100,9 +100,9 @@ tagGDX2EndlessDungeon_NPC_PowerUps01=沙漠之嗣 ~ 卡拉加德拉
 
 #Shrines
 tagGDX2EndlessDungeon_Shrine01=阿兹拉卡的神龛
-tagGDX2EndlessDungeon_Shrine01_Desc=与阿兹拉卡达成签订契约，增加移动速度，并且你的攻击会向敌人释放鬼魅刀刃。
-tagGDX2EndlessDungeon_Shrine01Skill=鬼魅刀刃
-tagGDX2EndlessDungeon_Shrine01Skill_Desc=你已经完成与阿兹拉卡的交易，移动速度提高，并且你的攻击会向敌人释放鬼魅刀刃。
+tagGDX2EndlessDungeon_Shrine01_Desc=与阿兹拉卡交易，提升自身移动速度，并使你的攻击能够向敌人发射鬼魅刀刃。
+tagGDX2EndlessDungeon_Shrine01Skill=阿兹拉卡的交易
+tagGDX2EndlessDungeon_Shrine01Skill_Desc=你与阿兹拉卡达成了交易。自身移动速度提升，你的攻击能够向敌人发射鬼魅刀刃。
 
 tagGDX2EndlessDungeon_Shrine02=奥莱隆的神龛
 tagGDX2EndlessDungeon_Shrine02_Desc=你浑身充满了奥莱隆的嗜血，提高你的伤害，但是当你面对物理攻击时会变的更加脆弱。

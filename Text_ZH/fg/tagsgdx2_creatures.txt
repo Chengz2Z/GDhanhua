@@ -460,10 +460,10 @@ tagGDX2BountyWG04=狮鹫女王 ~ 利刃之翎
 tagGDX2BountyWG05=熔火之铸 ~ 沃诺克斯
 tagGDX2BountyWG06=加尔兰诺
 tagGDX2BountyWG07=阿弗罗纳斯
-tagGDX2BountyWG08=憎恶者 ~ 雷纳
+tagGDX2BountyWG08=憎恶者 ~ 雷纳 ~ [疫病]
 tagGDX2BountyWG09=燃心 ~ 凯南
-tagGDX2BountyWG10=守卫者 ~ 亚哈鲁姆
-tagGDX2BountyWG11=守卫者 ~ 乌拉佐
+tagGDX2BountyWG10=守卫者 ~ 亚哈鲁姆 ~ [冰冻]
+tagGDX2BountyWG11=守卫者 ~ 乌拉佐 ~ [电击]
 
 
 #Races

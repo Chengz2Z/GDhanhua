@@ -3,20 +3,20 @@
 
 
 tagGDX1WeaponSwordB101=^l温迪戈之爪
-tagGDX1WeaponSwordB101Desc="爪子散发着腐烂."
+tagGDX1WeaponSwordB101Desc="爪子散发着腐烂。"
 tagGDX1WeaponSwordB102=^l温迪戈之刺
-tagGDX1WeaponSwordB102Desc="爪子流淌着污秽."
+tagGDX1WeaponSwordB102Desc="爪子流淌着污秽。"
 
 tagGDX1WeaponSwordC101=艾尔格洛斯的净化刀
-tagGDX1WeaponSwordC101_Desc="虽然曾经被冥煞的腐烂触摸所污染，但光明会使这把刀恢复了昔日的辉煌." 
+tagGDX1WeaponSwordC101_Desc="虽然曾经被冥煞的腐烂触摸所污染，但光明会使这把刀恢复了昔日的辉煌。"
 tagGDX1WeaponSwordC104=军团的骄傲
 
 tagGDX1WeaponSwordD101=死亡刀锋
 tagGDX1WeaponSwordD102=帕加的背叛
-tagGDX1WeaponSwordD102_Desc="没有一次背叛比审判官帕加在光明会训练场与虚空势力勾结那天更令人印象深刻." 
+tagGDX1WeaponSwordD102_Desc="没有一次背叛比审判官帕加在光明会训练场与虚空势力勾结那天更令人印象深刻。"
 tagGDX1WeaponSwordD105=悲痛
 tagGDX1WeaponSwordD106=★火焰之心
-tagGDX1WeaponSwordD106_Desc="一个字母D被刻在浸血的剑柄上."
+tagGDX1WeaponSwordD106_Desc="一个字母D被刻在浸血的剑柄上。"
 tagGDX1WeaponSwordD107=贝尔戈斯安的切刀
 
 tagGDX1WeaponSwordF101=马尔茅斯切刀
@@ -26,14 +26,14 @@ tagGDX1WeaponSwordF104=马尔茅斯的救世主
 
 
 tagGDX1WeaponBluntB101=^l巴高尔之心
-tagGDX1WeaponBluntB101Desc="巴高尔的岩石之心发出致命的寒意."
+tagGDX1WeaponBluntB101Desc="巴高尔的岩石之心发出致命的寒意。"
 tagGDX1WeaponBluntB102=^l巴高尔之核
-tagGDX1WeaponBluntB102Desc="曾经鲜活的巴高尔之心渴望得到能使自己复生的生命精华." 
+tagGDX1WeaponBluntB102Desc="曾经鲜活的巴高尔之心渴望得到能使自己复生的生命精华。"
 
 tagGDX1WeaponBluntC101=死亡敲打者
 
 tagGDX1WeaponBluntD101=马拉考尔的灌输
-tagGDX1WeaponBluntD101_Desc="奥术师马拉考尔，光明会的亲密盟友，将元素火焰锻造进这把武器之中用来打击可怕的生物." 
+tagGDX1WeaponBluntD101_Desc="奥术师马拉考尔，光明会的亲密盟友，将元素火焰锻造进这把武器之中用来打击可怕的生物。"
 tagGDX1WeaponBluntD103=阿玛拉斯塔压碎者
 tagGDX1WeaponBluntD104=轻锤
 tagGDX1WeaponBluntD105=岩石守卫轻锤
@@ -44,16 +44,16 @@ tagGDX1WeaponBluntF103=温迪戈之锤
 tagGDX1WeaponBluntF104=温迪戈之嚎
 
 tagGDX1WeaponAxeB101=^l仆从的切刀
-tagGDX1WeaponAxeB102=^l仆从的堕落者
+tagGDX1WeaponAxeB102=^l仆从的腐化者
 tagGDX1WeaponAxeB103=^y溢血切肉刀
 
 tagGDX1WeaponAxeC101=哈尔沃的剥皮者
 
 tagGDX1WeaponAxeD101=掠夺者之咬
-tagGDX1WeaponAxeD101_Desc="由伟大掠夺者的爪子制成."
+tagGDX1WeaponAxeD101_Desc="由伟大掠夺者的爪子制成。"
 tagGDX1WeaponAxeD103=夜爪
 tagGDX1WeaponAxeD104=理智之锋
-tagGDX1WeaponAxeD104_Desc="目前还不确定这种武器最终是否会使受害者发疯...或者是持有者."
+tagGDX1WeaponAxeD104_Desc="目前还不确定这种武器最终是否会使受害者发疯...或者是持有者。"
 tagGDX1WeaponAxeD105=戈尔巴的刽子手
 tagGDX1WeaponAxeD106=戈尔巴的狂怒
 
@@ -64,37 +64,37 @@ tagGDX1WeaponAxeF104=女巫之月
 
 
 tagGDX1WeaponGun1hB101=^l巫登沼泽咆哮者
-tagGDX1WeaponGun1hB101Desc="灌注了温迪戈的灵魂."
+tagGDX1WeaponGun1hB101Desc="灌注了温迪戈的灵魂。"
 tagGDX1WeaponGun1hB102=^l巫登沼泽毒液发射器
-tagGDX1WeaponGun1hB102Desc="每颗子弹都浸入了由栖息在巫登沼泽的各种野兽制作而成的混合物."
+tagGDX1WeaponGun1hB102Desc="每颗子弹都浸入了由栖息在巫登沼泽的各种野兽制作而成的混合物。"
 tagGDX1WeaponGun1hB103=^y风暴电涌手枪
 
 tagWeaponGun1hC013B=斡旋者
 tagGDX1WeaponGun1hC101=反对者
 tagGDX1WeaponGun1hC101B=反对者
 tagGDX1WeaponGun1hC102=阿尔杜的审判
-tagGDX1WeaponGun1hC102_Desc="审判官阿尔杜的手枪，他是杀死加尔巴图尔和异教徒的著名猎人."
+tagGDX1WeaponGun1hC102_Desc="审判官阿尔杜的手枪，他是杀死加尔巴图尔和异教徒的著名猎人。"
 tagGDX1WeaponGun1hC103=加尔加伯之核
-tagGDX1WeaponGun1hC103_Desc="昔日强大守护者的火焰仍在其心脏中闪耀着一丝火光."
+tagGDX1WeaponGun1hC103_Desc="昔日强大守护者的火焰仍在其心脏中闪耀着一丝火光。"
 tagGDX1WeaponGun1hC108=尤尔托斯的风暴发射器
 tagGDX1WeaponGun1hC110=光明会手枪
 
 tagGDX1WeaponGun1hD101=莫古尔的死亡命运
-tagGDX1WeaponGun1hD101_Desc="大师莫古尔完善了这把手枪的弹药，结合了死灵力量与死亡毒素创造而成的一种药剂能极大地加速腐烂和衰败."
+tagGDX1WeaponGun1hD101_Desc="大师莫古尔完善了这把手枪的弹药，结合了死灵力量与死亡毒素创造而成的一种药剂能极大地加速腐烂和衰败。"
 tagGDX1WeaponGun1hD102=安德罗斯的增幅器
-tagGDX1WeaponGun1hD102_Desc="审判官安德鲁斯专门设计的手枪，能够增强已经非常强大的奥术符文力量."
+tagGDX1WeaponGun1hD102_Desc="审判官安德鲁斯专门设计的手枪，能够增强已经非常强大的奥术符文力量。"
 tagGDX1WeaponGun1hD103=奥秘之电
-tagGDX1WeaponGun1hD103_Desc="严格按照白银之塔的大法师--阿格维克斯大师的标准打造而成的武器."
+tagGDX1WeaponGun1hD103_Desc="严格按照白银之塔的大法师--阿格维克斯大师的标准打造而成的武器。"
 tagGDX1WeaponGun1hD107=余烬之核
 tagGDX1WeaponGun1hD108=要塞左轮手枪
-tagGDX1WeaponGun1hD109=黑暗火焰焚枪
+tagGDX1WeaponGun1hD109=黑焰焚枪
 tagGDX1WeaponGun1hD110=达加隆的破坏者
-tagGDX1WeaponGun1hD110_Desc="枪管内部的符文以超自然的力量将子弹发射出去."
+tagGDX1WeaponGun1hD110_Desc="枪管内部的符文以超自然的力量将子弹发射出去。"
 tagGDX1WeaponGun1hD111=达加隆的歼灭者
 tagGDX1WeaponGun1hD112=哈加拉迪安执法者
-tagGDX1WeaponGun1hD112_Desc="枪膛内装满了哈加拉德原始符文的片段，每次射击都注入了刺骨的寒冷."
+tagGDX1WeaponGun1hD112_Desc="枪膛内装满了哈加拉德原始符文的片段，每次射击都注入了刺骨的寒冷。"
 tagGDX1WeaponGun1hD114=★加尔加伯的腐败
-tagGDX1WeaponGun1hD114_Desc="曾经光荣的自然守护者，受到了虚空之触永远的腐蚀."
+tagGDX1WeaponGun1hD114_Desc="曾经光荣的自然守护者，受到了虚空之触永远的腐蚀。"
 
 
 tagGDX1WeaponGun1hF101=女巫团手炮

@@ -43,9 +43,9 @@ tagTutorialTip10TextB=作为一个接触过虚化之力的人类，你拥有打�
 tagTutorialTip10TextC=个人传送裂缝可以在世界的任何地点开启，并与主要的传送裂缝网络相连。你的传送裂缝将一直持续开启直到你返回。当它开启的时候，你的队伍成员也可以传送到它的位置。在任何时间段内你只能同时开启一处个人传送裂缝。
 
 tagTutorialTip14Title=药水
-tagTutorialTip14TextA=生命与能量药水分别能够回复你的角色的生命和能量。要饮用药水，点击技能栏内的图标或者按下指定的快捷键。
-tagTutorialTip14TextB=药水默认被分配到技能栏的最后两格内。通过右击空的技能栏并从菜单选择一种药水你可以手动设定药水到任意快捷栏。
-tagTutorialTip14TextC=要饮用药水，点击技能栏内的图标或者按下指定的快捷键。
+tagTutorialTip14TextA=生命药水和能量药水能够回复角色的生命和能量。点击快捷栏上的药水图标，或按下指定快捷键即可喝下药水。
+tagTutorialTip14TextB=药水没有使用次数限制，但每次使用会有冷却时间。
+tagTutorialTip14TextC=点击快捷栏上的药水图标，或按下指定快捷键即可喝下药水。
 tagTutorialTip14TextD=你会从宝箱以及怪物身上获得药水，但如果你发觉不够用的时候，随时都能从商人那里购买。
 
 tagTutorialTip15Title=等级

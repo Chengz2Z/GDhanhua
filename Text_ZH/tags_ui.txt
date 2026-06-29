@@ -2572,21 +2572,11 @@ DefenseManaLeachDurationR={%.0f0}-{%.0f1}% {^E}能量吸取持续时长减免
 DefensePercentCurrentLifeR={%.0f0}-{%.0f1}% {^E}生命削弱抗性
 DefenseManaBurnRatioR={%.0f0}-{%.0f1}% {^E}魔力燃烧抗性
 
-
 #patch v1.3
-tagVideoOption16=HDR照明
-tagVideoDesc16=启用HDR照明
-tagHUDOption24=经典血量条
-tagHUDDesc24=启用经典血量条而非球形
 tagMoveReagents=转移材料
-tagMoveReagentsConfirm=确定将材料转移到你的仓库中吗
+tagMoveReagentsConfirm=确定将材料转移到你的仓库中吗？
 tagDifficultyWindowTitle=难度选择
-tagDifficultyLoot=* +{%d0}% 掉落品质
-tagDifficultyDamage=* +{%d0}% 怪物伤害
-tagDifficultyHealth=* +{%d0}% 怪物血量
-tagDifficultyResists=* +{%d0}% 玩家抗性
 tagDifficultyExp=* +{%d0}% 经验奖励
 PentaStringFormat={%s0}{%s1}{%s2}{%s3}{%s4}
-tagMenu13=DLC
 tagToggleHotslotSet=显示备用热插槽组
 tagToggleUI=隐藏UI
