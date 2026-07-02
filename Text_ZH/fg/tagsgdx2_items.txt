@@ -242,7 +242,7 @@ tagGDX2FocusD209_Desc="科凡历史守护者的头颅，最好把它忘记。"
 tagGDX2FocusD210=★哈兰克斯的头颅
 tagGDX2FocusD210_Desc="守护者的头虽然是用石头做的，却散发着腐朽的气味。"
 tagGDX2FocusD211=天界征兆之裔
-tagGDX2FocusD212=多界之门
+tagGDX2FocusD212=界门
 tagGDX2FocusD212_Desc="现实的交织本身就在扭曲，并有被拆解的危险。"
 
 tagGDX2FocusF201=拜斯迈邪火神像
@@ -651,131 +651,131 @@ tagGDX2MedalF209=燃影印记
 
 
 #Blueprints 设计图
-tagGDX2Blueprint_RelicC201=设计图：圣物-^c坚忍
+tagGDX2Blueprint_RelicC201=设计图：圣物-坚忍
 
-tagGDX2Blueprint_RelicD201=设计图：圣物-^c沉思
-tagGDX2Blueprint_RelicD202=设计图：圣物-^c荣耀
-tagGDX2Blueprint_RelicD203=设计图：圣物-^c阿兹拉卡的时代
-tagGDX2Blueprint_RelicD204=设计图：圣物-^c尤戈尔的饥饿
-tagGDX2Blueprint_RelicD205=设计图：圣物-^c宁静
-tagGDX2Blueprint_RelicD206=设计图：圣物-^c宽恕
+tagGDX2Blueprint_RelicD201=设计图：圣物-沉思
+tagGDX2Blueprint_RelicD202=设计图：圣物-荣耀
+tagGDX2Blueprint_RelicD203=设计图：圣物-阿兹拉卡的时代
+tagGDX2Blueprint_RelicD204=设计图：圣物-尤戈尔的饥饿
+tagGDX2Blueprint_RelicD205=设计图：圣物-宁静
+tagGDX2Blueprint_RelicD206=设计图：圣物-宽恕
 
-tagGDX2Blueprint_WaistF201A=设计图：^g拜斯迈致命护腰
-tagGDX2Blueprint_WaistF201B=设计图：^g拜斯迈致命束腰
-tagGDX2Blueprint_WaistF202A=设计图：^g德里格毒刺护腰
-tagGDX2Blueprint_WaistF202B=设计图：^g德里格毒刺束腰
-tagGDX2Blueprint_WaistF203A=设计图：^g索拉尔邪恶护腰
-tagGDX2Blueprint_WaistF203B=设计图：^g索拉尔邪恶束腰
+tagGDX2Blueprint_WaistF201A=设计图：拜斯迈致命护腰
+tagGDX2Blueprint_WaistF201B=设计图：拜斯迈致命束腰
+tagGDX2Blueprint_WaistF202A=设计图：德里格毒刺护腰
+tagGDX2Blueprint_WaistF202B=设计图：德里格毒刺束腰
+tagGDX2Blueprint_WaistF203A=设计图：索拉尔邪恶护腰
+tagGDX2Blueprint_WaistF203B=设计图：索拉尔邪恶束腰
 
-tagGDX2Blueprint_WeaponD201=设计图：^i神话 仇苦烈风之裔
-tagGDX2Blueprint_WeaponD202=设计图：^i三巫神之裁决
+tagGDX2Blueprint_WeaponD201=设计图：神话 仇苦烈风之裔
+tagGDX2Blueprint_WeaponD202=设计图：三巫神之裁决
 
-tagGDX2Blueprint_WeaponF201=设计图：^i血钻
-tagGDX2Blueprint_WeaponF202=设计图：^i拜斯迈之握
-tagGDX2Blueprint_WeaponF203=设计图：^i拜斯迈的心灵编织者
-tagGDX2Blueprint_WeaponF204=设计图：^i腐化师
-tagGDX2Blueprint_WeaponF205=设计图：^i怨恨
-tagGDX2Blueprint_WeaponF206=设计图：^i秘术守御
-tagGDX2Blueprint_WeaponF207=设计图：^i放血者
-tagGDX2Blueprint_WeaponF208=设计图：^i索拉尔的吞噬者
-tagGDX2Blueprint_WeaponF209=设计图：^i索拉尔之语
-tagGDX2Blueprint_WeaponF210=设计图：^i吸血魔
-tagGDX2Blueprint_WeaponF211=设计图：^i恶意
+tagGDX2Blueprint_WeaponF201=设计图：血钻
+tagGDX2Blueprint_WeaponF202=设计图：拜斯迈之握
+tagGDX2Blueprint_WeaponF203=设计图：拜斯迈的心灵编织者
+tagGDX2Blueprint_WeaponF204=设计图：腐化师
+tagGDX2Blueprint_WeaponF205=设计图：怨恨
+tagGDX2Blueprint_WeaponF206=设计图：秘术守御
+tagGDX2Blueprint_WeaponF207=设计图：放血者
+tagGDX2Blueprint_WeaponF208=设计图：索拉尔的吞噬者
+tagGDX2Blueprint_WeaponF209=设计图：索拉尔之语
+tagGDX2Blueprint_WeaponF210=设计图：吸血魔
+tagGDX2Blueprint_WeaponF211=设计图：恶意
 
-tagGDX2Blueprint_ArmorB201=设计图：^y瘟疫守卫护手
-tagGDX2Blueprint_ArmorB202=设计图：^y灰烬守卫手甲
-tagGDX2Blueprint_ArmorB203=设计图：^y风暴守卫紧身裤
-tagGDX2Blueprint_ArmorB204=设计图：^y寒霜守卫腿铠
+tagGDX2Blueprint_ArmorB201=设计图：瘟疫守卫护手
+tagGDX2Blueprint_ArmorB202=设计图：灰烬守卫手甲
+tagGDX2Blueprint_ArmorB203=设计图：风暴守卫紧身裤
+tagGDX2Blueprint_ArmorB204=设计图：寒霜守卫腿铠
 
-tagGDX2Blueprint_ArmorC201=设计图：^b神话 破灭面甲
-tagGDX2Blueprint_ArmorC202=设计图：^b石父头盔
+tagGDX2Blueprint_ArmorC201=设计图：神话 破灭面甲
+tagGDX2Blueprint_ArmorC202=设计图：石父头盔
 
-tagGDX2Blueprint_ArmorD201=设计图：^i黎明碎片之凝视
-tagGDX2Blueprint_ArmorD202=设计图：^i幽魂之王华冠
-tagGDX2Blueprint_ArmorD203=设计图：^i阳焰头盔
-tagGDX2Blueprint_ArmorD204=设计图：^i神话 黎明碎片之凝视
-tagGDX2Blueprint_ArmorD205=设计图：^i神话 幽魂之王华冠
-tagGDX2Blueprint_ArmorD206=设计图：^i神话 阳焰头盔
-tagGDX2Blueprint_ArmorD207=设计图：^i凌冽轻语王冠
-tagGDX2Blueprint_ArmorD208=设计图：^i路德里根的檐帽
-tagGDX2Blueprint_ArmorD209=设计图：^i贩骨者的兜帽
-tagGDX2Blueprint_ArmorD210=设计图：^i美德之视
-tagGDX2Blueprint_ArmorD211=设计图：^i哈拉的兜帽
-tagGDX2Blueprint_ArmorD212=设计图：^i飓风面具
-tagGDX2Blueprint_ArmorD213=设计图：^i拉辛的护甲
-tagGDX2Blueprint_ArmorD214=设计图：^i枯萎领主的兜帽
-tagGDX2Blueprint_ArmorD215=设计图：^i高尔的华服
-tagGDX2Blueprint_ArmorD216=设计图：^i沙魔的面具
-tagGDX2Blueprint_ArmorD217=设计图：^i皮兰的面容
-tagGDX2Blueprint_ArmorD218=设计图：^i塔戈的头盔
-tagGDX2Blueprint_ArmorD219=设计图：^i虚魂面容
-tagGDX2Blueprint_ArmorD220=设计图：^i腐魔面具
+tagGDX2Blueprint_ArmorD201=设计图：黎明碎片之凝视
+tagGDX2Blueprint_ArmorD202=设计图：幽魂之王华冠
+tagGDX2Blueprint_ArmorD203=设计图：阳焰头盔
+tagGDX2Blueprint_ArmorD204=设计图：神话 黎明碎片之凝视
+tagGDX2Blueprint_ArmorD205=设计图：神话 幽魂之王华冠
+tagGDX2Blueprint_ArmorD206=设计图：神话 阳焰头盔
+tagGDX2Blueprint_ArmorD207=设计图：凌冽轻语王冠
+tagGDX2Blueprint_ArmorD208=设计图：路德里根的檐帽
+tagGDX2Blueprint_ArmorD209=设计图：贩骨者的兜帽
+tagGDX2Blueprint_ArmorD210=设计图：美德之视
+tagGDX2Blueprint_ArmorD211=设计图：哈拉的兜帽
+tagGDX2Blueprint_ArmorD212=设计图：飓风面具
+tagGDX2Blueprint_ArmorD213=设计图：拉辛的护甲
+tagGDX2Blueprint_ArmorD214=设计图：枯萎领主的兜帽
+tagGDX2Blueprint_ArmorD215=设计图：高尔的华服
+tagGDX2Blueprint_ArmorD216=设计图：沙魔的面具
+tagGDX2Blueprint_ArmorD217=设计图：皮兰的面容
+tagGDX2Blueprint_ArmorD218=设计图：塔戈的头盔
+tagGDX2Blueprint_ArmorD219=设计图：虚魂面容
+tagGDX2Blueprint_ArmorD220=设计图：腐魔面具
 
-tagGDX1Blueprint_AccessoryD121I=设计图：^i神圣低语引导之眼
+tagGDX1Blueprint_AccessoryD121I=设计图：神圣低语引导之眼
 
-tagGDX2Blueprint_AccessoryD201=设计图：^i白莲花
-tagGDX2Blueprint_AccessoryD202=设计图：^i神话 血红莲花
-tagGDX2Blueprint_AccessoryD203=设计图：^i神话 灾难之欲印记
-tagGDX2Blueprint_AccessoryD204=设计图：^i神话 尤戈尔的腐液
+tagGDX2Blueprint_AccessoryD201=设计图：白莲花
+tagGDX2Blueprint_AccessoryD202=设计图：神话 血红莲花
+tagGDX2Blueprint_AccessoryD203=设计图：神话 灾难之欲印记
+tagGDX2Blueprint_AccessoryD204=设计图：神话 尤戈尔的腐液
 
-tagGDX2Blueprint_AccessoryF201=设计图：^i夜行者坠饰
-tagGDX2Blueprint_AccessoryF202=设计图：^i毒火
-tagGDX2Blueprint_AccessoryF203=设计图：^i血潮
-tagGDX2Blueprint_AccessoryF204=设计图：^i阴影女王印记
-tagGDX2Blueprint_AccessoryF205=设计图：^i远见者印记
-tagGDX2Blueprint_AccessoryF206=设计图：^i燃影印记
+tagGDX2Blueprint_AccessoryF201=设计图：夜行者坠饰
+tagGDX2Blueprint_AccessoryF202=设计图：毒火
+tagGDX2Blueprint_AccessoryF203=设计图：血潮
+tagGDX2Blueprint_AccessoryF204=设计图：阴影女王印记
+tagGDX2Blueprint_AccessoryF205=设计图：远见者印记
+tagGDX2Blueprint_AccessoryF206=设计图：燃影印记
 
 
-tagGDX2Blueprint_RuneC201=设计图：^l科凡之轻盈徽章
-tagGDX2Blueprint_RuneC202=设计图：^l科凡之轻盈铭文
-tagGDX2Blueprint_RuneC203=设计图：^l科凡之轻盈符文
-tagGDX2Blueprint_RuneC204=设计图：^l德里格之引徽章
-tagGDX2Blueprint_RuneC205=设计图：^l德里格之引铭文
-tagGDX2Blueprint_RuneC206=设计图：^l德里格之引符文
-tagGDX2Blueprint_RuneC207=设计图：^l拉恩之力徽章
-tagGDX2Blueprint_RuneC208=设计图：^l拉恩之力铭文
-tagGDX2Blueprint_RuneC209=设计图：^l拉恩之力符文
+tagGDX2Blueprint_RuneC201=设计图：科凡之轻盈徽章
+tagGDX2Blueprint_RuneC202=设计图：科凡之轻盈铭文
+tagGDX2Blueprint_RuneC203=设计图：科凡之轻盈符文
+tagGDX2Blueprint_RuneC204=设计图：德里格之引徽章
+tagGDX2Blueprint_RuneC205=设计图：德里格之引铭文
+tagGDX2Blueprint_RuneC206=设计图：德里格之引符文
+tagGDX2Blueprint_RuneC207=设计图：拉恩之力徽章
+tagGDX2Blueprint_RuneC208=设计图：拉恩之力铭文
+tagGDX2Blueprint_RuneC209=设计图：拉恩之力符文
 
-tagGDX2Blueprint_RuneC210=设计图：^l饥荒之温迪戈铭文
-tagGDX2Blueprint_RuneC211=设计图：^l北地公羊铭文
-tagGDX2Blueprint_RuneC212=设计图：^l无形之风铭文
-tagGDX2Blueprint_RuneC213=设计图：^l震地之力铭文
-tagGDX2Blueprint_RuneC214=设计图：^l风暴之剪铭文
-tagGDX2Blueprint_RuneC215=设计图：^l蝎尾怪之袭铭文
-tagGDX2Blueprint_RuneC216=设计图：^l奥术之启铭文
-tagGDX2Blueprint_RuneC217=设计图：^l燃烧之隙铭文
-tagGDX2Blueprint_RuneC218=设计图：^l天然之刃铭文
-tagGDX2Blueprint_RuneC219=设计图：^l混乱铭文
-tagGDX2Blueprint_RuneC220=设计图：^l冬日白狐铭文
-tagGDX2Blueprint_RuneC221=设计图：^l重生凤凰铭文
-tagGDX2Blueprint_RuneC222=设计图：^l可怖之撤铭文
-tagGDX2Blueprint_RuneC223=设计图：^l诡异刺客铭文
-tagGDX2Blueprint_RuneC224=设计图：^l灰烬荒原铭文
-tagGDX2Blueprint_RuneC225=设计图：^l阴影巨人铭文
-tagGDX2Blueprint_RuneC226=设计图：^l蝎尾铭文
-tagGDX2Blueprint_RuneC227=设计图：^l不羁之魂铭文
+tagGDX2Blueprint_RuneC210=设计图：饥荒之温迪戈铭文
+tagGDX2Blueprint_RuneC211=设计图：北地公羊铭文
+tagGDX2Blueprint_RuneC212=设计图：无形之风铭文
+tagGDX2Blueprint_RuneC213=设计图：震地之力铭文
+tagGDX2Blueprint_RuneC214=设计图：风暴之剪铭文
+tagGDX2Blueprint_RuneC215=设计图：蝎尾怪之袭铭文
+tagGDX2Blueprint_RuneC216=设计图：奥术之启铭文
+tagGDX2Blueprint_RuneC217=设计图：燃烧之隙铭文
+tagGDX2Blueprint_RuneC218=设计图：天然之刃铭文
+tagGDX2Blueprint_RuneC219=设计图：混乱铭文
+tagGDX2Blueprint_RuneC220=设计图：冬日白狐铭文
+tagGDX2Blueprint_RuneC221=设计图：重生凤凰铭文
+tagGDX2Blueprint_RuneC222=设计图：可怖之撤铭文
+tagGDX2Blueprint_RuneC223=设计图：诡异刺客铭文
+tagGDX2Blueprint_RuneC224=设计图：灰烬荒原铭文
+tagGDX2Blueprint_RuneC225=设计图：阴影巨人铭文
+tagGDX2Blueprint_RuneC226=设计图：蝎尾铭文
+tagGDX2Blueprint_RuneC227=设计图：不羁之魂铭文
 
-tagGDX2Blueprint_RuneD201=设计图：^l阿玛托克之息符文
-tagGDX2Blueprint_RuneD202=设计图：^l陨落之王符文
-tagGDX2Blueprint_RuneD203=设计图：^l暴力之悦符文
-tagGDX2Blueprint_RuneD204=设计图：^l奥祖因之落符文
-tagGDX2Blueprint_RuneD205=设计图：^l动荡邪术符文
-tagGDX2Blueprint_RuneD206=设计图：^l黑暗始源符文
-tagGDX2Blueprint_RuneD207=设计图：^l战栗觉醒符文
-tagGDX2Blueprint_RuneD208=设计图：^l德里格之疤符文
-tagGDX2Blueprint_RuneD209=设计图：^l纳丹之击符文
-tagGDX2Blueprint_RuneD210=设计图：^l尤尔托斯之临符文
-tagGDX2Blueprint_RuneD211=设计图：^l星间裂隙符文
-tagGDX2Blueprint_RuneD212=设计图：^l错位符文
-tagGDX2Blueprint_RuneD213=设计图：^l台风符文
-tagGDX2Blueprint_RuneD214=设计图：^l奥扎德之疯狂符文
-tagGDX2Blueprint_RuneD215=设计图：^l可鄙之欲符文
-tagGDX2Blueprint_RuneD216=设计图：^l穆谟之吻符文
-tagGDX2Blueprint_RuneD217=设计图：^l伊师塔克之仁慈符文
-tagGDX2Blueprint_RuneD218=设计图：^l吸血之阴影符文
-tagGDX2Blueprint_RuneD219=设计图：^l黑暗强欲符文
-tagGDX2Blueprint_RuneD220=设计图：^l风暴泰坦符文
-tagGDX2Blueprint_RuneD221=设计图：^l闪耀终曲符文
+tagGDX2Blueprint_RuneD201=设计图：阿玛托克之息符文
+tagGDX2Blueprint_RuneD202=设计图：陨落之王符文
+tagGDX2Blueprint_RuneD203=设计图：暴力之悦符文
+tagGDX2Blueprint_RuneD204=设计图：奥祖因之落符文
+tagGDX2Blueprint_RuneD205=设计图：动荡邪术符文
+tagGDX2Blueprint_RuneD206=设计图：黑暗始源符文
+tagGDX2Blueprint_RuneD207=设计图: 战栗觉醒符文
+tagGDX2Blueprint_RuneD208=设计图：德里格之疤符文
+tagGDX2Blueprint_RuneD209=设计图：纳丹之击符文
+tagGDX2Blueprint_RuneD210=设计图：尤尔托斯之临符文
+tagGDX2Blueprint_RuneD211=设计图：星间裂隙符文
+tagGDX2Blueprint_RuneD212=设计图：错位符文
+tagGDX2Blueprint_RuneD213=设计图：台风符文
+tagGDX2Blueprint_RuneD214=设计图：奥扎德之疯狂符文
+tagGDX2Blueprint_RuneD215=设计图：可鄙之欲符文
+tagGDX2Blueprint_RuneD216=设计图：穆谟之吻符文
+tagGDX2Blueprint_RuneD217=设计图：伊师塔克之仁慈符文
+tagGDX2Blueprint_RuneD218=设计图：吸血之阴影符文
+tagGDX2Blueprint_RuneD219=设计图：黑暗强欲符文
+tagGDX2Blueprint_RuneD220=设计图：风暴泰坦符文
+tagGDX2Blueprint_RuneD221=设计图：闪耀终曲符文
 
 
 #Relics 圣物
@@ -806,9 +806,9 @@ tagGDX2RelicD206Desc="践行真正正义的强大意志。"
 tagCraftTabArtifactA=圣物和符文
 tagCraftTabArtifactB=拥有强大力量的护身符，圣物和神器。符文会授予你新的能力。
 
-tagGDX1CraftRandomLegendaryDesc2=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。58级以下的人物有机会打造出一件史诗级装备。
-tagGDX1CraftRandomLegendaryAccessoryDesc2=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。58级以下人物则只能创造出一件史诗物品。
-tagGDX1CraftRandomLegendaryItemDesc2=铁匠会制作一件适应你等级并具有传奇品质的附魔物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。
+tagGDX1CraftRandomLegendaryDesc2B=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。58级以下的人物有机会打造出一件史诗级装备。
+tagGDX1CraftRandomLegendaryAccessoryDesc2B=铁匠把原始的奥术能量与这些物品结合起来，创造出一件具有传奇潜力的物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。58级以下人物则只能创造出一件史诗物品。
+tagGDX1CraftRandomLegendaryItemDesc2B=铁匠会制作一件适应你等级并具有传奇品质的附魔物品，物品等级上限为94级，不包含《被遗忘的诸神》的物品。
 
 tagGDX2CraftRandomCraftingMaterial=制作材料
 tagGDX2CraftRandomCraftingMaterialDesc=源于创造自身的精华。铁匠熔炼出一种有益于制作强力装备和圣物的强效材料。
@@ -844,6 +844,7 @@ tagGDX2Consumable_03_Desc="这法球闪烁着虚空能量。拿在手里可能�
 
 tagGDX2Consumable_04=尤戈尔的灵液
 tagGDX2Consumable_04_Desc="里面的黑色液体没有散发出任何气味，但却让你极度抗拒。它的存在似乎能够使魔法无效化。"
+
 
 #ItemEnchantment 附魔
 tagGDX2EnchantA201A=科凡太阳尘
@@ -1103,7 +1104,7 @@ tagGDX2RuneD203=暴力之悦符文
 tagGDX2RuneD204=奥祖因之落符文
 tagGDX2RuneD205=动荡邪术符文
 tagGDX2RuneD206=黑暗始源符文
-tagGDX2RuneD207=无畏符文
+tagGDX2RuneD207=战栗觉醒符文
 tagGDX2RuneD208=德里格之疤符文
 tagGDX2RuneD209=纳丹之击符文
 tagGDX2RuneD210=尤尔托斯之临符文
@@ -1200,7 +1201,7 @@ tagGDX2ItemSetD213Name=拜斯迈的饰品
 tagGDX2ItemSetD213Desc="曾经她身为凡人之时，低语女士就以收集威力强大的物品来控制孱弱生物闻名于世。在她成神之后，便不再需要这些琐碎的装饰品了。"
 
 tagGDX2ItemSetD214Name=科凡沙魔
-tagGDX2ItemSetD214Desc=科凡沙魔渴望成为科凡沙漠的毒蛇，难以捉摸…迅速…且致命。
+tagGDX2ItemSetD214Desc=科凡沙魔渴望成为科凡沙漠的毒蛇，难以捉摸...迅速...且致命。
 
 tagGDX2ItemSetD215Name=皮兰的沉思
 tagGDX2ItemSetD215Desc=受到老师们的蔑视后，皮兰发誓要在奥术史上留下自己的印记，但同时他的实验也扭曲了自己的身形。
@@ -1229,6 +1230,7 @@ tagGDX2ItemSetD222Desc="罗约的坚定守护者穿过的盛装，他们曾是�
 
 
 #LootChests
+
 
 tagGDX2KorvanChestB01=破旧的宝箱
 tagGDX2KorvanChestC01=迷人的宝箱
@@ -1344,9 +1346,6 @@ tagGDX2DifficultyUnlock02_Desc=碾碎了凯恩恐怖之物的证明，允许你�
 tagGDX2DifficultyUnlockStats={^E}解锁低难度任务中获取的所有技能点及属性点
 tagGDX2DifficultyUnlockTeleporters={^E}解锁低一级难度的裂隙门
 tagGDX2DifficultyUnlockBags={^E}解锁所有额外物品栏
-
-tagGDX2_SpecialPotion_01=尤格尔的灵液
-tagGDX2_SpecialPotion_01Desc=你感觉到与奥术失联，同时你的光环失效
 
 
 

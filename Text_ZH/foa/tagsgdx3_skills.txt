@@ -1,0 +1,396 @@
+tagSkillClassName10=狂战
+
+tagSkillClassName0110=领主^T（士兵+狂战）
+tagSkillClassName0210=无畏者^T（爆破+狂战）
+tagSkillClassName0310=秘修者^T（神秘+狂战）
+tagSkillClassName0410=掠魂者^T（夜刃+狂战）
+tagSkillClassName0510=唤法者^T（奥术+狂战）
+tagSkillClassName0610=原初者^T（萨满+狂战）
+tagSkillClassName0710=符文守卫^T（审判+狂战）
+tagSkillClassName0810=幽幕行者^T（死灵+狂战）
+tagSkillClassName0910=狂信者^T（守誓+狂战）
+
+"tagSkillClassDescription10": "狂战士是阿斯特坎的残酷不屈的守护者，他们拥抱了兽神莫格卓根的馈赠，变身为凶猛的野兽形态。他们驾驭阿斯特坎的苦涩无情之风，注入他们的武器并粉碎他们的敌人。当他们不处于变形状态时，狂战士在野蛮的双武器战斗中猎杀他们的猎物，但在他们能干的手中，或爪子中，任何武器都可能证明是致命的。",
+
+
+
+#Class10
+
+"tagGDX3Class10SkillName00A": "狂战",
+"tagGDX3Class10SkillDescription00A": "无拘无束的凶猛磨练成不可阻挡的战士。",
+
+"tagGDX3Class10SkillName01A": "狼人",
+"tagGDX3Class10SkillDescription01A": "被莫格卓根的馈赠祝福的库恩狂战士是他们与埃鲁兰的古老战争中最可怕的部队之一。直到今天，这些战士的故事将库恩人描绘成野蛮嗜血的怪物。借助莫格卓根的馈赠，你呈现狼人的形态，只要变身持续，就能获得新的加成和能力。^o狼人形态有自己的基本攻击，不能触发武器池技能。",
+"tagGDX3Class10SkillWerewolfAbilityName01A": "野性之爪",
+"tagGDX3Class10SkillWerewolfAbilityDescription01A": "你用野蛮的爪子抓向你的敌人，撕裂他们的阵型。",
+"tagGDX3Class10SkillWereravenAbilityName01A": "冰霜利爪",
+"tagGDX3Class10SkillWereravenAbilityDescription01A": "你召唤邪恶的冰爪撕裂你面前的敌人。",
+"tagGDX3Class10SkillName01B": "贪婪",
+"tagGDX3Class10SkillDescription01B": "你贪婪的狼性饥饿只能通过敌人珍贵的活力来满足。^o在狼人形态下修改野性之爪。",
+"tagGDX3Class10SkillName01C": "鲁莽",
+"tagGDX3Class10SkillDescription01C": "你肆无忌惮地撕裂你的敌人，用每一次杀戮延长你的狼性狂暴。",
+"tagGDX3Class10SkillName01D": "克苏恩的瘟疫",
+"tagGDX3Class10SkillDescription01D": "克苏恩的腐败血液在你体内扎根，将你的变形扭曲成一个渴望毁灭的贪婪憎恶。",
+
+"tagGDX3Class10SkillName02A": "渡鸦",
+"tagGDX3Class10SkillDescription02A": "库恩神秘主义者以恐怖敌人为己任，用他们的利爪和冰魔法恐吓敌人。通过莫格卓根的指导和祝福，你也可以呈现渡鸦形态，只要变身持续，就能获得新的加成和能力。^o渡鸦形态有自己的基本攻击，不能触发武器池技能。",
+"tagGDX3Class10SkillWerewolfAbilityName02A": "撕裂",
+"tagGDX3Class10SkillWerewolfAbilityDescription02A": "你沿着直线撕裂你的敌人，将弱者像他们应得的饲料一样抛在一边。",
+"tagGDX3Class10SkillWereravenAbilityName02A": "寒冷突袭",
+"tagGDX3Class10SkillWereravenAbilityDescription02A": "你将利爪砸入地面，释放出冰的级联。",
+"tagGDX3Class10SkillName02B": "冰川利爪",
+"tagGDX3Class10SkillDescription02B": "你的冰冷利爪注入了阿斯特坎的冰川，给予它们更长的射程和持久的寒意。^o在渡鸦形态下修改冰霜利爪。",
+"tagGDX3Class10SkillName02C": "永冬",
+"tagGDX3Class10SkillDescription02C": "你完全控制了阿斯特坎的冰冷寒意，在变形为渡鸦时大大增强了你能力的冰冷效果。",
+
+"tagGDX3Class10SkillName03A": "猛攻",
+"tagGDX3Class10SkillDescription03A": "库恩狂战士会通过一系列的佯攻来诱使敌人产生错误的信心感，然后释放出毁灭性的时间精准的打击。^o当用作你的默认武器攻击时，猛攻产生层数。你下一个激活的冷却攻击将消耗所有层数以造成额外伤害。",
+"tagGDX3Class10SkillName03B": "开放伤口",
+"tagGDX3Class10SkillDescription03B": "你的猛攻用无数严重的伤口磨损你的敌人。",
+"tagGDX3Class10SkillName03C": "无尽愤怒",
+"tagGDX3Class10SkillDescription03C": "你延长你的猛攻，在释放给你的敌人之前积累更多的愤怒。",
+"tagGDX3Class10SkillName03D": "克苏恩契约",
+"tagGDX3Class10SkillDescription03D": "你用克苏恩的印记标记你的武器，将你的愤怒注入令人毛骨悚然的打击中，回响着虚空的力量。",
+
+"tagGDX3Class10SkillName04A": "跳跃",
+"tagGDX3Class10SkillDescription04A": "永远是第一个冲入战场的人，你跳跃的凶猛程度足以让大地在你到达时碎裂。",
+"tagGDX3Class10SkillName04B": "断层线",
+"tagGDX3Class10SkillDescription04B": "你跳跃的凶猛程度足以让产生的冲击波造成更大的破坏。",
+
+"tagGDX3Class10SkillName05A": "战吼",
+"tagGDX3Class10SkillDescription05A": "你发出一声喧闹的战吼，重新激发你和盟友的活力，将他们重新召集到战斗中。",
+"tagGDX3Class10SkillName05B": "冲动",
+"tagGDX3Class10SkillDescription05B": "你的战吼触发了一股肾上腺素激增，让你感觉势不可挡。",
+"tagGDX3Class10SkillName05C": "狂暴战吼",
+"tagGDX3Class10SkillDescription05C": "库恩狂战士是战场上不可阻挡的毁灭力量。他们的战吼淹没了屠杀的声音。当拥抱狂暴狂战士的道路时，战吼可以更频繁地使用。^o这是一种近战和远程双持技巧。同时也能够双持近战和远程武器。",
+
+"tagGDX3Class10SkillName06A": "阿玛托克的契约",
+"tagGDX3Class10SkillDescription06A": "库恩人是精神性的民族，相信他们的命运与神明的意志紧密相连。其中最重要的是阿玛托克，冬季之灵。没有他的仁慈，没有人能活过阿斯特坎残酷的冬天。你与阿玛托克结盟，将他的祝福赐予你和附近的盟友。",
+"tagGDX3Class10SkillName06B": "嗜血狂暴",
+"tagGDX3Class10SkillDescription06B": "阿玛托克的契约激发了你心中的愤怒和嗜血。",
+"tagGDX3Class10SkillName06C": "冰封",
+"tagGDX3Class10SkillDescription06C": "你与阿玛托克的契约加深了，注入你冬季的寒意，并硬化你的身体抵御疾病。",
+
+"tagGDX3Class10SkillName07A": "阿斯特坎之风",
+"tagGDX3Class10SkillDescription07A": "阿斯特坎山峰的寒意是传奇性的。有些人开始称风为死神的抚摸，但对库恩人来说，它是阿玛托克之息。他们的神秘主义者学会了引导它的愤怒。只要法术维持，阿斯特坎的苦风就会攻击你的敌人，将肉从骨头上撕裂。^o在100%施法速度下，阿斯特坎之风每0.16秒造成伤害并消耗能量，每0.48秒增长一次，直到达到最大尺寸。",
+"tagGDX3Class10SkillName07B": "冰雹风暴",
+"tagGDX3Class10SkillDescription07B": "当风在你周围呼啸时，冰冷的冰雹形成并降临在你的敌人身上。",
+
+"tagGDX3Class10SkillName08A": "阿斯特坎之心",
+"tagGDX3Class10SkillDescription08A": "那些在心中拥抱了阿斯特坎寒意的人永远被这次考验所改变。他们知道阿玛托克与他们同行，勇敢地面对凯恩的危险。",
+
+"tagGDX3Class10SkillName09A": "血统",
+"tagGDX3Class10SkillDescription09A": "那些完全屈服于原始冲动的人发现了新的力量和敏锐的感官。只有死亡的释放才能阻止处于这种精神状态的战士。",
+
+"tagGDX3Class10SkillName10A": "战斗激增",
+"tagGDX3Class10SkillDescription10A": "对于训练有素的狂战士来说，没有比战斗的荣耀更令人兴奋的了。当你造成^o致命一击^w时，你会感到精神焕发。",
+
+"tagGDX3Class10SkillName11A": "未驯服的愤怒",
+"tagGDX3Class10SkillDescription11A": "被逼入绝境的野兽最为危险，受伤的狂战士也是如此。当伤害降临到你身上时，只会加深你的愤怒。",
+
+"tagGDX3Class10SkillName12A": "野兽形态",
+"tagGDX3Class10SkillDescription12A": "完全屈服于变身的狂战士冒着被体内野兽吞噬的风险，但他们发现可以挖掘出超越凡人极限的原始力量。",
+
+"tagGDX3Class10SkillName13A": "战争工具",
+"tagGDX3Class10SkillDescription13A": "库恩狂战士将双武器战斗艺术磨练到了致命的完美。他们的武器不仅仅是工具，更是他们无情猛攻的延伸。^o这是一种双武器加成。同时也能够双持武器。",
+
+"tagGDX3Class10SkillName14A": "血牙",
+"tagGDX3Class10SkillDescription14A": "一次残酷的双重打击让你的敌人流血不止。^o可以与所有默认武器攻击一起激活。",
+
+"tagGDX3Class10SkillName15A": "雪崩",
+"tagGDX3Class10SkillDescription15A": "你在攻击中驾驭阿玛托克的力量，随着你的攻击发出压碎冰的雪崩。^o可以与所有默认武器攻击一起激活。",
+
+"tagGDX3Class10SkillName16A": "令人毛骨悚然的战吼",
+"tagGDX3Class10SkillDescription16A": "你发出一声令人毛骨悚然的战吼，粉碎敌人的防御，让你的敌人士气低落、支离破碎。",
+
+
+
+#ItemSkills
+
+"tagGDX3ItemSkillB301Name": "尼亚拉松的宣告",
+"tagGDX3ItemSkillB301Desc": "召唤末日的宣告，粉碎敌人的思想，暴露他们的弱点。",
+
+"tagGDX3ItemSkillB302Name": "风暴之子",
+"tagGDX3ItemSkillB302Desc": "你内心的风暴在附近敌人身上释放。",
+
+"tagGDX3ItemSkillB303Name": "火山",
+"tagGDX3ItemSkillB303Desc": "大地裂开，释放出熔火的愤怒。",
+
+"tagGDX3ItemSkillB304Name": "风暴火花",
+"tagGDX3ItemSkillB304Desc": "一股混沌火花的新星从你身上爆发。",
+
+"tagGDX3ItemSkillB305Name": "愤怒火花",
+"tagGDX3ItemSkillB305Desc": "一股混沌虚化火花的新星从你身上爆发。",
+
+"tagGDX3ItemSkillB306Name": "荆棘之刺",
+"tagGDX3ItemSkillB306Desc": "从大地中释放一圈野蛮之刺。",
+
+"tagGDX3ItemSkillB307Name": "虚化之刺",
+"tagGDX3ItemSkillB307Desc": "从大地中释放一圈腐化之刺。",
+
+"tagGDX3ItemSkillB308Name": "冰霜之刺",
+"tagGDX3ItemSkillB308Desc": "从大地中释放一圈冰冷之刺。",
+
+"tagGDX3ItemSkillC301Name": "毒刺新星",
+"tagGDX3ItemSkillC301Desc": "有毒的刺从你周围爆发，刺穿附近的敌人。",
+
+"tagGDX3ItemSkillC302Name": "虚空之爪",
+"tagGDX3ItemSkillC302Desc": "虚空污染的碎片从你面前的地面爆发。",
+
+"tagGDX3ItemSkillC303Name": "虚空撕裂",
+"tagGDX3ItemSkillC303Desc": "虚空污染的碎片在你周围爆发，形成毁灭性的级联。",
+
+"tagGDX3ItemSkillC304Name": "血鬃",
+"tagGDX3ItemSkillC304Desc": "血鬃的灵魂在你体内膨胀。",
+
+"tagGDX3ItemSkillD301Name": "面纱之风",
+"tagGDX3ItemSkillD301Desc": "在你面前召唤一股面纱之风的火焰灼烧你的敌人。^o面纱之风随玩家伤害加成而增强。",
+
+"tagGDX3ItemSkillD302Name": "迷失打击",
+"tagGDX3ItemSkillD302Desc": "从防御位置攻击你的敌人，使他们的感官迷失方向。^o这是一种盾牌战斗技巧，从默认武器攻击中激活。",
+
+"tagGDX3ItemSkillD303Name": "毒舌",
+"tagGDX3ItemSkillD303Desc": "一股腐蚀性能量的触须抽打你的敌人。",
+
+"tagGDX3ItemSkillD304Name": "血之印记",
+"tagGDX3ItemSkillD304Desc": "一个邪恶的印记用虚空玷污了敌人的血液。",
+
+"tagGDX3ItemSkillD305Name": "扭曲石守护者",
+"tagGDX3ItemSkillD305Desc": "盾牌充当通往虚空的导管，为你的武器注入邪恶能量。^o这是一种单手远程武器被动加成。",
+
+"tagGDX3ItemSkillD306Name": "永恒闪电",
+"tagGDX3ItemSkillD306Desc": "一道天界闪电撕裂你周围的现实。",
+
+"tagGDX3ItemSkillD307Name": "世界吞噬者",
+"tagGDX3ItemSkillD307Desc": "一股虚空能量的爆发在你目标周围凝聚。",
+
+"tagGDX3ItemSkillD308Name": "无情终结",
+"tagGDX3ItemSkillD308Desc": "为你的目标标记一个迅速而迫近的终结。",
+
+"tagGDX3ItemSkillD309Name": "毁灭岩壁",
+"tagGDX3ItemSkillD309Desc": "用盾牌猛击你的敌人，力量之大，冲击波在你周围回荡。^o这是一种盾牌战斗技巧，从默认武器攻击中激活。",
+
+"tagGDX3ItemSkillD310Name": "罪食者",
+"tagGDX3ItemSkillD310Desc": "你从敌人的罪孽中汲取力量来维持自己的精华。",
+
+"tagGDX3ItemSkillD311Name": "粉碎",
+"tagGDX3ItemSkillD311Desc": "用毁灭性的一击粉碎你的敌人，利用其固有的弱点。^o这种战斗技巧从默认武器攻击中激活。",
+
+"tagGDX3ItemSkillD312Name": "寡妇之刺",
+"tagGDX3ItemSkillD312Desc": "一个有毒的倒刺从你身上爆发并穿透你的敌人。",
+
+"tagGDX3ItemSkillD313Name": "无限",
+"tagGDX3ItemSkillD313Desc": "一股天界闪电撕裂你周围的现实。",
+
+"tagGDX3ItemSkillD314Name": "贝隆纳斯的冰冷之息",
+"tagGDX3ItemSkillD314Desc": "在你面前释放贝隆纳斯的冰冷烈焰。^o贝隆纳斯之息最初造成30%减少的伤害，在向外扩展时达到全部力量。",
+
+"tagGDX3ItemSkillD315Name": "贝隆纳斯的风暴之息",
+"tagGDX3ItemSkillD315Desc": "在你面前释放贝隆纳斯的雷电烈焰。^o贝隆纳斯之息最初造成30%减少的伤害，在向外扩展时达到全部力量。",
+
+"tagGDX3ItemSkillD316Name": "贝隆纳斯的地狱之息",
+"tagGDX3ItemSkillD316Desc": "在你面前释放贝隆纳斯的地狱烈焰。^o贝隆纳斯之息最初造成30%减少的伤害，在向外扩展时达到全部力量。",
+
+"tagGDX3ItemSkillD317Name": "贝隆纳斯的污染之息",
+"tagGDX3ItemSkillD317Desc": "在你面前释放贝隆纳斯的污染烈焰。^o贝隆纳斯之息最初造成30%减少的伤害，在向外扩展时达到全部力量。",
+
+"tagGDX3ItemSkillD318Name": "石手",
+"tagGDX3ItemSkillD318Desc": "用令人作呕的碎裂声猛击你的对手，让他们迷失方向、支离破碎。^o需要近战武器。",
+
+"tagGDX3ItemSkillD319Name": "虚空的召唤",
+"tagGDX3ItemSkillD319Desc": "虚空在你体内膨胀，用它的黑暗馈赠增强你的仆从。",
+
+"tagGDX3ItemSkillD320Name": "掠食者之口",
+"tagGDX3ItemSkillD320Desc": "你贪婪地吞噬你周围的生命精华。",
+
+"tagGDX3ItemSkillD321Name": "天界烈焰",
+"tagGDX3ItemSkillD321Desc": "一道天界火焰爆发并迅速在你的敌人中蔓延。",
+
+"tagGDX3ItemSkillD322Name": "地狱景观",
+"tagGDX3ItemSkillD322Desc": "地狱火焰从你周围的地面喷发。",
+
+"tagGDX3ItemSkillD323Name": "粉碎现实",
+"tagGDX3ItemSkillD323Desc": "用残酷的双手打击撕裂现实的面纱。^o这是一种双手近战和远程战斗技巧，从默认武器攻击中激活。",
+
+"tagGDX3ItemSkillD324Name": "地狱之怒",
+"tagGDX3ItemSkillD324Desc": "狂暴的地狱火焰包裹你的敌人，灼烧他们的防御。",
+
+"tagGDX3ItemSkillD325Name": "石领主印记",
+"tagGDX3ItemSkillD325Desc": "将石领主的意志强加于你的敌人，粉碎他们的防御。",
+
+"tagGDX3ItemSkillD326Name": "寡妇之噬",
+"tagGDX3ItemSkillD326Desc": "向你的敌人注入致命的毒液，穿透他们的防御。",
+
+"tagGDX3ItemSkillD327Name": "血雾",
+"tagGDX3ItemSkillD327Desc": "一团血雾玷污了它经过的空气。",
+
+"tagGDX3ItemSkillD328Name": "胆汁守护",
+"tagGDX3ItemSkillD328Desc": "一团可悲的瘴气保护你免受毒素和物理打击。",
+
+"tagGDX3ItemSkillD329Name": "豺狼之步",
+"tagGDX3ItemSkillD329Desc": "豺狼的精神增强了你的危险感知。",
+
+"tagGDX3ItemSkillD330Name": "破命者的意志",
+"tagGDX3ItemSkillD330Desc": "粉碎命运的锁链，定义你自己的命运。^o这是一个近战双持和远程双持被动，能够双持武器。",
+
+"tagGDX3ItemSkillD331Name": "熔火核心",
+"tagGDX3ItemSkillD331Desc": "一个熔融球体在你的敌人身上坍塌，传播火焰和痛苦。",
+
+"tagGDX3ItemSkillD332Name": "狂野嚎叫",
+"tagGDX3ItemSkillD332Desc": "你与阿斯特坎的狂野之魂一起嚎叫，为附近的盟友注入战斗的活力。",
+
+"tagGDX3ItemSkillD333Name": "虚空鞭笞",
+"tagGDX3ItemSkillD333Desc": "虚空能量抽打你的敌人，压倒他们的感官。",
+
+"tagGDX3ItemSkillD334Name": "时空加速",
+"tagGDX3ItemSkillD334Desc": "时间在你周围扭曲，赋予你加速的反应能力。",
+
+"tagGDX3ItemSkillD335Name": "虚空波",
+"tagGDX3ItemSkillD335Desc": "一股虚空能量的余波席卷战场。",
+
+"tagGDX3ItemSkillD336Name": "奥术诡计",
+"tagGDX3ItemSkillD336Desc": "奥术能量从你身上迸发，治愈你和附近盟友的伤口。",
+
+"tagGDX3ItemSkillD337Name": "黑刃",
+"tagGDX3ItemSkillD337Desc": "一把残酷的黑色刀刃刺穿你的敌人。",
+
+"tagGDX3ItemSkillD338Name": "死亡编织",
+"tagGDX3ItemSkillD338Desc": "死亡能量在空气中编织，扑向你的敌人，吸取他们的生命并赋予你冲击层数。",
+
+"tagGDX3ItemSkillD339Name": "血之利爪",
+"tagGDX3ItemSkillD339Desc": "双爪撕裂你的敌人。",
+
+"tagGDX3ItemSkillD340Name": "亵渎",
+"tagGDX3ItemSkillD340Desc": "一个亵渎的仪式吸取你的活力以增强你的仆从。",
+
+"tagGDX3ItemSkillD341Name": "普罗德罗穆斯之眼",
+"tagGDX3ItemSkillD341Desc": "先驱者的混沌之眼在战场上快速移动。",
+
+"tagGDX3ItemSkillD342Name": "狂野嚎叫光环",
+"tagGDX3ItemSkillD342Desc": "阿斯特坎的狂野之魂赋予你和你的盟友力量。",
+
+"tagGDX3ItemSkillD343Name": "回溯伤害",
+"tagGDX3ItemSkillD343Desc": "时间冲刷过你，倒回过去的伤害并恢复你的活力。",
+
+"tagGDX3ItemSkillD344Name": "荒凉灰烬",
+"tagGDX3ItemSkillD344Desc": "虚空的余烬扼杀附近敌人的生命。",
+
+"tagGDX3ItemSkillD345Name": "扎库尔的灵魂",
+"tagGDX3ItemSkillD345Desc": "你生命力的触须吸取附近敌人的生命，赋予你冲击层数。",
+
+"tagGDX3ItemSkillD346Name": "天空碎片",
+"tagGDX3ItemSkillD346Desc": "一块冰从天而降，粉碎你的敌人。",
+
+"tagGDX3ItemSkillD347Name": "冰霜之王的命令",
+"tagGDX3ItemSkillD347Desc": "冰霜之王的命令激励你和你的盟友，并赋予你的仆从阿斯特坎的冰冷气息。",
+
+"tagGDX3ItemSkillD348Name": "阿斯特坎之泪",
+"tagGDX3ItemSkillD348Desc": "腐蚀性剧痛降临在你的敌人身上。",
+
+"tagGDX3ItemSkillD349Name": "冰霜之王的打击",
+"tagGDX3ItemSkillD349Desc": "每一击都召唤冰霜之王的力量。^o当用作你的默认武器攻击时，冰霜之王的打击造成额外伤害并增强你的仆从。",
+
+"tagGDX3ItemSkillD350Name": "霜之碎片",
+"tagGDX3ItemSkillD350Desc": "冰冷冰的碎片从你身上爆发，刺穿你的敌人。",
+
+"tagGDX3ItemSkillD351Name": "死亡面纱",
+"tagGDX3ItemSkillD351Desc": "受折磨的灵魂逃离刀刃。",
+
+"tagGDX3ItemSkillD352Name": "净化",
+"tagGDX3ItemSkillD352Desc": "净化能量在你周围爆发，净化你和盟友的有害效果，并从附近的敌人身上清除有益效果。",
+
+"tagGDX3ItemSkillD354Name": "斯科弗的狡诈",
+"tagGDX3ItemSkillD354Desc": "一个非常聪明的伪装，适合各种场合。^o这是一个近战双持和远程双持被动，能够双持武器。",
+
+"tagGDX3ItemSkillD355Name": "芬里斯之牙",
+"tagGDX3ItemSkillD355Desc": "用大白狼的凶猛扑向你的敌人。",
+
+
+
+#Relic Skills
+
+"tagGDX3RelicSkillC301Name": "冰霜爆发",
+"tagGDX3RelicSkillC301Desc": "冰刺在你周围爆发，形成一道寒冷的环。",
+
+"tagGDX3RelicSkillD301Name": "吞噬",
+"tagGDX3RelicSkillD301Desc": "一种削弱性疾病感染你的敌人，引起剧烈流血并削弱他们的力量。",
+
+"tagGDX3RelicSkillD302Name": "阿斯特坎的寒意",
+"tagGDX3RelicSkillD302Desc": "阿斯特坎无情之风的寒意侵蚀附近敌人的肉体。",
+
+"tagGDX3RelicSkillD303Name": "贝若纳斯之躯",
+"tagGDX3RelicSkillD303Desc": "被净化的巨兽贝隆纳斯的灵魂在你体内膨胀。",
+
+"tagGDX3RelicSkillD304Name": "极光",
+"tagGDX3RelicSkillD304Desc": "受到伤害时，一道极光能量护盾保护你免受进一步伤害。",
+
+"tagGDX3RelicSkillD305Name": "阿玛托克的掌握",
+"tagGDX3RelicSkillD305Desc": "阿玛托克的灵魂用一种令人毛骨悚然却莫名令人安慰的寒意充满你。",
+
+
+
+#ConsumableSkills
+
+
+
+#ConsumableSkills
+
+"tagGDX3_SummonDevourer": "召唤饥饿幼兽",
+"tagGDX3_SummonDevourerDesc": "从虚空中召唤一只贪婪的饥饿幼兽。^o同一时间只能召唤一只饥饿幼兽。饥饿幼兽严格来说是非暴力的。",
+
+"tagGDX3_SummonMaggotName": "召唤天界蛆虫",
+"tagGDX3_SummonMaggotDesc": "从破碎领域召唤一只蠕动的蛆虫。^o同一时间只能召唤一只天界蛆虫。蛆虫严格来说是非暴力的。",
+
+"tagGDX3_SummonMiniLizardName": "召唤迷你蜥蜴",
+"tagGDX3_SummonMiniLizardDesc": "召唤强大的科尔万迷你蜥蜴，一个凶猛的小型野兽。^o同一时间只能召唤一只科尔万迷你蜥蜴。迷你蜥蜴严格来说是非暴力的。",
+
+
+#SkillsQuest
+
+
+
+#FactionSkills
+
+"tagGDX3FactionSkillA01": "拜斯迈的存在",
+"tagGDX3FactionSkillA01_Desc": "拜斯迈的牧师使你的肉体抵抗物理打击，并赋予你对巫神敌人的致命一击几率增加。",
+
+
+
+#EnemySkills
+
+"tagGDX3EnemySkillA01": "库恩光环",
+"tagGDX3EnemySkillA01_Desc": "附近库恩德鲁伊的存在保护你，赋予额外的抗性和防御能力。",
+
+"tagGDX3EnemySkillA02": "暴风雪",
+"tagGDX3EnemySkillA02_Desc": "一场寒冷的风暴遮蔽视野和",
+
+"tagGDX3EnemySkillA03": "荆棘陷阱",
+"tagGDX3EnemySkillA03_Desc": "你因踩到荆棘而被缠绕。",
+
+"tagGDX3EnemySkillA04": "黑暗预兆",
+"tagGDX3EnemySkillA04_Desc": ""
+
+"tagGDX3EnemySkillA05": "恶心的虚空",
+"tagGDX3EnemySkillA05_Desc": ""
+
+"tagGDX3EnemySkillA06": "巨人的恶臭",
+"tagGDX3EnemySkillA06_Desc": ""
+
+"tagGDX3EnemySkillA07": "海波拉文的黑暗",
+"tagGDX3EnemySkillA07_Desc": ""
+
+"tagGDX3EnemySkillA08": "海波拉文的尖叫",
+"tagGDX3EnemySkillA08_Desc": ""
+
+"tagGDX3EnemySkillA09": "寒风刺骨的存在",
+"tagGDX3EnemySkillA09_Desc": ""
+
+"tagGDX3EnemySkillA10": "死亡之触",
+"tagGDX3EnemySkillA10_Desc": ""
+
+"tagGDX3EnemySkillA11": "恐怖嚎叫",
+"tagGDX3EnemySkillA11_Desc": ""
+
+"tagGDX3EnemySkillD01": "熔火",
+"tagGDX3EnemySkillD01_Desc": "你将自己沉浸在恐惧废土的熔火之中。你散发出的热量如此强烈，甚至能融化冰川。",
+

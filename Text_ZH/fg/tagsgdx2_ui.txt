@@ -147,12 +147,6 @@ Mutator_Player_10Desc=玩家的命中率提高，暴击率降低。
 SkillRetaliationDamageFormat={%.0f0%} {^E}的反击伤害附加至攻击
 SkillRetaliationDamageFormatNumbers={%.0f0%} {^E}的反击伤害附加至攻击 ({^H}{%.0f1}-{%.0f2}{^E})
 
-tagCharHealIncreaseModifier={^E}治疗效果提高 {^H}{%.0f0}%
-tagCharHealIncreaseModifierR={^E}治疗效果提高 {^H}{%.0f0}%-{%.0f1}%
-tagCharRunSpeedMaxModifier={^E}移动速度提高 {^H}{%.0f0}%
-tagCharSpellCastSpeedMaxModifier={^E}施法速度提高 {^H}{%.0f0}%
-tagCharAttackSpeedMaxModifier={^E}攻击速度提高 {^H}{%.0f0}%
-
 #Char Stats Tab 2
 
 #Character

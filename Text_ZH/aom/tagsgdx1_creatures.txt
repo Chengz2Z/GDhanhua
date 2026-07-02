@@ -332,6 +332,7 @@ tagGDX1ItemPetBloodWraith_Skill=吸血鬼之触
 tagGDX1ItemPetBloodWraith_Skill02=吸血鬼之灵
 tagGDX1ItemPetBloodSkeleton=血浴奴仆
 tagGDX1ItemPetBloodSkeleton_Skill=鲜血噬咬
+tagGDX1ItemPetRuneStormcaller=风暴召唤符文
 
 #EnemySummons
 
@@ -498,14 +499,14 @@ tagGDX1BountyCU07=污染的 ~ 希兰卡尔
 tagGDX1BountyCU08=寒冷钳爪
 tagGDX1BountyCU09=永不满足的 ~ 瓦加罗斯
 
-tagGDX1BountyCW04=法师之爪 ~ 达尔·维高
-tagGDX1BountyCW05=风暴之血 ~ 瑞达·高瓦
+tagGDX1BountyCW04=法师之爪 ~ 达尔·维高 ~ [奥术]
+tagGDX1BountyCW05=风暴之血 ~ 瑞达·高瓦 ~ [电击]
 tagGDX1BountyCW06=斯维利尔斯
 tagGDX1BountyCW07=波特瑞奥斯
-tagGDX1BountyCW08=弗拉德里斯
-tagGDX1BountyCW09=尤克纳尔
+tagGDX1BountyCW08=弗拉德里斯 ~ [吸血]
+tagGDX1BountyCW09=尤克纳尔 ~ [吸血]
 
 tagGDX1BountyPM05=火焰喷吐 ~ 布拉格拉
-tagGDX1BountyPM06=风暴巨人
+tagGDX1BountyPM06=风暴巨人 ~ [电击]
 tagGDX1BountyPM07=布莱兹拉加鲁斯
-tagGDX1BountyPM08=托拉克斯特莉亚
+tagGDX1BountyPM08=托拉克斯特莉亚 ~ [冰冻]
