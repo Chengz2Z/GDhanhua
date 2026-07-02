@@ -2898,7 +2898,7 @@ tagEnemySkillA06_Desc=穴居人的诅咒吸取你的生命力并将其传递给�
 tagEnemySkillA07=血之瘟疫
 tagEnemySkillA07_Desc=食尸鬼的诅咒使你的血液沸腾，损伤你的防御能力。
 
-tagEnemySkillA08=苦痛
+tagEnemySkillA08=苦痛
 tagEnemySkillA08_Desc=亡灵的诅咒使你的骨骼产生强烈的疼痛，减慢你的速度并且削弱你的物理攻击。
 
 tagEnemySkillA09=暴怒之魂
