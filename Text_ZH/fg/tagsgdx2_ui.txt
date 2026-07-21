@@ -87,63 +87,6 @@ tagConvertBlacklist=这个物品无法被转换。
 #Crafter - Subheadings
 tagCraftingRunes=符文
 
-#Mutators
-Mutator_Monster_01=虚化扭曲
-Mutator_Monster_01Desc=怪物的虚化抗性提高，混乱抗性降低。
-Mutator_Monster_02=全副武装
-Mutator_Monster_02Desc=怪物的物理抗性提高，元素抗性降低。
-Mutator_Monster_03=狂暴
-Mutator_Monster_03Desc=怪物狂暴化，攻速提高，闪避率降低。
-Mutator_Monster_04=野蛮
-Mutator_Monster_04Desc=怪物的暴击率提高，攻击伤害降低。
-Mutator_Monster_05=腐坏
-Mutator_Monster_05Desc=怪物的混乱抗性提高，虚化抗性降低。
-Mutator_Monster_06=削弱
-Mutator_Monster_06Desc=怪物的攻击造成减速，攻击速度降低。
-Mutator_Monster_07=残忍
-Mutator_Monster_07Desc=怪物的暴击伤害提高，命中率降低。
-Mutator_Monster_08=点燃
-Mutator_Monster_08Desc=怪物火焰伤害提高并反击火焰伤害，受冰冷伤害提高。
-Mutator_Monster_09=时间扭曲
-Mutator_Monster_09Desc=怪物的冷却时间缩短，施法速度提高，物理伤害降低。
-Mutator_Monster_10=吸血
-Mutator_Monster_10Desc=怪物的攻击会吸取生命，生命值降低。
-Mutator_Monster_11=恶毒
-Mutator_Monster_11Desc=怪物的毒素伤害提高并反击毒素伤害，活力抗性降低。
-Mutator_Monster_12=恢复
-Mutator_Monster_12Desc=怪物的生命与能量恢复大幅提高，酸毒和流血抗性降低。
-Mutator_Monster_13=抗性
-Mutator_Monster_13Desc=怪物的元素抗性提高，物理抗性降低。
-Mutator_Monster_14=坚韧
-Mutator_Monster_14Desc=怪物的生命值大幅提高，生命恢复降低。
-Mutator_Monster_15=势不可挡
-Mutator_Monster_15Desc=怪物的群体控制抗性大幅提高，移动速度降低。
-Mutator_Monster_16=复仇
-Mutator_Monster_16Desc=怪物的反击伤害大幅提高，护甲减少。
-Mutator_Monster_17=迅捷
-Mutator_Monster_17Desc=怪物的移动速度大幅提高，群体控制抗性降低。
-
-Mutator_Player_01=虚化标记
-Mutator_Player_01Desc=玩家的虚化抗性提高，攻击速度降低。
-Mutator_Player_02=虚空标记
-Mutator_Player_02Desc=玩家的混乱抗性提高，施法速度降低。
-Mutator_Player_03=标记
-Mutator_Player_03Desc=玩家的攻击伤害提高，防御能力降低。
-Mutator_Player_04=疲劳
-Mutator_Player_04Desc=玩家的毒素和流血抗性提高，生命恢复降低。
-Mutator_Player_05=击碎
-Mutator_Player_05Desc=玩家的护甲提高，伤害与反击效果降低。
-Mutator_Player_06=折磨
-Mutator_Player_06Desc=玩家的活力抗性提高，生命值减少。
-Mutator_Player_07=减速
-Mutator_Player_07Desc=玩家的群体控制抗性提高，移动速度降低。
-Mutator_Player_08=感染
-Mutator_Player_08Desc=玩家的暴击伤害提高，速度降低。
-Mutator_Player_09=暴露
-Mutator_Player_09Desc=玩家的冷却时间缩短，护甲降低。
-Mutator_Player_10=虚弱
-Mutator_Player_10Desc=玩家的命中率提高，暴击率降低。
-
 SkillRetaliationDamageFormat={%.0f0%} {^E}的反击伤害附加至攻击
 SkillRetaliationDamageFormatNumbers={%.0f0%} {^E}的反击伤害附加至攻击 ({^H}{%.0f1}-{%.0f2}{^E})
 
