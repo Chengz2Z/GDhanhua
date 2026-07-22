@@ -788,10 +788,10 @@ tagGDX2RelicD201Desc="可以看见更远大图景的心灵。"
 tagGDX2RelicD202=^s守誓Lv60-^c荣耀
 tagGDX2RelicD202Desc="在不义的世界中对正义的不懈追求。"
 
-tagGDX2RelicD203=^s攻击-^c阿兹拉卡的时代
+tagGDX2RelicD203=^s通用Lv90-^c阿兹拉卡的时代
 tagGDX2RelicD203Desc="时间皱褶中的一丝涟漪。"
 
-tagGDX2RelicD204=^s攻击-^c尤戈尔的饥饿
+tagGDX2RelicD204=^s通用Lv90-^c尤戈尔的饥饿
 tagGDX2RelicD204Desc="万物中最无可匹敌的贪食欲望。"
 
 tagGDX2RelicD205=^y全技能Lv90-^c宁静
