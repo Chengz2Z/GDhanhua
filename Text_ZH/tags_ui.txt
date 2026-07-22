@@ -2520,10 +2520,6 @@ tagControllerButtonX=X
 tagControllerButtonY=Y
 tagConsoleXBoxLiveUnavailable=无网络连接
 tagConsoleMultiplayerHighLatency=高延迟
-tagConsoleReconnectController=Please connect a controller for user {^b}{%t0}{^-}.
-tagConsoleInviteInfo=Select a character and press start to join {^b}{%t0}{^-}.
-tagConsoleConfirmReportUser=Are you sure you want to report {^b}{%t0}{^-}?
-tagBonusLifePercentSlow={^E}Restores {^H}{%.0f0}% {^E}Health Over Time
 tagDoubleRare=双绿
 tagOverCapResist={%s0} {^b}{%.0f1}% {^s}(+{%.0f2}% 溢出上限) 
 tagOverCapResistInt={%s0} {^b}{%d1}% {^s}(+{%d2}% 溢出上限)
@@ -2553,7 +2549,7 @@ tagSkillCooldownRefresh={%t0}主动技能的冷却时间减少 {^H}{%.1f1} {%z2}
 tagSkillCooldownRefreshName={%t0}{%s1}的冷却时间减少 {^H}{%.1f2} {%z3}
 
 
-The following tags were localized before, but we need additional variants of them with new code references. These should match previous localization where possible:
+# The following tags were localized before, but we need additional variants of them with new code references. These should match previous localization where possible:
 DamageColdR={%t0}-{%t1} {^E}寒气伤害
 DamageFireR={%t0}-{%t1} {^E}火焰伤害
 DamageAetherR={%t0}-{%t1} {^E}虚化伤害
