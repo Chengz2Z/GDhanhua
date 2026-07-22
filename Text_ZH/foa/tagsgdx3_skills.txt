@@ -307,6 +307,8 @@ tagGDX3ItemSkillD354Desc=适用于所有场合的巧妙伪装。^o近战双持�
 tagGDX3ItemSkillD355Name=芬里斯之牙
 tagGDX3ItemSkillD355Desc=携白色巨狼的凶暴之势向敌人发起猛攻。
 
+tagGDX3ItemSkillD368_Pet01=莫格卓根之威
+tagGDX3ItemSkillD368_Pet01Desc=白色巨狼释放恐怖威压，粉碎周围敌人的防御。
 
 
 #Relic Skills
@@ -329,6 +331,14 @@ tagGDX3RelicSkillD304Desc=受到攻击时，一道由能量构成的极光出现
 tagGDX3RelicSkillD305Name=阿玛托克的掌握
 tagGDX3RelicSkillD305Desc=阿玛托克之灵充盈你的身体，随之而来的彻骨寒意令你莫名地感到心安。
 
+tagGDX3RelicSkillD306Name=完美姿态
+tagGDX3RelicSkillD306Desc=展现完美姿态。
+
+tagGDX3RelicSkillD306Skill01Name=刺击
+tagGDX3RelicSkillD306Skill01Desc=以手中的神圣法器狠狠刺向敌人。
+
+tagGDX3RelicSkillD306Skill02Name=尖啸
+tagGDX3RelicSkillD306Skill02Desc=仰天长啸，恳求天神眷顾。
 
 
 #ConsumableSkills
@@ -345,6 +355,15 @@ tagGDX3_SummonMaggotDesc=从碎裂之境召唤一条蠕动的蛆虫。^o同一�
 
 tagGDX3_SummonMiniLizardName=召唤迷你噬龙
 tagGDX3_SummonMiniLizardDesc=召唤强大的科凡迷你噬龙，小小的身躯中藏着凶兽的灵魂。^o同一时间只能召唤一头科凡迷你噬龙，且不具备任何战斗能力。
+
+# tagGDX3_SummonMiniBeaverName=Summon Kastorran Pup
+# tagGDX3_SummonMiniBeaverDesc=Attract the attention of a small Kastorran that has not yet learned to fear humans. ^oOnly one Kastorran Pup can be summoned at any one time. Kastorran Pups are strictly non-violent.
+
+# tagGDX3_SummonMiniYeti=Summon Dire Runt
+# tagGDX3_SummonMiniYetiDesc=Befriend a Diremane that was rejected by its pack. ^oOnly one Dire Runt can be summoned at any one time. Dire Runts are strictly non-violent.
+
+# tagGDX3_SummonMiniRocName=Summon Roc Chick
+# tagGDX3_SummonMiniRocDesc=Call a loyal Roc to fly besides you. ^oOnly one Roc Chick can be summoned at any one time. Roc Chicks are strictly non-violent.
 
 
 #SkillsQuest
@@ -393,6 +412,96 @@ tagGDX3EnemySkillA10_Desc=怨鬼的触碰将你推到了生死边缘，生命力
 tagGDX3EnemySkillA11=恐怖长嚎
 tagGDX3EnemySkillA11_Desc=雪人的恐怖嚎叫令你浑身血液冰凉，行动速度减慢。
 
+tagGDX3EnemySkillA12=狂怒
+tagGDX3EnemySkillA12_Desc=狂暴怒火使攻击速度与移动速度提升。
+
+tagGDX3EnemySkillA13=集结战吼
+tagGDX3EnemySkillA13_Desc=精神振奋，攻击速度加快。
+
+tagGDX3EnemySkillA14=冰霜光环
+tagGDX3EnemySkillA14_Desc=冰冷属性的攻击伤害提升。
+
+tagGDX3EnemySkillA15=收割光环
+tagGDX3EnemySkillA15_Desc=这头生物周围萦绕着能够吸取生命力的能量。
+
 tagGDX3EnemySkillD01=文本
 tagGDX3EnemySkillD01_Desc=文本
+
+tagGDX3EnemySkillD02=浮冰
+tagGDX3EnemySkillD02_Desc=你正站在冰面上，一股寒气直透骨髓。
+
+tagGDX3EnemySkillD03=闪电之灵
+tagGDX3EnemySkillD03_Desc=怨鬼饱受折磨的灵魂中充斥着电能，一旦受到远程攻击就会发生剧烈反应，朝攻击者放射闪电火花。
+
+tagGDX3EnemySkillD04=彻骨寒意
+tagGDX3EnemySkillD04_Desc=尤拉的摄人怒吼令你心惊胆战，斗志全无。
+
+tagGDX3EnemySkillD05=风暴之肤
+tagGDX3EnemySkillD05_Desc=巨人的体表涌动着狂暴的雷电。
+
+tagGDX3EnemySkillD06=熔岩
+tagGDX3EnemySkillD06_Desc=你正站在熔岩中，皮肉受到高温炙烤。
+
+tagGDX3EnemySkillD07=永夜印记
+tagGDX3EnemySkillD07_Desc=永恒之夜笼罩着你。你每走一步都会在脚下留下阴影，令你骨髓发寒，视线模糊。
+
+tagGDX3EnemySkillD08=血羁战吼
+tagGDX3EnemySkillD08_Desc=古迪尔的战吼令你无法集中精神，且移动速度减慢。
+
+tagGDX3EnemySkillD09=影魔
+tagGDX3EnemySkillD09_Desc=周围一团躁动的阴影令你心神不宁，无法专心瞄准。
+
+tagGDX3EnemySkillD10=毒瘴
+tagGDX3EnemySkillD10_Desc=博里厄斯的毒气令你咽喉发紧，攻击速度与施法速度减慢。
+
+tagGDX3EnemySkillD11=末日印记
+tagGDX3EnemySkillD11_Desc=奈亚拉松标记了你。你每走一步，脚下都会喷涌出漆黑脓血。站在脓血中的生物将会迅速流失活力与力量。
+
+tagGDX3EnemySkillD12=巫邪增幅
+tagGDX3EnemySkillD12_Desc=巫邪鬼影为其周围的盟友提供了强化效果。
+
+tagGDX3EnemySkillD13=地狱火
+tagGDX3EnemySkillD13_Desc=伊格努斯留下的炽热火焰熔穿了你的装备，你的护甲与防御能力降低。
+
+tagGDX3EnemySkillD14=极寒光环
+tagGDX3EnemySkillD14_Desc=啸妖的出现令你周遭的空气为之冻结，你的移动速度与命中率降低。
+
+tagGDX3EnemySkillD15=深渊脓血
+tagGDX3EnemySkillD15_Desc=恐魔的脓血正在瓦解你的存在并不断吸取活力，使你的恢复能力大大减弱。
+
+tagGDX3EnemySkillD16=恐惧化身
+tagGDX3EnemySkillD16_Desc=恐魔令周围陷入绝望，你的视野范围与反应速度降低。
+
+tagGDX3EnemySkillD17=腐败光环
+tagGDX3EnemySkillD17_Desc=收割者贪婪地汲取你的活力，使你的防御能力与回复能力降低。
+
+tagGDX3EnemySkillD18=虚化增幅
+tagGDX3EnemySkillD18_Desc=虚化碎片中的纯粹能量剧烈涌动，大幅提升周围友军速度并灼烧你的血肉。
+
+tagGDX3EnemySkillD19=沉重的悔恨
+tagGDX3EnemySkillD19_Desc=你感觉肩头仿佛有万钧之重。
+
+tagGDX3EnemySkillD20=瓦解
+tagGDX3EnemySkillD20_Desc=在黑色小屋的疯狂现实周围每待一秒，你都能感觉到自身存在正在逐渐瓦解。
+
+tagGDX3EnemySkillD21=带电甲片
+tagGDX3EnemySkillD21_Desc=赫洛斯每挥出一击，身上的盔甲都会释放电流。
+
+tagGDX3EnemySkillD22=刺骨狂嚎
+tagGDX3EnemySkillD22_Desc=一声毛骨悚然的狼人咆哮击碎了你的心理防线，令你斗志全无，伤害与防御能力降低。
+
+tagGDX3EnemySkillD23=折磨印记
+tagGDX3EnemySkillD23_Desc=黑心给你打下了折磨印记，他受到的所有伤害都会转移至你的身上，直至链接断开。
+
+tagGDX3EnemySkillD24=虚化火焰之肤
+tagGDX3EnemySkillD24_Desc=巨人体表散发着超越世间常理的高温。
+
+tagGDX3EnemySkillD25=死亡气息
+tagGDX3EnemySkillD25_Desc=恶灵的气息冰冷慑人，令你身体僵硬，行动迟缓。
+
+tagGDX3EnemySkillD26=排泄物
+tagGDX3EnemySkillD26_Desc=你被包裹在一堆滑腻的秽物之中。
+
+tagGDX3EnemySkillD27=被削
+tagGDX3EnemySkillD27_Desc=遭受严重削弱。
 
