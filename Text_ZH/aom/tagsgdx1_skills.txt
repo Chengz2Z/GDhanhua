@@ -536,6 +536,10 @@ tagGDX1ItemSkillD184Desc=将风暴召唤符文放置在地面。该符文放置�
 tagGDX1ItemSkillD184Name_PetSkill=风暴潮
 tagGDX1ItemSkillD184Name_PetSkillDesc=风暴召唤符文携着使人衰弱的力量如潮水般喷发，使受影响的敌人更容易受到伤害。
 
+tagGDX1ItemSkillD185Name=现实灼烧
+tagGDX1ItemSkillD185Desc=以点燃现实的一击灼烧你的敌人。^o远程技能，由默认武器攻击触发。
+
+
 tagGDX1w=GrimDawn/images/evil
 
 
@@ -766,7 +770,7 @@ tagGDX1EnemySkillA01=灵魂虹吸
 tagGDX1EnemySkillA01_Desc=幽灵在收割你的灵魂，吸取你精华，将你暴露在虚化和活力的伤害之中。
 
 tagGDX1EnemySkillA02=恶兆
-tagGDX1EnemySkillA02_Desc=死灵法师的存在足矣惊恐敌人，鬼魂的哀嚎将粉碎敌人的信心并使混乱和恐惧在敌人中迅速蔓延。
+tagGDX1EnemySkillA02_Desc=一阵幽灵般的哀嚎击碎了你的信心，并在迅速散播困惑与恐惧。
 
 tagGDX1EnemySkillA03=温迪戈咆哮
 tagGDX1EnemySkillA03_Desc=温迪戈咆哮让你紧张，降低所有抗性。

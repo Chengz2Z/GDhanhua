@@ -202,7 +202,6 @@ tagClass02SkillDescription03E=专注于火焰打击的破坏之力允许你消�
 tagClass02SkillName03F=灼热之力 ^s(Searing Might)
 tagClass02SkillDescription03F=当使用强力的双手近战或远程武器时，火焰打击会造成毁灭性的伤害。^o需要一把双手近战或双手远程武器。
 
-
 tagClass02SkillName04A=^g<^F爆破^g>^c罐式炸弹 ^s(Cansiter Bomb)
 tagClass02SkillDescription04A=填装了更多爆炸物的炸药，这项恐怖的发明能够击垮一整片敌人。
 tagClass02SkillName04B=^g<^F爆破^g>^c改良外壳 ^s(Improved Crasing)
@@ -230,7 +229,6 @@ tagClass02SkillDescription06C=喷射一束致命的白热火焰将经过的敌�
 tagClass02SkillName06D=引爆
 tagClass02SkillName07A=^g<^F爆破^g>^c防爆护盾 ^s(Blast Shield)
 tagClass02SkillDescription07A=军事装备与火焰法术的融合创造出能够加强防御并偏斜一定量所有类型伤害的护盾。攻击你的敌人会受到护盾的炽烈反击。
-
 tagClass02SkillName07B=^g<^F爆破^g>^c奥祖因的选召 ^s(Ulzuin's Chosen)
 tagClass02SkillDescription07B=在烟火制造工作中做出很大贡献的那些人最终得到奥祖因的青睐，获得他的祝福，可以对世界造成炽烈破坏。^o影响眩晕投掷，手榴弹和罐式炸弹并需要其中的技能之一才能生效。
 
@@ -355,6 +353,7 @@ tagClass03SkillDescription13D=血瘟疫的变异对敌人与神秘学者本身�
 tagClass03SkillName14A=^g<^F神秘^g>^c末日闪电 ^s(Doom Bolt)
 tagClass03SkillDescription14A=施放一束能够撕裂现实世界的熵能闪电，任何被它击中的敌人都将遭受重创。^o当闪电直接击中目标将造成双倍伤害。
 
+
 tagClass03SkillName07A=妖术净化
 tagClass03SkillDescription07A=使敌人的法术失效，并且基于敌人剩余的能量值造成能量燃烧伤害。
 tagClass03SkillName08A=混沌之箭
@@ -411,7 +410,6 @@ tagClass04SkillName05D=^g<^F夜刃^g>^c死亡旋风 ^s(Whirling Death)
 tagClass04SkillDescription05D=针对多名敌人的一种毁灭性的战斗技艺，敌人即便存活也会像遭受千刀万剐一般血流不止。^o这是一项近战双持技能，由默认武器攻击触发。
 tagClass04SkillName05E=^g<^F夜刃^g>^c尼达拉的隐手 ^s(Nidalla's Hidden Hand)
 tagClass04SkillDescription05E=颇具争议的夜刃大师尼达拉在她尚不理性的年纪通过将剧毒与其他夜刃的技艺结合，这近乎残忍的强大技巧使得她战胜了众多敌手。^o这项技能将改变贝尔戈斯安的切割，阿玛拉斯塔的瞬影和死亡旋风。
-
 tagClass04SkillName05F=^g<^F夜刃^g>^c处决 ^s(Execution)
 tagClass04SkillDescription05F=伺机发动出无情的一击，以迅速解决敌人。遭此攻击侥幸存活者，也不会苟延残喘太久。^o这是一项近战双持技能，由默认武器攻击触发。
 
@@ -447,7 +445,6 @@ tagClass04SkillDescription10B=一项精湛的技艺，让刀阵能使敌人的�
 
 tagClass04SkillName13A=^g<^F夜刃^g>^c幻影甲 ^s(Phantasmal Armor)
 tagClass04SkillDescription13A=在你周围凝聚由思想和精神的集中力量所形成的超自然屏障。这层屏障抵御物理伤害并将魔法攻击的能量转为自身能量。
-
 tagClass04SkillName13B=^g<^F夜刃^g>^c解剖 ^s(Anatomy of Murder)
 tagClass04SkillDescription13B=这是受到一流刺客极度赞赏的学识，对解剖的广泛研究使你熟悉刀剑所经之处的所有人体易受创与致命部位。
 tagClass04SkillName13C=^g<^F夜刃^g>^c无情终章 ^s(Merciless Repertoire)
@@ -476,6 +473,7 @@ xtagClass04SkillName14A=^g<^F夜刃^g>^c致命策略
 xtagClass04SkillDescription14A=刺杀大师阿玛拉斯塔偏爱的一种冒险的技艺。如果使用得当，致命策略会造成毁灭性的伤害。风险在于有时它会变成软弱无力的一击。^o需要一把近战武器或者双手远程武器。当使用一把近战武器时，将会击中附近的额外敌人。
 xtagClass04SkillName14B=^g<^F夜刃^g>^c阿玛拉斯塔的爆裂之刃 ^s(Amarasta's Blade Burst)
 xtagClass04SkillDescription14B=熟练掌握致命策略之后，就能以攻击目标为原点爆射出大量致人死地的幻影刀锋，对附近的敌人造成伤害。
+
 
 xtagClass04SkillName15A=^g<^F夜刃^g>^c剔骨
 xtagClass04SkillDescription15A=迅猛的切割使受害者长时间出血，同时削弱他们的移动力和攻击速度。^o需要一把剑或斧。
@@ -536,7 +534,7 @@ tagClass05SkillName06B=^g<^F奥术^g>^c崩解 ^s(Disintegration)
 tagClass05SkillDescription06B=倾泻你所有的能量灌注在虚化射线之中，毁灭性的力量将粉碎所有它接触到的物体。^o每次造成伤害的时间间隔之后魔法消耗都会提高。
 tagClass05SkillName06C=堕落之力 ^s(Tainted Power)
 tagClass05SkillDescription06C=与崩解相反，用狂暴的混沌之力腐化虚化射线。
- 
+
 tagClass05SkillName07A=^g<^F奥术^g>^c净化 ^s(Nullification)
 tagClass05SkillDescription07A=在目标区域集中大量负面能量，清除敌人所有的有益的光环和法术，同时清除友军的有害状态，包括持续性伤害效果。
 
@@ -620,9 +618,9 @@ tagClass06SkillName05B=^g<^F萨满^g>^c橡树皮 ^s(Oak Skin)
 tagClass06SkillDescription05B=形成远古之树的表皮，比人类文明存在更久远的永恒泰坦之神，向那些在莫格卓根祝福下的人们施加额外的保护。
 tagClass06SkillName05C=^g<^F萨满^g>^c野性之心 ^s(Heart of the Wild)
 tagClass06SkillDescription05C=自然的野性灵魂流淌在你的静脉中，快速的愈合创伤并清除毒素。
-
 tagClass06SkillName05D=岩石之心
 tagClass06SkillDescription05D=拥抱你所站立的大地，你不再于战斗中恢复生命，但你的皮肤会变得像岩石般坚硬。^o这个效果会延伸到你的同伴身上。
+
 tagClass06SkillName06A=^g<^F萨满^g>^c召唤荆棘兽 ^s(Summon Briarthon)
 tagClass06SkillDescription06A=荆棘兽是一种顽强的野兽，来自于刺木以及野性魔法。精练的萨满可以召唤这些生物来帮助战斗。^o同一时间只能召唤一只荆棘兽。荆棘兽会受到战宠加成的影响。
 tagClass06SkillName06B=岩石皮肤
@@ -696,6 +694,7 @@ xtagClass06SkillName04D=大漩涡
 xtagClass06SkillDescription04D=精通风暴魔法可以让你的力量集中在一个毁灭性的风暴中，而不是一些小型风暴中。
 xtagClass06SkillName03B=风暴图腾
 xtagClass06SkillDescription03B=与风暴之力沟通是风暴召唤者们的神圣仪式之一。通过足够的练习，萨满可以向一个温迪戈图腾注入闪电的破坏之力，使得它能快速的发出闪电攻击附近的敌人。
+
 #Class07
 
 
@@ -1399,7 +1398,7 @@ tagItemSkillD019Name=冰雹风暴
 tagItemSkillD019Desc=在目标区域召唤一阵致命的冰雹。
 
 tagItemSkillD020Name=召唤冥煞先锋
-tagItemSkillD020Desc=从虚空深处召唤出萨拉查的先锋。^o冥煞先锋会受到战宠加成影响。
+tagItemSkillD020Desc=从虚空深处召唤出萨拉查的先锋。^o冥煞先锋会受到战宠加成的影响。
 tagItemSkillD020PetSkillName=幽冥剧毒
 tagItemSkillD020PetSkillName02=混沌光环
 tagItemSkillD020PetSkillDesc02=萨拉查的先锋将混沌祝福给予它的盟友。
@@ -2345,7 +2344,7 @@ tagRelicSkillC008Name=爆炎
 tagRelicSkillC008Desc=发动一束强烈到即使最坚固的护甲也无法抵挡的穿透性纯净火焰。^o这是一项引导技能，需要持续施法。施法速度为100%时，爆炎每0.24s造成伤害并消耗能量。
 
 tagRelicSkillC009Name=召唤风暴魔犬
-tagRelicSkillC009Desc=召唤一只忠诚的风暴魔犬~源于天堂的可怕野兽。^o同一时间只能召唤一只风暴魔犬。风暴魔犬会受到战宠加成影响。
+tagRelicSkillC009Desc=召唤一只忠诚的风暴魔犬 ~ 源于天堂的可怕野兽。^o同一时间只能召唤一只风暴魔犬。风暴魔犬会受到战宠加成的影响。
 
 tagRelicSkillC010Name=死寒光环
 tagRelicSkillC010Desc=以恐怖阴森的死亡之寒强化你和你附近队友的攻击。
@@ -2703,7 +2702,7 @@ tagDevotion_C01=伊恩的沙漏 ^s(Aeon's Hourglass) {^N}{^N}^g[高级]（防御
 tagDevotion_C01Desc=伊恩是时光守护者，是命运螺纹的主宰。人们的出生与死亡都由他掌控。他的标志就是沙漏。
 tagDevotion_C02=憎恶 ^s(Abomination) {^N}{^N}^g[高级]（毒系，混乱系，8）
 tagDevotion_C02Desc=憎恶象征着人类的原始本能：畏惧死亡与暗影，并总想获得尚未拥有的东西。憎恶体现了将人类变得邪恶的一切事物。
-tagDevotion_C03=至高神的圣光 ^s(Light of Empyrion) {^N}{^N}^g[高级]（防御系，火系，抗性，7）
+tagDevotion_C03=至高之神的圣光 ^s(Light of Empyrion) {^N}{^N}^g[高级]（防御系，火系，抗性，7）
 tagDevotion_C03Desc=至高之神，众神中最伟大的一位，是世界的圣光和凯恩世界一切事物的守护者。由于他的仁慈，人们才能每天都迎来阳光。
 tagDevotion_C04=奥莱隆 ^s(Oleron) {^N}{^N}^g[高级]（物理系，7）
 tagDevotion_C04Desc=奥莱隆的传说可以说是惨烈的，他是战争之神。当他的国度面临着毁灭时，奥莱隆做了加入保护子民战斗的艰难抉择，而代价是他的妻子和孩子。这种损失对于这名战争英雄来说是极重的，传言说在那之后他会狂暴鲁莽地直接冲入战场，以期能有敌人的利刃送他去与家人团聚，但这从未发生。至今，当士兵们冲入战场时，他们呼唤着奥莱隆的名字来获得力量与勇气。
@@ -2730,7 +2729,7 @@ tagDevotionEffectA01=双生之牙 ^s(Twin Fangs)
 tagDevotionEffectA01Desc=吸血蝙蝠之牙攻击你的敌人并汲取他们的活力。
 tagDevotionEffectA02=蝎刺 ^s(Scorpion Sting)
 tagDevotionEffectA02Desc=涂有致命毒素的尖刺从你周围爆发而出。
-tagDevotionEffectA05=塔戈的锤 ^s(Targo's Hammer)
+tagDevotionEffectA05=塔戈之锤 ^s(Targo's Hammer)
 tagDevotionEffectA05Desc=塔戈的神力之锤环绕着你，击倒附近的敌人。
 tagDevotionEffectA06=牧羊人的呼唤 ^s(Shepherd's Call)
 tagDevotionEffectA06Desc=呼唤你的仆从加入战斗。
@@ -2864,8 +2863,8 @@ tagReallocateTitle=技能重置
 tagReallocationDescription=点击技能图标会移除一个技能点，每移除一个加点费用都会随之增加。
 tagReclaimTotalAether=虚化水晶总数：
 
-tagTemplateName=RenameMe
-tagTemplateDescription=DescribeMe
+tagTemplateName=Rename Me
+tagTemplateDescription=Describe Me
 
 
 
@@ -2887,7 +2886,7 @@ tagEnemySkillA03=幽魂瘴气
 tagEnemySkillA03_Desc=冥煞的诅咒会侵蚀你所有的防御力。
 
 tagEnemySkillA04=痛苦标记
-tagEnemySkillA04_Desc=恶魔的标记将吸取你的力量，减少伤害输出，速度并严重抑制生命回复力。
+tagEnemySkillA04_Desc=恶魔印记会汲取你的力量，降低速度并严重抑制生命恢复。
 
 tagEnemySkillA05=自然之怒
 tagEnemySkillA05_Desc=巨魔的诅咒衰弱你的精神和肉体，削弱你对元素的抵抗能力。

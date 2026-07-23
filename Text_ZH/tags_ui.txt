@@ -525,9 +525,9 @@ tagLootFilter08=始终显示独特物品
 tagLootFilter08Info=勾选此框以始终显示独特稀有(史诗和传奇品质)装备，无视其他过滤选项。{^N}{^N}当你在搜寻特定的魔法、稀有或专属掉落装备，但仍希望收集每个独特装备时，请使用此选项。
 
 tagLootFilter09=单手近战武器
-tagLootFilter09Info=显示/隐藏 单手斧、锤和剑。
+tagLootFilter09Info=显示/隐藏 单手斧、锤、矛和剑。
 tagLootFilter10=双手近战武器
-tagLootFilter10Info=显示/隐藏 双手斧、锤和剑。
+tagLootFilter10Info=显示/隐藏 双手斧、锤、矛和剑。
 tagLootFilter11=单手远程武器
 tagLootFilter11Info=显示/隐藏 单手枪。
 tagLootFilter12=双手远程武器
@@ -590,10 +590,10 @@ tagLootFilter38Info=显示/隐藏 镶嵌物。
 tagLootFilter39=总是显示双稀有词缀掉落
 tagLootFilter39Info=勾选此项将忽略你的过滤器设置，总是显示拥双稀有词缀的物品(稀有和怪物专属掉落)。{^N}{^N}在你只希望寻找最强力的稀有或者专属掉落物品时使用。
 
-tagLootFilter41=生命值
-tagLootFilter41Info=显示增加生命值的物品。
-tagLootFilter42=生命值恢复
-tagLootFilter42Info=显示增加生命值恢复的物品。
+tagLootFilter41=生命
+tagLootFilter41Info=显示提高生命的物品。
+tagLootFilter42=生命回复
+tagLootFilter42Info=显示包含提高生命回复的物品。
 
 
 
@@ -2269,11 +2269,16 @@ DefenseReflectResist={%.0f0}% {^E}反弹伤害减免
 DefenseReflectResistR={%+.0f0}-{%.0f1}% {^E}反弹伤害减免
 DefenseAetherDuration={%.0f0}% {^A}减少虚化伤害持续时间 ^r*^-
 DefenseChaosDuration={%.0f0}% {^P}减少混乱伤害持续时间 ^r*^-
-DefenseKnockdownModifier={%.0f0}% {^E}增加现有击倒抗性 ^r*^-
+DefenseKnockdownModifier={%.0f0}% {^E}增加击倒抗性 ^r*^-
 DefenseAetherDurationModifier={%.0f0}% {^A}减少虚化持续时间 ^r*^-
 DefenseChaosDurationModifier={%.0f0}% {^P}减少混乱持续时间 ^r*^-
-DefenseCrowdControl={^E}控制持续时间减少 {^H}{%.0f0}%
-DefenseCrowdControlMaxResist={%+.0f0}% {^E}最大控制抗性
+DefenseAllResistance={^O}{%.0f0}% {^O}全抗性
+DefenseAllResistanceR={^O}{%.0f0}-{%.0f1}% {^O}全抗性
+DefenseCrowdControl={^E}减少 {^H}{%.0f0}% {^P}群控时间
+DefenseCrowdControlNegative={%.0f0}% {^P}群控抗性
+DefenseCrowdControlR={^E}减少 {^H}{%.0f0}-{%.0f1}% {^P}群控时间
+DefenseCrowdControlMaxResist={%+.0f0}% {^P}最大群控抗性
+DefenseCrowdControlMaxResistR={%+.0f0}-{%.0f1}% {^P}最大群控抗性
 
 RacialBonusPercentDamage={%+.0f0}% {^E}对{^E}{%s1}的伤害
 RacialBonusAbsoluteDamage={%+.0f0} {^E}对{^E}{%s1}的伤害
@@ -2606,6 +2611,8 @@ DefensePercentCurrentLifeR={%.0f0}-{%.0f1}% {^E}生命削弱抗性
 DefenseManaBurnRatioR={%.0f0}-{%.0f1}% {^E}魔力燃烧抗性
 
 #patch v1.3
+tagDotConfuse=困惑
+tagGamePadCustomizeCaravan=自定义
 tagMoveReagents=转移材料
 tagMoveReagentsConfirm=确定将材料转移到你的仓库中吗？
 tagLargeReagentStack=999+
@@ -2961,3 +2968,7 @@ tagGI_PrefixSearchDisabled=前缀搜索已禁用！
 tagGI_SuffixSearchDisabled=后缀搜索已禁用！
 tagGI_CloudSavingWarning={^R}警告: {^W}云存储{^G}已启用！...
 
+tagMoveForward=前
+tagMoveBackward=后
+tagMoveLeft=左
+tagMoveRight=右

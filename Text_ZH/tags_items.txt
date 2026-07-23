@@ -581,7 +581,7 @@ tagWeaponCrossbow1hA003=^w滑轮弩
 tagWeaponCrossbow1hA004=^w连弩
 tagWeaponCrossbow2hB003=伽弗林的十字弓
 
-#Shields盾牌
+#Shields 盾牌
 
 tagShieldA000=^w木盾
 tagShieldA001=^w小圆盾
@@ -672,7 +672,7 @@ tagQualityShieldA10=^w帝国
 tagQualityShieldA11=^w尊崇
 
 
-#Focus聚能法器
+#Focus 聚能法器
 
 tagFocusA001=^w发霉的宝典
 tagFocusA002=^w鲜血魔典
@@ -781,20 +781,14 @@ tagFocusF009=亡者预言
 tagFocusF010=罗瓦里织法者秘典
 tagFocusF011=亡者的凝视
 
-#WEAPON_QUALITY武器品质
-
-TagQualityBrokenWeapon01=^s破损
-TagQualityBrokenWeapon02=^s破碎
-TagQualityBrokenWeapon03=^s弯曲
-TagQualityBrokenArmor01=^s废弃
-TagQualityBrokenAll01=^s毁坏
-TagQualityOld=^s老式
+#WEAPON_QUALITY 武器品质
 
 TagQualityBrokenWeapon01=^w破损
 TagQualityBrokenWeapon02=^w破碎
 TagQualityBrokenWeapon03=^w弯曲
 TagQualityBrokenArmor01=^w废弃
 TagQualityBrokenAll01=^w毁坏
+TagQualityOld=^w老式
 
 tagQualityWeaponMetal01=^w废铁
 tagQualityWeaponMetal02=^w生锈
@@ -818,7 +812,9 @@ tagQualityWeaponWood09=^w突袭
 tagQualityWeaponWood10=^w帝国
 tagQualityWeaponWood11=^w尊崇
 
-#ARMOR_STYLES护甲风格
+
+#ARMOR_STYLES 护甲风格
+
 tagStyle001=^w陈旧
 tagStyle002=^w布制
 tagStyle003=^w棉制
@@ -867,12 +863,12 @@ tagStyle040=^w学徒
 tagStyle041=^w镀金
 tagStyle042=^w丰饶
 
-#ArmorClass护甲种类
+#ArmorClass 护甲种类
 tagArmorClass01=施法型
 tagArmorClass02=
 tagArmorClass03=重型
 
-#WeaponClass武器种类
+#WeaponClass 武器种类
 tagOffHand=副手
 tagShield=盾牌
 
@@ -894,7 +890,7 @@ tagStaff=法杖
 
 tagWeaponUnknown=未知武器
 
-#ArmorSlots装备槽
+#ArmorSlots 装备槽
 tagRing=戒指
 tagAmulet=项链
 tagMedal=勋章
@@ -910,14 +906,13 @@ tagGloves=护手
 tagMagic=魔法
 tagRare=稀有
 tagDoubleRare=双稀有
-tagEpic=史诗级
+tagEpic=史诗
 tagLegend=传奇
 
-tagStyleUniqueTier2=强化的
-tagStyleUniqueTier3=神话的
-tagStyleFactionTier2=精英级
-
-tagStyleUniqueInverted=反转的
+tagStyleUniqueTier2=强化
+tagStyleUniqueTier3=神话
+tagStyleFactionTier2=精英
+tagStyleUniqueInverted=反转
 
 tagSoulbound=灵魂绑定
 tagDestroySoulbound=摧毁灵魂绑定的物品？
@@ -937,7 +932,7 @@ tagTransmuteSoulboundOverwrite=你确定要覆盖已经存在的幻化效果吗�
 tagTransmuteDestroy=你确定要灌注幻化效果吗？这将会摧毁这件物品。
 tagTransmuteRemove=你确定要移除幻化效果吗？
 
-#ArmorHead头盔
+#ArmorHead 头盔
 
 tagHeadA001=头盔
 tagHeadA002=无边帽
@@ -1012,7 +1007,7 @@ tagHeadC032=莫格卓根的风帽
 tagHeadC033=邪术守护者之盔
 tagHeadC033Desc="这顶头盔模糊了你的视线，就好像你凝望着另外一个国度。"
 tagHeadC034=三位一体
-tagHeadC034B=三位一体 
+tagHeadC034B=三位一体
 tagHeadC034Desc="三巫神护佑着你。"
 
 tagHeadD001=绝望之喉
@@ -1186,7 +1181,7 @@ tagShoulderF020=神选披肩
 tagShoulderF021=神选肩铠
 
 
-#ArmorTorso胸甲
+#ArmorTorso 胸甲
 
 tagTorsoA000=成衣
 tagTorsoA001L=外衣
@@ -1318,7 +1313,7 @@ tagTorsoM002=染血外套
 tagTorsoM003=染血长袍
 
 
-#ArmorWaist腰带
+#ArmorWaist 腰带
 
 tagWaistA001=^w布制腰带
 tagWaistA002=^w编织束带
@@ -1469,7 +1464,7 @@ tagHandsF003=收割者护手
 tagHandsF004=收割者手铠
 
 
-#ArmorLegs护腿
+#ArmorLegs 护腿
 
 tagLegsA001=束裤
 tagLegsA002=长裤
@@ -1548,7 +1543,7 @@ tagFeetC007B=死亡进军
 tagFeetC007Desc="每迈出一步，都有数千士兵死于冥煞之手，这压在脚上如有千钧之重。"
 tagFeetC008=裂隙魔犬皮革靴
 tagFeetC008Desc="野兽有百害而无一利，但用来做靴子却很不错。"
-tagFeetC009=无畏裹足
+tagFeetC009=恐惧制造者足垫
 tagFeetC010=恶徒护胫
 tagFeetC011=盘蛇裹足
 tagFeetC012=亵渎者之靴
@@ -1578,7 +1573,7 @@ tagFeetF004=收割者裹足
 tagFeetF005=收割者护胫
 
 
-#Rings戒指
+#Rings 戒指
 
 tagRingA001=^w铜指环
 tagRingA002=^w银指环
@@ -1625,7 +1620,7 @@ tagRingC010=抹杀
 tagRingC011=游魂指环☆
 tagRingC012=药剂师的智慧
 tagRingC013=皇冠印玺
-tagRingC014=皇冠宝戒 
+tagRingC014=皇冠宝戒
 tagRingC015=无畏之戒
 tagRingC016=无畏印玺
 tagRingC017=屠杀之右手戒☆
@@ -1694,7 +1689,7 @@ tagRingF011=神选火焰印戒
 tagRingF012=神选风暴印戒
 
 
-#Necklaces项链
+#Necklaces 项链
 
 tagNecklaceA00=盐袋
 tagNecklaceA00Desc="装满盐的袋子，似乎能够抵御恶灵。"
@@ -1822,7 +1817,7 @@ tagNecklaceF008=无尽愤怒坠饰
 tagNecklaceF009=虚空召唤者吊坠
 
 
-#Medals勋章
+#Medals 勋章
 
 tagMedalA001=^w绶带
 tagMedalA002=^w徽章
@@ -1910,7 +1905,7 @@ tagMedalF009=渎神的神选星章
 tagMedalF009Desc="尽管受到了敌人力量的污染，这枚勋章仍可用作正途。"
 
 
-#Blueprints设计图
+#Blueprints 设计图
 tagTestBlueprint=Blueprint:ItemNameoftheAwesomesauce
 tagTestBlueprintDescription="FlavortextoftheAwesomesauceitemthatisawesomeatthings."
 
@@ -2182,7 +2177,7 @@ tagBlueprint_MiscA01Desc=只有少数被选召的人才知晓打造这把钥匙�
 
 tagBlueprint_MaterialA01=^f设计图：虚化集簇
 
-#Relics圣物
+#Relics 圣物
 
 tagDeviceBonus=完成奖励
 tagDeviceTier01=注魔圣物
@@ -2397,7 +2392,7 @@ tagSuppliesHelp=[锻造材料用于设计图的打造]
 tagSuppliesError=
 
 
-#Consumables消耗品
+#Consumables 消耗品
 
 tagScrollDirections=[右击以使用]
 tagUseDirections=[右击以使用]
@@ -2512,14 +2507,14 @@ tagConsumable_DevotionReset_Desc="净化思绪并准备进行一场新的精神�
 
 #DLC幻化包
 tagDLCIllusionRemoval=除幻粉
-tagDLCIllusionRemovalDesc="100%纯度的正牌幻化清除药粉。"
-tagDLCIllusionA01=幻化：假发魔粉 
-tagDLCA01=假发魔粉  
+tagDLCIllusionRemovalDesc="100% 纯度的正牌幻化清除粉。"
+tagDLCIllusionA01=幻化：假发魔粉
+tagDLCA01=假发魔粉
 tagDLCA01Desc="高雅和风尚的定义。"
-tagDLCIllusionA02=幻化：侠盗的外套 
-tagDLCA02=侠盗的外套 
+tagDLCIllusionA02=幻化：侠盗的外套
+tagDLCA02=侠盗的外套
 tagDLCA02Desc="环游世界的首选着装。"
-tagDLCIllusionA03=赞助者的奖章 
+tagDLCIllusionA03=赞助者的奖章
 tagDLCA03=赞助者的奖章
 tagDLCA03Desc="表彰最忠诚的 Kickstarter 众酬支持者。"
 tagDLCIllusionA04=Kickstarter 服役勋章 
@@ -2531,17 +2526,17 @@ tagDLCA05Desc="纪念2012年伟大 Kickstarter 众酬战争的老兵徽章。"
 tagDLCIllusionA06=幻化：Kickstarter 士官勋章
 tagDLCA06=Kickstarter 士官勋章
 tagDLCA06Desc="纪念2012年伟大 Kickstarter 众酬战争的士官徽章。"
-tagDLCIllusionA07=幻化：上将之帽 
-tagDLCA07=上将之帽 
+tagDLCIllusionA07=幻化：上将之帽
+tagDLCA07=上将之帽
 tagDLCA07Desc="带头冲锋，不论陆地或是海洋。"
-tagDLCIllusionA08=幻化：南方邦联将军之盔 
-tagDLCA08=南方邦联将军之盔 
+tagDLCIllusionA08=幻化：南方邦联将军之盔
+tagDLCA08=南方邦联将军之盔
 tagDLCA08Desc="这顶头盔激发着坚定不移的忠诚。"
-tagDLCIllusionA09=幻化：掠夺者的恐惧头盔 
-tagDLCA09=掠夺者的恐惧头盔 
+tagDLCIllusionA09=幻化：掠夺者的恐惧头盔
+tagDLCA09=掠夺者的恐惧头盔
 tagDLCA09Desc="这顶头盔见证着数不清的流血冲突。"
-tagDLCIllusionA10=幻化：可敬战士之盔 
-tagDLCA10=可敬战士之盔 
+tagDLCIllusionA10=幻化：可敬战士之盔
+tagDLCA10=可敬战士之盔
 tagDLCA10Desc="一切皆为荣耀。"
 tagDLCConsumableA01=罐中精灵
 tagDLCConsumableA01Desc="一个人畜无害的精灵，困在了一个罐子里。"
@@ -2693,13 +2688,13 @@ tagDLCB25=五圣圈的长袍
 
 
 
-#ItemNote阅读记录
+#ItemNote 阅读记录
 
 tagNoteHelp=[右键点击来阅读]
 tagNoteKnown=[已读过]
 tagNoteExcerpt="{%t}......"
 
-#ItemEnchantment附魔
+#ItemEnchantment 附魔
 
 tagEnchanted=已附魔
 tagEnchantmentName=增幅
@@ -3302,7 +3297,7 @@ tagEnchantC017Desc="放逐者制作的特殊粉末，帮助使用者抵抗天空
 
 
 
-#ItemComponents镶嵌物
+#ItemComponents 镶嵌物
 
 tagComponentIncomplete=镶嵌物碎片
 tagComponentComplete=镶嵌物
@@ -3578,13 +3573,13 @@ tagCompAmmoBoxDesc="反抗组织总会有更多的枪弹来击退侵袭凯恩世
 tagCompAScrap=废铁
 tagCompAScrapDesc="可以用于固定和连接的废旧材料，例如子弹，皮绳和劣质的金属。"
 
-#ItemDifficultyUnlock物品难度解锁
+#ItemDifficultyUnlock 物品难度解锁
 tagDifficultyUnlock={^E}解锁 {%s0} 难度
 tagDifficultyAlreadyUnlocked=你已经解锁了该难度。
 tagDifficultyUnlockDLC=你未拥有与该物品关联的DLC。
 tagDifficultyIncorrectMode=你必须处于正确的游戏模式下才能使用此物品。
 
-#ItemFactionBoosters声望增幅
+#ItemFactionBoosters 声望增幅
 
 tagFactionBooster={^E}获得{%s1}的声望提升{^H}{%d0}%
 tagFactionAlreadyBoosted={^r}[你已经对这股势力使用过了委任状]
@@ -3634,30 +3629,30 @@ tagBoosterRO_B01=流浪者的委任状
 tagBoosterRO_B02=流浪者的高阶委任状
 tagBoosterRO_B03=流浪者的神话级委任状
 
-tagBoosterAetherial_C01=虚灵委任状
-tagBoosterAetherial_C02=高级虚灵委任状
-tagBoosterAetherial_C03=神话级虚灵委任状
-tagBoosterChthonian_C01=冥煞委任状
-tagBoosterChthonian_C02=高级冥煞委任状
-tagBoosterChthonian_C03=神话级冥煞委任状
-tagBoosterOutlaw_C01=克隆利的委任状
-tagBoosterOutlaw_C02=高级克隆利的委任状
-tagBoosterOutlaw_C03=神话级克隆利的委任状
-tagBoosterUndead_C01=安克维亚委任状
-tagBoosterUndead_C02=高级安克维亚委任状
-tagBoosterUndead_C03=神话级安克维亚委任状
-tagBoosterKC_C01=凯蒙的委任状
-tagBoosterKC_C02=高级凯蒙的委任状
-tagBoosterKC_C03=神话级凯蒙的委任状
-tagBoosterODV_C01=教团委任状
-tagBoosterODV_C02=高级教团委任状
-tagBoosterODV_C03=神话级教团委任状
-tagBoosterEXILE_C01=放逐者委任状
-tagBoosterEXILE_C02=高级放逐者委任状
-tagBoosterEXILE_C03=神话级放逐者委任状
+tagBoosterAetherial_C01=虚灵通缉令
+tagBoosterAetherial_C02=高级虚灵通缉令
+tagBoosterAetherial_C03=神话级虚灵通缉令
+tagBoosterChthonian_C01=冥煞通缉令
+tagBoosterChthonian_C02=高级冥煞通缉令
+tagBoosterChthonian_C03=神话级冥煞通缉令
+tagBoosterOutlaw_C01=克隆利的通缉令
+tagBoosterOutlaw_C02=高级克隆利的通缉令
+tagBoosterOutlaw_C03=神话级克隆利的通缉令
+tagBoosterUndead_C01=安克维亚通缉令
+tagBoosterUndead_C02=高级安克维亚通缉令
+tagBoosterUndead_C03=神话级安克维亚通缉令
+tagBoosterKC_C01=凯蒙的通缉令
+tagBoosterKC_C02=高级凯蒙的通缉令
+tagBoosterKC_C03=神话级凯蒙的通缉令
+tagBoosterODV_C01=教团通缉令
+tagBoosterODV_C02=高级教团通缉令
+tagBoosterODV_C03=神话级教团通缉令
+tagBoosterEXILE_C01=放逐者通缉令
+tagBoosterEXILE_C02=高级放逐者通缉令
+tagBoosterEXILE_C03=神话级放逐者通缉令
 
 
-#Misc杂项
+#Misc 杂项
 
 tagMoney01=铁币
 tagMoneyFormat={^s}{%d0}{%s1}
@@ -3682,32 +3677,33 @@ tagPotionDirections=[右键点击以使用]
 tagCombineStacks=[Ctrl+左键来拆分堆叠物品]
 tagHideTooltip=[按住Ctrl 来隐藏装备信息窗口]
 
-#Bonuses奖励
+#Bonuses 奖励
 tagBonusLifePercentAbsPercent={^E}恢复 {^H}{%.0f0}%+{%.0f1} {^E}生命 {^H}+{%.0f2}% {^E}持续恢复量
 tagBonusLifePercentPercent={^w}恢复 {^H}{%.0f0}% {^w}生命 {^H}+{%.0f1}% {^w}持续恢复量
-tagBonusLifePercentSlow={^E}回复 {^H}{%.0f0}% 生命 {^E} 持续回复量
+tagBonusLifePercentSlow={^E}恢复 {^H}{%.0f0}% 生命 {^E} 持续恢复量
 tagBonusLifePercentAbs={^w}恢复{^H}{%.0f0}%+{%.0f1}{^w}生命
 tagBonusLifePercent={^w}恢复{^H}{%.0f0}%{^w}生命
 tagBonusLifeAbs={^w}恢复{^H}{%.0f0}{^w}生命
-tagBonusLifeAbsBuff={^E}回复 {^H}{%.0f0} 生命/每秒 {^E}
-tagBonusLifePercentBuff={^E}回复 {^H}{%.0f0}% 生命/每秒 {^E}
+tagBonusLifeAbsBuff={^E}恢复 {^H}{%.0f0} 生命/每秒 {^E}
+tagBonusLifePercentBuff={^E}恢复 {^H}{%.0f0}% 生命/每秒 {^E}
 tagBonusManaPercentAbs={^w}恢复{^H}{%.0f0}%+{%.0f1}{^w}能量
-tagBonusManaPercent={^w}恢复{^H}{%.0f0}%{^w}的能量
+tagBonusManaPercent={^w}恢复{^H}{%.0f0}%{^w}能量
 tagBonusManaAbs={^w}恢复{^H}{%.0f0}%{^w}能量
-tagBonusExperience={%+d0}的经验值
+tagBonusExperience={%+d0}经验值
 tagBonusMoney={%+d0}铁币
 tagBonusSkillPoint={%+d0}技能点数
 tagBonusAttribPoint={%+d0}属性点数
+tagBonusManaPercentSlow={^E}持续恢复 {^H}{%.0f0}% {^E} 能量
+tagBonusManaAbsSlow={^E}持续恢复 {^H}{%.0f0} {^E} 能量
 
-
-#Devotion虔诚
+#Devotion 虔诚
 tagDevotionReset={^E}使用来重置你的虔诚点数
 tagDevotionNoPointsUsed={^r}[没有虔诚点数可以重置]
 tagDevotionResetConfirmation=重置所有虔诚点数？
 
 
 
-#ItemSets套装
+#ItemSets 套装
 
 
 tagItemSetC001Name=帝国卫兵的戎装
@@ -4305,7 +4301,7 @@ tagSuffixB042_Sh_A=^g·爆炎(火/OA/火反/反伤)
 tagSuffixB043_Sh_A=^g·飓风(电/OA/晕抗/盾挡)
 tagSuffixB044_Sh_A=^g·冰河(冰/%HP/冻抗)
 
-#ItemSkills物品技能
+#ItemSkills 物品技能
 
 tagAutoSkillCondition01= (当生命值低于{%.0f1}%时有 {%d0}% 的几率施放该技能)
 tagAutoSkillCondition02= (当能量值低于{%.0f1}%时有 {%d0}% 的几率施放该技能)
@@ -4320,7 +4316,7 @@ tagAutoSkillCondition10=(造成暴击时有 {%d0}% 的几率施放该技能)
 tagAutoSkillCondition11=(格挡时有 {%d0}% 的几率施放该技能)
 tagAutoSkillCondition12= (杀死怪物时有 {%d0}% 的几率施放该技能)
 
-#LootChests宝箱
+#LootChests 宝箱
 
 tagChestWoodA01=风化的箱子
 tagChestRationA01={^Y}旅行者的包
@@ -4416,12 +4412,12 @@ tagChestOneShot_CultistSummoner={^M}卡若兹的宝箱
 tagChestOneShot_ChthonicAbomination={^I}冥煞宝箱
 tagChestOneShot_HiddenWealth={^I}隐藏的宝藏
 
-#InteractiveObjects交互物体
+#Interactive Objects 交互物体
 tagShrineConstitutionA01=未动过的食物
 tagShrineBossLocked= {^R} ~ 由强大的存在封印着
 tagShrineMogdrogenLocked= {^R} ~ 由冥煞能量封印着
 
-#Breakables可破坏
+#Breakables 可破坏
 
 tagWoodenDoor=木门
 tagBarnDoor=谷仓门
@@ -4432,7 +4428,7 @@ tagBreakableStoneWall=破碎之墙
 tagBreakableNaturalWall=松散的土堆
 tagBreakableObsidianWall=破碎的黑曜石
 
-#DungeonDoors地下城大门
+#DungeonDoors 地下城大门
 
 tagUGDoorCave01=洞穴入口
 tagUGDoorTrapdoor01=陷阱门
@@ -4459,7 +4455,7 @@ tagDoorLever01=吊门控制器
 tagTorchLever01=松动的火把
 tagStoneLever01=松动的石块
 
-#Doors门
+#Doors 门
 
 tagCellDoor=牢门
 tagPrisonEntranceDoor=伯尔维治监狱大门
@@ -4486,7 +4482,7 @@ tagLocked_Outcast= {^R} ~ 由安娜斯特瑞娅封印着
 tagLocked_BoCGauntlet= {^R} ~ 由守卫者封印着
 tagLocked_WitchGods= {^R} ~ 被邪能封印着
 
-#QuestRewards任务奖励
+#QuestRewards 任务奖励
 
 tagQuestItemBrothersAmulet=妹妹的护身符
 tagQuestItemBrothersAmuletDesc="致亲爱的哥哥：愿这枚护身符护佑你在战斗中勇不可当-西比尔"
@@ -4518,6 +4514,3 @@ tagSlotUnknown= (未装备)
 #v1.2.1.0
 tagShowDetails=[按住 Ctrl 来查看详情]
 tagShowDetailsGamepad=^O[长按 LT 键查看详情]
-tagConsumableCategoryElixirDesc=^o你一次只能获得一种药剂的效果。
-tagConsumableCategoryOilDesc=^o你一次只能获得一种油的效果。
-tagConsumableCategoryTinctureDesc=^o需打破药瓶的药剂共享冷却。

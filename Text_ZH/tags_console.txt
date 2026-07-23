@@ -136,4 +136,4 @@ tagConsoleXBoxLiveUnavailable=无网络连接
 tagConsoleMultiplayerHighLatency=高延迟
 
 #Dialogs 对话
-tagConsoleConfirmReportUser=你确定要报告 {^b}{%t0}{^-} 吗？
+tagConsoleConfirmReportUser=确定要举报 {^b}{%t0}{^-} 吗？

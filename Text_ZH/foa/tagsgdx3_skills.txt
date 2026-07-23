@@ -21,29 +21,29 @@ tagGDX3Class10SkillDescription00A=不羁的野性，淬炼为势不可当的战�
 
 tagGDX3Class10SkillName01A=^g<^F狂战^g>^c狼人形态 ^s(Werewolf)
 tagGDX3Class10SkillDescription01A=在库恩与伊露兰的古老战争中，沐浴莫格卓根恩赐的库恩狂战士曾是战场上最令人胆寒的梦魇。时至今日，记述那些战士的传说仍将库恩人描绘为残暴嗜血的怪物。凭借莫格卓根的赐福，你将能够化身为狼人形态，在变形持续期间获得新的加成与技能。^o狼人形态拥有独特的基础攻击，且无法触发武技。
-tagGDX3Class10SkillWerewolfAbilityName01A=^g<^F狂战^g>^c野性利爪 ^s(Feral Claws)
-tagGDX3Class10SkillWerewolfAbilityDescription01A=你挥舞残暴的利爪，横扫敌人阵线。
-tagGDX3Class10SkillWerewolfAbilityName02A=^g<^F狂战^g>^c狂乱撕扯 ^s(Rip and Tear)
-tagGDX3Class10SkillWerewolfAbilityDescription02A=你沿直线在敌群中撕开一条血路，将不值一提的弱者通通撞开。
 tagGDX3Class10SkillName01B=^g<^F狂战^g>^c贪噬 ^s(Voracity)
 tagGDX3Class10SkillDescription01B=你心中如恶狼般贪婪的饥渴，唯有敌人鲜活的生命才能满足。^o处于狼人形态时强化野性利爪的效果。
 tagGDX3Class10SkillName01C=^g<^F狂战^g>^c血莽 ^s(Recklessness)
 tagGDX3Class10SkillDescription01C=你对敌人展开不计后果的疯狂撕扯，每次造成^o暴击都能延长狼性狂暴的持续时间。
-tagGDX3Class10SkillName01D=冥煞之疫
+tagGDX3Class10SkillName01D=冥煞之疫 ^s(Blight of Ch'thon)
 tagGDX3Class10SkillDescription01D=冥神的腐化毒血在你体内根深蒂固，将你的变身形态扭曲为一头满心毁灭的嗜血畸变体。
+tagGDX3Class10SkillWerewolfAbilityName01A=^g<^F狂战^g>^c野性利爪 ^s(Feral Claws)
+tagGDX3Class10SkillWerewolfAbilityDescription01A=你挥舞残暴的利爪，横扫敌人阵线。
+tagGDX3Class10SkillWerewolfAbilityName02A=^g<^F狂战^g>^c狂乱撕扯 ^s(Rip and Tear)
+tagGDX3Class10SkillWerewolfAbilityDescription02A=你沿直线在敌群中撕开一条血路，将不值一提的弱者通通撞开。
 
 tagGDX3Class10SkillName02A=^g<^F狂战^g>^c鸦人形态 ^s(Wereraven)
 tagGDX3Class10SkillDescription02A=众所周知，库恩古魔士能够化身为恐怖巨鸦，以利爪与冰魔法令敌人闻风丧胆。藉由莫格卓根的指引与赐福，你也能够变化为鸦人形态，在变形持续期间获得新的加成与技能。^o鸦人形态拥有独特的基础攻击，且无法触发武技。
-tagGDX3Class10SkillWereravenAbilityName01A=^g<^F狂战^g>^c寒冰之爪 ^s(Ice Talons)
-tagGDX3Class10SkillWereravenAbilityDescription01A=你幻化出凶残的冰霜利爪，将眼前的敌人尽数撕碎。
-tagGDX3Class10SkillWereravenAbilityName02A=^g<^F狂战^g>^c霜暴 ^s(Cold Snap)
-tagGDX3Class10SkillWereravenAbilityDescription02A=你将鸦爪猛然砸向地面，释放一波向外扩散的冰刺。^o冰刺造成的初始伤害降低 25%，随着向外扩散逐渐提升至最大威力。
 tagGDX3Class10SkillName02B=^g<^F狂战^g>^c冰川之爪 ^s(Glacial Talons)
 tagGDX3Class10SkillDescription02B=你的寒冰之爪中注入了阿斯特堪的冰川之力，不仅攻击距离更远，冰冷效果也更持久。^o处于鸦人形态时强化寒冰之爪的效果。
 tagGDX3Class10SkillName02C=^g<^F狂战^g>^c永冬 ^s(Everwinter)
 tagGDX3Class10SkillDescription02C=你彻底掌握了阿斯特堪的冰冷寒意，化身为鸦人时技能的冰冷效果大幅增强。
-tagGDX3Class10SkillName02D=冥神之爪
+tagGDX3Class10SkillName02D=冥神之爪 ^s(Talons of Ch'thon)
 tagGDX3Class10SkillDescription02D=你的鸦爪浸染过冥神的污血，其锋刃甚至能撕裂现实，令整个宇宙为之震颤。
+tagGDX3Class10SkillWereravenAbilityName01A=^g<^F狂战^g>^c寒冰之爪 ^s(Ice Talons)
+tagGDX3Class10SkillWereravenAbilityDescription01A=你幻化出凶残的冰霜利爪，将眼前的敌人尽数撕碎。
+tagGDX3Class10SkillWereravenAbilityName02A=^g<^F狂战^g>^c霜暴 ^s(Cold Snap)
+tagGDX3Class10SkillWereravenAbilityDescription02A=你将鸦爪猛然砸向地面，释放一波向外扩散的冰刺。^o冰刺造成的初始伤害降低 25%，随着向外扩散逐渐提升至最大威力。
 
 tagGDX3Class10SkillName03A=^g<^F狂战^g>^c猛袭 ^s(Onslaught)
 tagGDX3Class10SkillDescription03A=库恩狂战士擅长以一系列佯攻麻痹对手，待对手自以为胜券在握时，再使出致命的雷霆一击。^o作为默认武器攻击使用时，猛袭将会积攒层数，并在你施放下一个冷却型攻击技能时消耗所有层数，造成额外伤害。
@@ -51,7 +51,7 @@ tagGDX3Class10SkillName03B=^g<^F狂战^g>^c开裂创口 ^s(Open Wounds)
 tagGDX3Class10SkillDescription03B=你的猛袭留下一道道狰狞伤口，将敌人逐渐拖垮。
 tagGDX3Class10SkillName03C=^g<^F狂战^g>^c无尽狂怒 ^s(Endless Rage)
 tagGDX3Class10SkillDescription03C=你延长猛袭攻势，将怒火积蓄至极致后，再一举倾泻向敌人。
-tagGDX3Class10SkillName03D=冥神契约
+tagGDX3Class10SkillName03D=冥神契约 ^s(Covenant of Ch'thon)
 tagGDX3Class10SkillDescription03D=你在武器上铭刻冥神的烙印，将满腔怒火转化为狠戾的重击，每一击都充盈着虚空之力。
 
 tagGDX3Class10SkillName04A=^g<^F狂战^g>^c跃击 ^s(Leap)
@@ -63,7 +63,7 @@ tagGDX3Class10SkillName05A=^g<^F狂战^g>^c集结战吼 ^s(Rallying Cry)
 tagGDX3Class10SkillDescription05A=发出一声激昂的战吼，令自身与盟友焕发斗志，引领所有人重整旗鼓。
 tagGDX3Class10SkillName05B=^g<^F狂战^g>^c狂涌 ^s(Impulse)
 tagGDX3Class10SkillDescription05B=集结战吼将令你肾上腺素狂飙，感觉自己所向披靡。
-tagGDX3Class10SkillName05C=狂暴战吼
+tagGDX3Class10SkillName05C=狂暴战吼 ^s(Frenzied Cry)
 tagGDX3Class10SkillDescription05C=库恩狂战士在战场上，宛如一股永不枯竭的毁灭洪流。他们的战吼足以压过一切惨叫与厮杀的声音。狂战士踏上这条狂暴之路后，集结战吼的使用频率将得到提升。^o属于近战与远程双持技能，可解锁双持近战与远程武器的能力。
 
 tagGDX3Class10SkillName06A=^g<^F狂战^g>^c阿玛托克契约 ^s(Amatok's Pact)
@@ -133,6 +133,12 @@ tagGDX3ItemSkillB307Desc=在地面上释放一圈腐化棘刺。
 tagGDX3ItemSkillB308Name=寒冰爆刺
 tagGDX3ItemSkillB308Desc=在地面上释放一圈寒冰棘刺。
 
+tagGDX3ItemSkillB309Name=虚化侵袭
+tagGDX3ItemSkillB309Desc=虚化能量在你掌中凝聚，每次攻击都会灼烧敌人。^o作为默认武器攻击使用时，虚化侵袭将会积攒层数，并在你施放下一个冷却型攻击技能时消耗所有层数，造成额外伤害。
+
+tagGDX3ItemSkillB310Name=冰刺冲击
+tagGDX3ItemSkillB310Desc=你将盾牌猛砸向地面，在周围爆发出一片寒冰棘刺。^o此战技由默认武器攻击触发。
+
 tagGDX3ItemSkillC301Name=毒刺新星
 tagGDX3ItemSkillC301Desc=在你周围爆发带毒的尖刺，贯穿附近的敌人。
 
@@ -144,6 +150,9 @@ tagGDX3ItemSkillC303Desc=受到虚空侵蚀的尖刺在你周围接连爆发，�
 
 tagGDX3ItemSkillC304Name=血鬃
 tagGDX3ItemSkillC304Desc=血鬃之灵在你体内涌动。
+
+tagGDX3ItemSkillC305Name=文本
+tagGDX3ItemSkillC305Desc=文本
 
 tagGDX3ItemSkillD301Name=帷幕之风
 tagGDX3ItemSkillD301Desc=召唤炽热的帷幕之风灼烧敌人。^o帷幕之风的伤害受玩家伤害加成影响。
@@ -161,7 +170,9 @@ tagGDX3ItemSkillD305Name=次元石防御者
 tagGDX3ItemSkillD305Desc=以盾牌为媒介连接虚空，为手中的武器注入邪恶能量。^o提供单手远程武器被动加成。
 
 tagGDX3ItemSkillD306Name=永恒飞矢
+tagGDX3ItemSkillD306NameB=永恒激射
 tagGDX3ItemSkillD306Desc=发射一道天界弹矢，撕裂你周围的现实。
+tagGDX3ItemSkillD306DescB=发射数道天界弹矢，撕裂你周围的现实。
 
 tagGDX3ItemSkillD307Name=吞世者
 tagGDX3ItemSkillD307Desc=虚空能量爆发并向目标凝聚。
@@ -307,9 +318,49 @@ tagGDX3ItemSkillD354Desc=适用于所有场合的巧妙伪装。^o近战双持�
 tagGDX3ItemSkillD355Name=芬里斯之牙
 tagGDX3ItemSkillD355Desc=携白色巨狼的凶暴之势向敌人发起猛攻。
 
+tagGDX3ItemSkillD356Name=血欲
+tagGDX3ItemSkillD356Desc=嗜血的欲望在体内蠢蠢欲动，令你血脉偾张。
+
+tagGDX3ItemSkillD357Name=天体残片
+tagGDX3ItemSkillD357Desc=一块天体残片从天而降砸向敌人。
+
+tagGDX3ItemSkillD358Name=召唤活体毒花
+tagGDX3ItemSkillD358Desc=一株开花藤蔓破土而出，向敌人喷吐毒素。^o活体毒花的伤害受玩家伤害加成影响。
+
+tagGDX3ItemSkillD359Name=召唤活体花苞
+tagGDX3ItemSkillD359Desc=一株活体花苞破土而出，向周围的空气分泌剧毒毒素。^o活体花苞的伤害受玩家伤害加成影响。
+
+tagGDX3ItemSkillD360Name=食梦者
+tagGDX3ItemSkillD360Desc=吞噬敌人的梦境，吸取其精魄并转化为活力。
+
+tagGDX3ItemSkillD361Name=异端暗袭
+tagGDX3ItemSkillD361Desc=将手中武器化为亵渎之举的延伸，在每一击中散播异端之力。^o作为默认武器攻击使用时，异端暗袭将会造成额外伤害。
+
+tagGDX3ItemSkillD362Name=溅血
+tagGDX3ItemSkillD362Desc=令敌人的鲜血向四周飞溅。
+
+tagGDX3ItemSkillD363Name=敲头
+tagGDX3ItemSkillD363Desc=抡起手中的巨木给予敌人迎头痛击。^o双手近战战技，由默认武器攻击触发。
+
+tagGDX3ItemSkillD364Name=帷幕撕裂者
+tagGDX3ItemSkillD364Desc=以一连串狂暴攻击撕裂位面之间的帷幕。^o近战战技，由默认武器攻击触发。
+
+tagGDX3ItemSkillD365Name=永恒魔咒
+tagGDX3ItemSkillD365Desc=释放一道能够无限传染的咒语，扭曲敌人的现实，令其陷入疯狂。
+
+tagGDX3ItemSkillD366Name=黑暗溪谷
+tagGDX3ItemSkillD366Desc=凯恩的痛苦回荡在地底深处，随后化为暗影洪流向你四周奔涌而出。
+
+tagGDX3ItemSkillD367Name=月之印记
+tagGDX3ItemSkillD367Desc=幽冷的月光标记你的敌人。
+
+tagGDX3ItemSkillD368Name=召唤白色巨狼
+tagGDX3ItemSkillD368Desc=召唤野兽之神莫格卓根的化身降临战场。 ^o同一时间只能召唤一头狼。狼会受到战宠加成的影响。
 tagGDX3ItemSkillD368_Pet01=莫格卓根之威
 tagGDX3ItemSkillD368_Pet01Desc=白色巨狼释放恐怖威压，粉碎周围敌人的防御。
 
+tagGDX3ItemSkillD369Name=略微下降
+tagGDX3ItemSkillD369Desc=这个 BD 明显需要削弱。
 
 #Relic Skills
 
@@ -347,27 +398,19 @@ tagGDX3RelicSkillD306Skill02Desc=仰天长啸，恳求天神眷顾。
 
 #ConsumableSkills
 
-tagGDX3_SummonDevourer=召唤小饿魔
-tagGDX3_SummonDevourerDesc=从虚空中召唤一头饥肠辘辘的小饿魔。^o同一时间只能召唤一头小饿魔，且不具备任何战斗能力。
+tagGDX3_SummonMiniLizardName=召唤迷你噬龙
+tagGDX3_SummonMiniLizardDesc=召唤强大的科凡迷你噬龙，小小的身躯中藏着凶兽的灵魂。^o同一时间只能召唤一头科凡迷你噬龙，且不具备任何战斗能力。
 
 tagGDX3_SummonMaggotName=召唤天界蛆虫
 tagGDX3_SummonMaggotDesc=从碎裂之境召唤一条蠕动的蛆虫。^o同一时间只能召唤一条天界蛆虫，且不具备任何战斗能力。
 
-tagGDX3_SummonMiniLizardName=召唤迷你噬龙
-tagGDX3_SummonMiniLizardDesc=召唤强大的科凡迷你噬龙，小小的身躯中藏着凶兽的灵魂。^o同一时间只能召唤一头科凡迷你噬龙，且不具备任何战斗能力。
-
-# tagGDX3_SummonMiniBeaverName=Summon Kastorran Pup
-# tagGDX3_SummonMiniBeaverDesc=Attract the attention of a small Kastorran that has not yet learned to fear humans. ^oOnly one Kastorran Pup can be summoned at any one time. Kastorran Pups are strictly non-violent.
-
-# tagGDX3_SummonMiniYeti=Summon Dire Runt
-# tagGDX3_SummonMiniYetiDesc=Befriend a Diremane that was rejected by its pack. ^oOnly one Dire Runt can be summoned at any one time. Dire Runts are strictly non-violent.
-
-# tagGDX3_SummonMiniRocName=Summon Roc Chick
-# tagGDX3_SummonMiniRocDesc=Call a loyal Roc to fly besides you. ^oOnly one Roc Chick can be summoned at any one time. Roc Chicks are strictly non-violent.
+tagGDX3_SummonDevourer=召唤小饿魔
+tagGDX3_SummonDevourerDesc=从虚空中召唤一头饥肠辘辘的小饿魔。^o同一时间只能召唤一头小饿魔，且不具备任何战斗能力。
 
 
 #SkillsQuest
-
+tagGDX3QuestSkillA01=深渊之焰
+tagGDX3QuestSkillA01_Desc=你沐浴在深渊之焰中，浑身散发着灼热的高温。
 
 
 #FactionSkills
@@ -375,6 +418,9 @@ tagGDX3_SummonMiniLizardDesc=召唤强大的科凡迷你噬龙，小小的身躯
 tagGDX3FactionSkillA01=阿玛托克的祝福
 tagGDX3FactionSkillA01_Desc=附近一名库恩德鲁伊为你施加了庇护，元素抗性提升。
 
+
+#SkillModifier
+tagPermanentDuration=永久持续时间
 
 
 #EnemySkills

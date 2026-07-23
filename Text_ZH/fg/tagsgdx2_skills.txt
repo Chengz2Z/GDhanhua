@@ -141,9 +141,9 @@ tagGDX2ItemSkillD203Desc=持续低迷煽动你的愤怒。
 
 tagGDX2ItemSkillD204Name=灵魂尖啸
 tagGDX2ItemSkillD204Desc=从你身上爆发出一阵灵魂尖啸，并且吞噬所有的生命。
-tagGDX2ItemSkillD204BName=灵魂觉醒
-tagGDX2ItemSkillD204BDesc=你的弹药化作灵魂的觉醒，吞噬一切生命。^n^o这是一个远程技能，由普通武器攻击触发。
 
+tagGDX2ItemSkillD204BName=灵魂激流
+tagGDX2ItemSkillD204BDesc=你的弹药化为一道灵魂激流，吞噬前方一切生灵。^o远程技能，由默认武器攻击触发。
 
 tagGDX2ItemSkillD205Name=血色冲击
 tagGDX2ItemSkillD205Desc=从你身上爆发出一阵鲜血冲击，将你的敌人笼罩在一片血海之中。
@@ -317,8 +317,9 @@ tagGDX2ItemSkillD259Desc=你的存在让附近的敌人充满了对地穴的恐�
 
 tagGDX2ItemSkillD260Name=帷幕波纹
 tagGDX2ItemSkillD260Desc=一股强大的虚化能量从你身上荡漾而出。
-tagGDX2ItemSkillD260BName=面纱涟漪
-tagGDX2ItemSkillD260BDesc=一股强大的以太能量从你身上涟漪般扩散开来。^n^o这是一个近战技能，由普通武器攻击触发。
+
+tagGDX2ItemSkillD260BName=帷幕涟漪
+tagGDX2ItemSkillD260BDesc=一股强大的虚化能量从你身上激荡而出。^o近战技能，由默认武器攻击触发。
 
 tagGDX2ItemSkillD261Name=海瑞恩之爪
 tagGDX2ItemSkillD261Desc=用你盾牌里已注入的海瑞恩之力猛击你的敌人。

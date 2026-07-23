@@ -1,6 +1,10 @@
 
+tagStyleUniqueAwakened=觉醒
+tagStyleAscended=飞升
+tagCraftingAwakened=^O（可使用觉醒余烬升级）
 
 #Weapons 剑
+
 tagGDX3WeaponSwordB301=^l战骨残暴之刃
 tagGDX3WeaponSwordB302=^l战骨结霜之刃
 tagGDX3WeaponSwordB303=^l战骨染血之刃
@@ -19,8 +23,26 @@ tagGDX3WeaponSwordF301=库恩长剑
 tagGDX3WeaponSwordF302=赫若瑟纳尔之爪
 tagGDX3WeaponSwordF302_Desc="赫若瑟纳尔尚未成王时获得的第一把剑刃。"
 
+#Weapons 锤
+
+tagGDX3WeaponBluntB301=^l原初之核
+tagGDX3WeaponBluntB301_Desc="具有生命的岩石。"
+tagGDX3WeaponBluntB302=^l原初之石
+
+tagGDX3WeaponBluntC301=结霜血肉
+
+tagGDX3WeaponBluntD301=永恒之金
+tagGDX3WeaponBluntD302=破灭峭壁之裔
+tagGDX3WeaponBluntD302_Desc="握住这把武器的瞬间，无数毁灭幻象涌入你的脑海。"
+tagGDX3WeaponBluntD303=余烬降生之槌
+tagGDX3WeaponBluntD305=完全正常的巨棒
+
+tagGDX3WeaponBluntF301=库恩棍锤
+tagGDX3WeaponBluntF302=邓恩之颅
+tagGDX3WeaponBluntF302_Desc="邓恩总说自己的脑袋够硬，能把别人的头骨砸得粉碎。他还真没吹牛。"
 
 #Weapons 斧
+
 tagGDX3WeaponAxeB301=^l格鲁迪尔的染秽斩斧
 tagGDX3WeaponAxeB301_Desc="从古至今，恐惧荒地的格鲁迪尔曾无数次战死沙场，然而体内不灭的黑暗让他每次都能起死回生，带领血羁卷土重来。"
 tagGDX3WeaponAxeB302=^l格鲁迪尔的炽燃斩斧
@@ -39,26 +61,8 @@ tagGDX3WeaponAxeD306=极地冰寒
 tagGDX3WeaponAxeF301=库恩斩斧
 tagGDX3WeaponAxeF302=扭曲之锋
 
-
-#Weapons 锤
-tagGDX3WeaponBluntB301=^l原初之核
-tagGDX3WeaponBluntB301_Desc="具有生命的岩石。"
-tagGDX3WeaponBluntB302=^l原初之石
-
-tagGDX3WeaponBluntC301=结霜血肉
-
-tagGDX3WeaponBluntD301=永恒之金
-tagGDX3WeaponBluntD302=破灭峭壁之裔
-tagGDX3WeaponBluntD302_Desc="握住这把武器的瞬间，无数毁灭幻象涌入你的脑海。"
-tagGDX3WeaponBluntD303=余烬降生之槌
-tagGDX3WeaponBluntD305=完全正常的巨棒
-
-tagGDX3WeaponBluntF301=库恩棍锤
-tagGDX3WeaponBluntF302=邓恩之颅
-tagGDX3WeaponBluntF302_Desc="邓恩总说自己的脑袋够硬，能把别人的头骨砸得粉碎。他还真没吹牛。"
-
-
 #Weapons 远程单手
+
 tagGDX3WeaponGun1hB301=^l邪暴发射器
 tagGDX3WeaponGun1hB301_Desc="连通着邪术领域的万变之威。"
 tagGDX3WeaponGun1hB302=^l邪焰发射器
@@ -75,8 +79,8 @@ tagGDX3WeaponGun1hD304=扭转命运之针
 tagGDX3WeaponGun1hF301=库恩奥秘穿刺者
 tagGDX3WeaponGun1hF302=秽舌
 
-
 #Weapons 远程双手
+
 tagGDX3WeaponGun2hB301=^l腐物反刍者
 tagGDX3WeaponGun2hB302=^l酸液反刍者
 tagGDX3WeaponGun2hB303=^l疫病散布者
@@ -92,8 +96,8 @@ tagGDX3WeaponGun2hD303_Desc="这把武器的核心中，燃烧着如同垂死恒
 tagGDX3WeaponGun2hF301=库恩强弩
 tagGDX3WeaponGun2hF302=冰牙
 
-
 #Weapons 双手近战
+
 tagGDX3WeaponMelee2hB301=^l岩石琢刻之刃
 tagGDX3WeaponMelee2hB301_Desc="乍看之下，这柄剑刃似乎只是件礼器，但那锋锐的刃口瞬间便能打消对其真正用途的一切质疑。"
 tagGDX3WeaponMelee2hB302=^l虚空琢刻之刃
@@ -133,8 +137,8 @@ tagGDX3WeaponMelee2hF303_Desc="赫拉纳克一族的烈焰之刃，如同正午�
 tagGDX3WeaponMelee2hF304="血之遗产"安布拉多
 tagGDX3WeaponMelee2hF304_Desc="浸透库恩之敌鲜血所铸就的战争遗产。"
 
-
 #Weapons 法器
+
 tagGDX3WeaponCaster1hB301=^l尤拉左眼
 tagGDX3WeaponCaster1hB301_Desc="尤拉的双眼让她看到了地狱烈焰与黑暗的幻象，于是她选择自剜双目。"
 tagGDX3WeaponCaster1hB302=^l尤拉右眼
@@ -156,18 +160,18 @@ tagGDX3WeaponCaster1hC303_Desc="用来解决那些比较大条的史。"
 tagGDX3WeaponCaster1hD301=寡妇脊骨
 tagGDX3WeaponCaster1hD302=无穷奥秘
 tagGDX3WeaponCaster1hD303=★暗影之心
-tagGDX3WeaponCaster1hD303_Desc="满足一切黑暗欲望的绝佳拍档。"
 tagGDX3WeaponCaster1hD303A=喑影之必
-tagGDX3WeaponCaster1hD303A_Desc="刃身上写着一行字：高仿复刻品-系列编号 1/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303B=暗景之心
-tagGDX3WeaponCaster1hD303B_Desc="刃身上写着一行字：高仿复刻品-系列编号 2/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303C=暗影之七
-tagGDX3WeaponCaster1hD303C_Desc="刃身上写着一行字：高仿复刻品-系列编号 3/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303D=暗影之沁
-tagGDX3WeaponCaster1hD303D_Desc="刃身上写着一行字：高仿复刻品-系列编号 4/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303E=暗影之芯
-tagGDX3WeaponCaster1hD303E_Desc="刃身上写着一行字：高仿复刻品-系列编号 5/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303F=暗影乏心
+tagGDX3WeaponCaster1hD303_Desc="满足一切黑暗欲望的绝佳拍档。"
+tagGDX3WeaponCaster1hD303A_Desc="刃身上写着一行字：高仿复刻品-系列编号 1/6。不可作为献给原初之力的祭品。
+tagGDX3WeaponCaster1hD303B_Desc="刃身上写着一行字：高仿复刻品-系列编号 2/6。不可作为献给原初之力的祭品。
+tagGDX3WeaponCaster1hD303C_Desc="刃身上写着一行字：高仿复刻品-系列编号 3/6。不可作为献给原初之力的祭品。
+tagGDX3WeaponCaster1hD303D_Desc="刃身上写着一行字：高仿复刻品-系列编号 4/6。不可作为献给原初之力的祭品。
+tagGDX3WeaponCaster1hD303E_Desc="刃身上写着一行字：高仿复刻品-系列编号 5/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD303F_Desc="刃身上写着一行字：高仿复刻品-系列编号 6/6。不可作为献给原初之力的祭品。
 tagGDX3WeaponCaster1hD304="北方之星"阿斯特洛诺斯
 tagGDX3WeaponCaster1hD304_Desc="仰望星空可以获得前进的动力，但妄想摘星则无异于痴人说梦。"
@@ -186,8 +190,8 @@ tagGDX3WeaponCaster1hF303_Desc="在风暴的祝福下，桑多希尔的锋刃破
 tagGDX3WeaponCaster1hF304="罡风"阿努弗尔
 tagGDX3WeaponCaster1hF304_Desc="阿斯特堪的凛冽之息自剑刃上吹拂而出。"
 
-
 #Shields 盾牌
+
 tagGDX3ShieldB301=^l长鬃骨盾
 tagGDX3ShieldB301_Desc="其中寄宿有角兽的灵魂，能够引出使用者体内的荒蛮之力。"
 tagGDX3ShieldB302=^l长鬃虚空盾
@@ -213,8 +217,8 @@ tagGDX3ShieldF302=次元石壁垒
 tagGDX3ShieldF302_Desc="来自另一个纪元的遗物，曾见证过后世难以企及的纷争与杀戮。"
 tagGDX3ShieldF303=无畏
 
-
 #Focus 副手
+
 tagGDX3FocusB301=^l格罗布冰霜雕像
 tagGDX3FocusB302=^l格罗布虚空雕像
 tagGDX3FocusB303=^l恐鬃之角
@@ -243,7 +247,9 @@ tagGDX3FocusF301=库恩驭兽之杖
 tagGDX3FocusF302=阿斯特堪之魂
 
 
+
 #ArmorHead 头盔
+
 tagGDX3HeadB301=^l铁眼头盔
 tagGDX3HeadB302=^l铁眼兜盔
 tagGDX3HeadB303=^l奈亚拉松的凝视
@@ -298,7 +304,9 @@ tagGDX3HeadF305=库恩浸毒兜盔
 tagGDX3HeadF306=库恩火舌兜盔
 
 
+
 #ArmorShoulders 护肩
+
 tagGDX3ShoulderB300=^l羽翎披肩
 tagGDX3ShoulderB301=^l血羁护肩
 tagGDX3ShoulderB302=^l血羁肩胄
@@ -355,7 +363,9 @@ tagGDX3ShoulderF305=库恩虚空肩铠
 tagGDX3ShoulderF306=库恩雷击肩铠
 
 
+
 #ArmorTorso 胸甲
+
 tagGDX3TorsoB301=^l血羁战衣
 tagGDX3TorsoB302=^l血羁护甲
 tagGDX3TorsoB303=^l受难胸笼
@@ -389,7 +399,9 @@ tagGDX3TorsoF305=库恩帷幕胸铠
 tagGDX3TorsoF306=库恩火舌胸铠
 
 
+
 #ArmorHands 护手
+
 tagGDX3HandsC301=污秽沼泽护手
 
 tagGDX3HandsD301=制疤者
@@ -401,7 +413,9 @@ tagGDX3HandsD306=余烬降生护手
 tagGDX3HandsD307=博学者的符文
 
 
+
 #ArmorLegs 护腿
+
 tagGDX3LegsB301=^l幽域之主腿甲
 tagGDX3LegsB302=^l幽域之主腿铠
 tagGDX3LegsB303=^l收割者的裹腿
@@ -417,7 +431,9 @@ tagGDX3LegsD305=血月护腿
 tagGDX3LegsD306=黑刃护腿
 
 
+
 #ArmorFeet 靴子
+
 tagGDX3FeetC301=黑曜石践踏者
 
 tagGDX3FeetD301=血雾长靴
@@ -425,7 +441,9 @@ tagGDX3FeetD302=酸液胫甲
 tagGDX3FeetD303=豺狼步法
 
 
+
 #ArmorWaist 腰带
+
 tagGDX3WaistB301=^l蝎狮束腰
 tagGDX3WaistB302=^l蝎狮护腰
 tagGDX3WaistB303=^l硬壳腰带
@@ -445,7 +463,9 @@ tagGDX3WaistF301A=库恩寒冽护腰
 tagGDX3WaistF301B=库恩寒冽束腰
 
 
+
 #Rings 戒指
+
 tagGDX3RingB301=^l编织者指环
 tagGDX3RingB302=^l编织者戒指
 tagGDX3RingB303=^l惧丝指环
@@ -478,7 +498,10 @@ tagGDX3RingF306=吞世者印戒
 tagGDX3RingF307=无情者指环
 
 
+
+
 #Necklaces 项链
+
 tagGDX3NecklaceB301=^l希尔瓦莉亚的根须
 tagGDX3NecklaceB302=^l希尔瓦莉亚的棘刺
 tagGDX3NecklaceB303=^l伊克萨的统御
@@ -491,6 +514,7 @@ tagGDX3NecklaceC302=炽热蔑视护符
 tagGDX3NecklaceC303=仲冬之忆
 
 tagGDX3NecklaceD113J=狂乱低语之引
+
 tagGDX3NecklaceD301=正义化身
 tagGDX3NecklaceD301_Desc="人类七大神圣美德之四。"
 tagGDX3NecklaceD302=天神之眼
@@ -515,7 +539,9 @@ tagGDX3NecklaceF304=疤石纪念项链
 tagGDX3NecklaceF305=帷幕低语者
 
 
+
 #Medals 勋章
+
 tagGDX3MedalB300=贝坎之印
 tagGDX3MedalB300_Desc="带有此印记者，方有资格踏入真正的贝坎殿堂。"
 tagGDX3MedalB3000=N'erf 印记
@@ -556,7 +582,9 @@ tagGDX3MedalF304=永恒者徽记
 tagGDX3MedalF305=血之欺诈徽记
 
 
+
 #Blueprints 设计图
+
 tagGDX3Blueprint_RelicC301=设计图：圣物-永霜
 tagGDX3Blueprint_RelicD301=设计图：圣物-恶噬
 tagGDX3Blueprint_RelicD302=设计图：圣物-破冰
@@ -564,21 +592,13 @@ tagGDX3Blueprint_RelicD303=设计图：圣物-贝若纳斯之嚎
 tagGDX3Blueprint_RelicD304=设计图：圣物-极光
 tagGDX3Blueprint_RelicD305=设计图：圣物-阿玛托克之握
 
-tagGDX3Blueprint_AccessoryD301=设计图：狱火束带
-tagGDX3Blueprint_AccessoryD302=设计图：寡妇毒牙
-tagGDX3Blueprint_AccessoryD303=设计图：异端敕令
-tagGDX3Blueprint_AccessoryF301=设计图：疤石
-tagGDX3Blueprint_AccessoryF302=设计图：帷幕低语者
-tagGDX3Blueprint_AccessoryF303=设计图：永恒者徽记
-tagGDX3Blueprint_AccessoryF304=设计图：血之欺诈徽记
-tagGDX3Blueprint_AccessoryF305=设计图：永恒指环
-tagGDX3Blueprint_AccessoryF306=设计图：虚化风暴指环
-tagGDX3Blueprint_AccessoryF307=设计图：吞世者印戒
-tagGDX3Blueprint_AccessoryF308=设计图：无情者指环
+tagGDX3Blueprint_WaistF301A=设计图：库恩寒冽护腰
+tagGDX3Blueprint_WaistF301B=设计图：库恩寒冽束腰
 
 tagGDX3Blueprint_WeaponD301=设计图：奥秘全视之眼
 tagGDX3Blueprint_WeaponD302=设计图：余烬降生之槌
 tagGDX3Blueprint_WeaponD303=设计图：贝若纳斯的天神之角
+
 tagGDX3Blueprint_WeaponF301=设计图：秽舌
 tagGDX3Blueprint_WeaponF302=设计图：冰牙
 tagGDX3Blueprint_WeaponF303=设计图：扭曲之锋
@@ -592,7 +612,9 @@ tagGDX3Blueprint_WeaponF310=设计图：阿斯特堪之魂
 tagGDX3Blueprint_WeaponF311=设计图：无畏
 tagGDX3Blueprint_WeaponF312=设计图："罡风"阿努弗尔
 
+
 tagGDX3Blueprint_ArmorC301=设计图：血鬃头盔
+
 tagGDX3Blueprint_ArmorD301=设计图：腐烂饮者护手
 tagGDX3Blueprint_ArmorD302=设计图：野性嚎叫兜帽
 tagGDX3Blueprint_ArmorD303=设计图：原初风暴之眼
@@ -610,47 +632,25 @@ tagGDX3Blueprint_ArmorD314=设计图：扎库尔的面容
 tagGDX3Blueprint_ArmorD315=设计图：冰霜之王的冠冕
 tagGDX3Blueprint_ArmorD316=设计图：原初烈焰的灰烬之容
 
-tagGDX3Blueprint_WaistF301A=设计图：库恩寒冽护腰
-tagGDX3Blueprint_WaistF301B=设计图：库恩寒冽束腰
+tagGDX1Blueprint_AccessoryD121J=设计图：狂乱低语之引
 
-tagGDX3Potions_Blueprint_A301=配方：强化药瓶
-tagGDX3Potions_Blueprint_A301Desc=一个经过精心附魔的容器，用于盛放强效魔法药剂。
-tagGDX3Potions_Blueprint_A302=配方：附魔药瓶
-tagGDX3Potions_Blueprint_A302Desc=一张记录着化学反应与奥术仪式的复杂图表。
-tagGDX3Potions_Blueprint_A303=配方：注能药瓶
-tagGDX3Potions_Blueprint_A304=配方：完美药瓶
-tagGDX3Potions_Blueprint_B301=配方：强化滴瓶
-tagGDX3Potions_Blueprint_B302=配方：附魔滴瓶
-tagGDX3Potions_Blueprint_B303=配方：注能滴瓶
-tagGDX3Potions_Blueprint_B304=配方：完美滴瓶
-tagGDX3Potions_Blueprint_C301=配方：强化锥瓶
-tagGDX3Potions_Blueprint_C302=配方：附魔锥瓶
-tagGDX3Potions_Blueprint_C303=配方：注能锥瓶
-tagGDX3Potions_Blueprint_C304=配方：完美锥瓶
+tagGDX3Blueprint_AccessoryD301=设计图：狱火束带
+tagGDX3Blueprint_AccessoryD302=设计图：寡妇毒牙
+tagGDX3Blueprint_AccessoryD303=设计图：异端敕令
 
-tagGDX3Potions_Blueprint_Modifier_A301=配方：磐石
-tagGDX3Potions_Blueprint_Modifier_A302=配方：增幅
-tagGDX3Potions_Blueprint_Modifier_A303=配方：血契
-tagGDX3Potions_Blueprint_Modifier_A304=配方：溢电
-tagGDX3Potions_Blueprint_Modifier_A305=配方：长效续航
-tagGDX3Potions_Blueprint_Modifier_A306=配方：震爆
-tagGDX3Potions_Blueprint_Modifier_A307=配方：寒冰护体
-tagGDX3Potions_Blueprint_Modifier_A308=配方：长效疗愈
-tagGDX3Potions_Blueprint_Modifier_A309=配方：长效转变
-tagGDX3Potions_Blueprint_Modifier_A310=配方：续航
-tagGDX3Potions_Blueprint_Modifier_A311=配方：疗愈
-tagGDX3Potions_Blueprint_Modifier_A312=配方：净化
-tagGDX3Potions_Blueprint_Modifier_A313=配方：救主
-tagGDX3Potions_Blueprint_Modifier_A314=配方：无私
-tagGDX3Potions_Blueprint_Modifier_A315=配方：石肤
-tagGDX3Potions_Blueprint_Modifier_A316=配方：风速
-tagGDX3Potions_Blueprint_Modifier_A317=配方：转换
-tagGDX3Potions_Blueprint_Modifier_A318=配方：真视
-tagGDX3Potions_Blueprint_Modifier_A319=配方：吸血
-tagGDX3Potions_Blueprint_Modifier_A320=配方：贪财
+tagGDX3Blueprint_AccessoryF301=设计图：疤石
+tagGDX3Blueprint_AccessoryF302=设计图：帷幕低语者
+tagGDX3Blueprint_AccessoryF303=设计图：永恒者徽记
+tagGDX3Blueprint_AccessoryF304=设计图：血之欺诈徽记
+tagGDX3Blueprint_AccessoryF305=设计图：永恒指环
+tagGDX3Blueprint_AccessoryF306=设计图：虚化风暴指环
+tagGDX3Blueprint_AccessoryF307=设计图：吞世者印戒
+tagGDX3Blueprint_AccessoryF308=设计图：无情者指环
+
 
 
 #Relics 圣物
+
 tagGDX3RelicC301=^s狂战Lv35-^c永霜
 tagGDX3RelicC301Desc="无尽严寒。"
 
@@ -673,7 +673,179 @@ tagGDX3RelicD306=鹿父之牙
 tagGDX3RelicD306Desc="众神的馈赠。"
 
 
+
+#Crafting
+
+tagGDX1CraftRandomLegendaryDesc2C=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，由"遗忘诸神"锻造或注入"贝若纳斯之相"的物品不包含在内。等级不足 58 级的角色有机会打造出史诗品质装备。
+tagGDX1CraftRandomLegendaryAccessoryDesc2C=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，由"遗忘诸神"锻造或注入"贝若纳斯之相"的物品不包含在内。等级不足 58 级的角色只能打造出史诗品质装备。
+tagGDX1CraftRandomLegendaryItemDesc2C=铁匠锻造一件与角色等级相匹配的传奇品质附魔物品。物品等级上限 94 级，由"遗忘诸神"锻造或注入"贝若纳斯之相"的物品不包含在内。
+
+tagGDX2CraftRandomLegendaryDesc3C=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，包含由"遗忘诸神"锻造的物品，但注入"贝若纳斯之相"的物品除外。等级不足 58 级的角色有机会打造出史诗品质装备。
+tagGDX2CraftRandomLegendaryAccessoryDesc3C=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，包含由"遗忘诸神"锻造的物品，但注入"贝若纳斯之相"的物品除外。等级不足 58 级的角色只能打造出史诗品质装备。
+tagGDX2CraftRandomLegendaryItemDesc3C=铁匠锻造一件与角色等级相匹配的传奇品质附魔物品。物品等级上限 94 级，包含由"遗忘诸神"锻造的物品，但注入"贝若纳斯之相"的物品除外。
+
+tagGDX3CraftRandomLegendaryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色有机会打造出史诗品质装备。
+tagGDX3CraftRandomLegendaryAccessoryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色只能打造出史诗品质装备。
+tagGDX3CraftRandomLegendaryItemDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，注入"贝若纳斯之相"的物品也包含在内。
+
+tagGDX3CraftMaterial_Beronath=贝若纳斯之相
+tagGDX3CraftMaterial_Beronath_Desc="恶兽之祖与库恩半神-巨兽贝若纳斯的凝炼精粹。"
+
+tagGDX3CraftMaterial_Aster=冰晶紫菀
+tagGDX3CraftMaterial_Aster_Desc="一种绚烂明艳的花朵，花瓣轻盈脆弱，宛如清晨的薄霜。"
+
+tagGDX3CraftMaterial_Totem=血羁图腾
+tagGDX3CraftMaterial_Totem_Desc="一具用皮革捆缚人骨制成的邪恶图腾，两种材料无疑是取自同一名受害者。"
+
+tagGDX3CraftMaterial_Awakening=觉醒余烬
+tagGDX3CraftMaterial_Awakening_Desc="一场曾吞噬群星，令万千世界化为焦土的天界之战的残余。"
+
+tagGDX3CraftMaterial_InertOrb=惰性法球
+tagGDX3CraftMaterial_InertOrb_Desc="一颗刻满亵渎符文的石球，显然是为某种原始仪式所准备。表面触感冰凉。"
+
+tagGDX3CraftMaterial_ActiveOrb=岩浆法球
+tagGDX3CraftMaterial_ActiveOrb_Desc="一颗散发着灼热高温的石球，其热量足以熔化冰川。尽管石球表面热浪滚滚，触感却出奇地冰凉。"
+
+tagGDX3CraftMaterial_SoulGreater=灵魂碎片
+tagGDX3CraftMaterial_SoulGreater_Desc="以粗暴手段从强敌身上提取出的精粹。"
+
+tagGDX3CraftMaterial_SoulLesser=灵魂回响
+tagGDX3CraftMaterial_SoulLesser_Desc="敌人被击败后留下的残响。精通古老技艺者或许能将其融合为更强大的事物。"
+
+tagGDX2CraftMaterial_IronExchange_01=铁锭
+tagGDX2CraftMaterial_IronExchange_01_Desc=在这死亡横行的世界中，铁的珍贵价值不言而喻。^w^n^n将铁锭交给三巫神秘会或库恩堡的钢铁保管者可兑换 50000 铁币。
+
+tagGDX2CraftMaterial_IronExchange_02=高级铁锭堆
+tagGDX2CraftMaterial_IronExchange_02_Desc=在这死亡横行的世界中，铁的珍贵价值不言而喻。^w^n^n将高级铁锭堆交给三巫神秘会或库恩堡的钢铁保管者可兑换 500000 铁币。
+
+
+#Potion Customization
+tagGDX3Potions_Blueprint_A301Desc=一个经过精心附魔的容器，用于盛放强效魔法药剂。
+tagGDX3Potions_Blueprint_A302Desc=一张记录着化学反应与奥术仪式的复杂图表。
+
+tagGDX3Potions_Blueprint_A301=配方：强化药瓶
+tagGDX3Potions_Blueprint_A302=配方：附魔药瓶
+tagGDX3Potions_Blueprint_A303=配方：注能药瓶
+tagGDX3Potions_Blueprint_A304=配方：完美药瓶
+
+tagGDX3Potions_Blueprint_B301=配方：强化滴瓶
+tagGDX3Potions_Blueprint_B302=配方：附魔滴瓶
+tagGDX3Potions_Blueprint_B303=配方：注能滴瓶
+tagGDX3Potions_Blueprint_B304=配方：完美滴瓶
+
+tagGDX3Potions_Blueprint_C301=配方：强化锥瓶
+tagGDX3Potions_Blueprint_C302=配方：附魔锥瓶
+tagGDX3Potions_Blueprint_C303=配方：注能锥瓶
+tagGDX3Potions_Blueprint_C304=配方：完美锥瓶
+
+tagGDX3Potions_Blueprint_Modifier_A301=配方：磐石
+
+tagGDX3Potions_Blueprint_Modifier_A302=配方：增幅
+
+tagGDX3Potions_Blueprint_Modifier_A303=配方：血契
+
+tagGDX3Potions_Blueprint_Modifier_A304=配方：溢电
+
+tagGDX3Potions_Blueprint_Modifier_A305=配方：长效续航
+
+tagGDX3Potions_Blueprint_Modifier_A306=配方：震爆
+
+tagGDX3Potions_Blueprint_Modifier_A307=配方：寒冰护体
+
+tagGDX3Potions_Blueprint_Modifier_A308=配方：长效疗愈
+
+tagGDX3Potions_Blueprint_Modifier_A309=配方：长效转变
+
+tagGDX3Potions_Blueprint_Modifier_A310=配方：续航
+
+tagGDX3Potions_Blueprint_Modifier_A311=配方：疗愈
+
+tagGDX3Potions_Blueprint_Modifier_A312=配方：净化
+
+tagGDX3Potions_Blueprint_Modifier_A313=配方：救主
+
+tagGDX3Potions_Blueprint_Modifier_A314=配方：无私
+
+tagGDX3Potions_Blueprint_Modifier_A315=配方：石肤
+
+tagGDX3Potions_Blueprint_Modifier_A316=配方：风速
+
+tagGDX3Potions_Blueprint_Modifier_A317=配方：转换
+
+tagGDX3Potions_Blueprint_Modifier_A318=配方：真视
+
+tagGDX3Potions_Blueprint_Modifier_A319=配方：吸血
+
+tagGDX3Potions_Blueprint_Modifier_A320=配方：贪财
+
+
+tagGDX3Potions_Container_A301=药瓶
+
+tagGDX3Potions_Container_A302=滴瓶
+
+tagGDX3Potions_Container_A303=锥瓶
+
+
+tagGDX3Potions_Modifier_A301=磐石
+
+tagGDX3Potions_Modifier_A302=增幅
+
+tagGDX3Potions_Modifier_A303=血契
+
+tagGDX3Potions_Modifier_A304=溢电
+
+tagGDX3Potions_Modifier_A305=长效续航
+
+tagGDX3Potions_Modifier_A306=震爆
+
+tagGDX3Potions_Modifier_A307=寒冰护体
+
+tagGDX3Potions_Modifier_A308=长效疗愈
+
+tagGDX3Potions_Modifier_A309=长效转变
+
+tagGDX3Potions_Modifier_A310=续航
+
+tagGDX3Potions_Modifier_A311=续航
+
+tagGDX3Potions_Modifier_A312=净化
+
+tagGDX3Potions_Modifier_A313=救主
+
+tagGDX3Potions_Modifier_A314=无私
+
+tagGDX3Potions_Modifier_A315=石肤
+
+tagGDX3Potions_Modifier_A316=风速
+
+tagGDX3Potions_Modifier_A317=转换
+
+tagGDX3Potions_Modifier_A318=真视
+
+tagGDX3Potions_Modifier_A319=吸血
+
+tagGDX3Potions_Modifier_A320=贪财
+
+
+
+#Consumables 消耗品
+
+tagGDX3Consumable_01=冈德·刺胆的缚魂石
+tagGDX3Consumable_01_Desc="召唤弱化版的冈德·刺胆协助作战，直至他的灵体挣脱控制，穿过帷幕逃离。"
+tagGDX3Consumable_01B_Desc="召唤怨鬼冈德·刺胆协助作战，直至他的灵体挣脱控制，穿过帷幕逃离。"
+
+tagGDX3Consumable_02=哈西亚·焰血的缚魂石
+tagGDX3Consumable_02_Desc="召唤弱化版的哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+tagGDX3Consumable_02B_Desc="召唤怨鬼哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+
+tagGDX3Consumable_03=被遗弃者玛鲁达的缚魂石
+tagGDX3Consumable_03_Desc="召唤弱化版的被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+tagGDX3Consumable_03B_Desc="召唤怨鬼被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+
+
+
 #ItemEnchantment 附魔
+
 tagGDX3EnchantA301A=战骨之息
 tagGDX3EnchantA301Desc="在那场大战令诸部族分崩离析之前，战骨兽人曾是库恩人的坚定盟友。这种粉尘便是由战骨兽人萨满研制，专门用于抵御冰冻亡灵。"^w^n（用于所有单手武器，盾牌和法器副手）
 
@@ -774,7 +946,9 @@ tagGDX3EnchantC303A=库恩雪人之角
 tagGDX3EnchantC303Desc="一种库恩药粉，从恐鬃雪人的坚硬犄角中费力提取而来。"^w^n（用于所有护甲）
 
 
+
 #Mobility Runes 位移符文
+
 tagGDX3RuneBDesc="库恩人用于增强战力的普通力量象征。"^w^n（用于勋章）
 tagGDX3RuneCDesc="库恩人用于增强战力的强大力量象征。"^w^n（用于勋章）
 tagGDX3RuneDDesc="库恩人用于增强战力的远古力量象征。"^w^n（用于勋章）
@@ -790,21 +964,27 @@ tagGDX3RuneD302=赫拉纳克驭空符文
 tagGDX3RuneD303=库恩坚忍符文
 
 
+
 #ItemFactionBoosters 声望增幅
-tagGDX3BoosterAV_A01=诺克图卡里敕令
-tagGDX3BoosterAV_B01=诺克图卡里委任状
+
 tagGDX3BoosterKU_A01=库恩敕令
 tagGDX3BoosterKU_B01=库恩委任状
+
+tagGDX3BoosterAV_A01=诺克图卡里敕令
+tagGDX3BoosterAV_B01=诺克图卡里委任状
 
 tagGDX3BoosterKurn_C01=血羁通缉令
 
 
-#ItemSets 套装
-tagGDX3ItemAwakenedSetC021BName=觉醒东方之誓
-tagGDX3ItemAwakenedSetC021BDesc="来自海对岸一位在异国受人尊敬的祭司所穿的衣服。"
 
-tagGDX3ItemAwakenedSetD300Name=五谷轮回之铠
-tagGDX3ItemAwakenedSetD300Desc="不经打磨，实为粪作。"
+#Misc
+
+
+
+#ItemSets 套装
+
+tagItemSetC004NameC=鲜血收割者的宰割
+tagItemSetC022NameC=自然召唤者的号召
 
 tagGDX3ItemSetC301Name=洛科尔的狂乱
 tagGDX3ItemSetC301BName=洛科尔的愚行
@@ -862,66 +1042,119 @@ tagGDX3ItemSetD315Name=冰霜之王的华饰
 tagGDX3ItemSetD315BName=冰霜之王的华服
 tagGDX3ItemSetD315Desc="赫若瑟纳尔的传奇装扮。他是白色巨狼之子，也是库恩诸部的最后一位共主。"
 
-# tagGDX3ItemAwakenedSetC103Name=Awakened Blazeseer
-# tagGDX3ItemAwakenedSetC105Name=Awakened Dreadwalker
-# tagGDX3ItemAwakenedSetC202Name=Awakened Stormserpent
-# tagGDX3ItemAwakenedSetC205Name=Awakened Stonefather
-# tagGDX3ItemAwakenedSetC301BName=Awakened Lokhor's Folly
-# tagGDX3ItemAwakenedSetC302Name=Awakened Bloodmane
 
 
-#Crafting 制作
-tagGDX3CraftMaterial_ActiveOrb=岩浆法球
-tagGDX3CraftMaterial_ActiveOrb_Desc="一颗散发着灼热高温的石球，其热量足以熔化冰川。尽管石球表面热浪滚滚，触感却出奇地冰凉。"
+#AwakenedSets 觉醒套装
 
-tagGDX3CraftMaterial_Aster=冰晶紫菀
-tagGDX3CraftMaterial_Aster_Desc="一种绚烂明艳的花朵，花瓣轻盈脆弱，宛如清晨的薄霜。"
+tagGDX3ItemAwakenedSetC021BName=觉醒东方之誓
+tagGDX3ItemAwakenedSetC021BDesc="来自海对岸一位在异国受人尊敬的祭司所穿的衣服。"
 
-tagGDX3CraftMaterial_Awakening=觉醒余烬
-tagGDX3CraftMaterial_Awakening_Desc="一场曾吞噬群星，令万千世界化为焦土的天界之战的残余。"
-
-tagGDX3CraftMaterial_Beronath=贝若纳斯之相
-tagGDX3CraftMaterial_Beronath_Desc="恶兽之祖与库恩半神-巨兽贝若纳斯的凝炼精粹。"
-
-tagGDX3CraftMaterial_InertOrb=惰性法球
-tagGDX3CraftMaterial_InertOrb_Desc="一颗刻满亵渎符文的石球，显然是为某种原始仪式所准备。表面触感冰凉。"
-
-tagGDX3CraftMaterial_SoulGreater=灵魂碎片
-tagGDX3CraftMaterial_SoulGreater_Desc="以粗暴手段从强敌身上提取出的精粹。"
-
-tagGDX3CraftMaterial_SoulLesser=灵魂回响
-tagGDX3CraftMaterial_SoulLesser_Desc="敌人被击败后留下的残响。精通古老技艺者或许能将其融合为更强大的事物。"
-
-tagGDX3CraftMaterial_Totem=血羁图腾
-tagGDX3CraftMaterial_Totem_Desc="一具用皮革捆缚人骨制成的邪恶图腾，两种材料无疑是取自同一名受害者。"
-
-tagGDX3CraftRandomLegendaryAccessoryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色只能打造出史诗品质装备。
-tagGDX3CraftRandomLegendaryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色有机会打造出史诗品质装备。
-tagGDX3CraftRandomLegendaryItemDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，注入"贝若纳斯之相"的物品也包含在内。
+tagGDX3ItemAwakenedSetD300Name=五谷轮回之铠
+tagGDX3ItemAwakenedSetD300Desc="不经打磨，实为粪作。"
 
 
-#Consumables 消耗品
-tagGDX3Consumable_01=冈德·刺胆的缚魂石
-tagGDX3Consumable_01_Desc="召唤弱化版的冈德·刺胆协助作战，直至他的灵体挣脱控制，穿过帷幕逃离。"
-tagGDX3Consumable_01B_Desc="召唤怨鬼冈德·刺胆协助作战，直至他的灵体挣脱控制，穿过帷幕逃离。"
 
-tagGDX3Consumable_02=哈西亚·焰血的缚魂石
-tagGDX3Consumable_02_Desc="召唤弱化版的哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
-tagGDX3Consumable_02B_Desc="召唤怨鬼哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+#LootChests
 
-tagGDX3Consumable_03=被遗弃者玛鲁达的缚魂石
-tagGDX3Consumable_03_Desc="召唤弱化版的被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
-tagGDX3Consumable_03B_Desc="召唤怨鬼被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
+tagGDX3KurnChestB01=陈旧宝箱
+tagGDX3KurnChestC01=华彩宝箱
+tagGDX3KurnChestD01=奢华宝箱
 
-# tagGDX3Consumable_04=Kastorran Stone
-# tagGDX3Consumable_04_Desc="The stone bears the marks of Kastorran teeth. It hums with hidden power."
-# tagGDX3Consumable_05=Roc Rock
-# tagGDX3Consumable_05_Desc="It's solid roc."
-# tagGDX3Consumable_06=Dire Stone
-# tagGDX3Consumable_06_Desc="This stone was in dire need of an owner."
+tagGDX3KurnCorruptedChestB01=血羁宝箱
+tagGDX3KurnCorruptedChestC01=血羁战利品
+tagGDX3KurnCorruptedChestD01=血羁宝藏
+
+tagGDX3FrozenChestB01=极寒宝箱
+tagGDX3FrozenChestC01=冰封宝箱
+tagGDX3FrozenChestD01=冰川宝箱
+
+tagGDX3CorpseB01=干枯遗骸
+tagGDX3KurnCorpseB01=被杀死的库恩人
+tagGDX3KurnChthonicCorpseB01=被杀死的血羁
+
+tagGDX3RoguelikeBonusD01=飞升战利品
+
+tagGDX3ChestTreasureTrove02=光辉宝藏
+
+tagGDX3ChestPotion01=古老祭品
+
+tagGDX3Breakable_FrozenDebris=冰封瓦砾
+tagGDX3Breakable_FrozenBody=冰封躯壳
+tagGDX3Breakable_KurnContainer=库恩容器
+tagGDX3Breakable_KurnUrn=库恩瓮
+tagGDX3Breakable_KurnUrnCluster=库恩瓮堆
+tagGDX3Breakable_FrozenFlower=冰封花朵
+tagGDX3Breakable_Corruption=冥煞腐化
+tagGDX3Breakable_CairnStone=凯恩之石
+tagGDX3Breakable_GlacierWall=冰墙
+
+tagGDX3QuestBreakable_RocNest=巨鹏巢穴
+
+tagGDX3Chest_Dread_Dropped=漆黑脓血
+
+tagGDX3ChestTrialOfBlood=鲜血战利品
+tagGDX3ChestBeronath=贝若纳斯的馈赠
+tagGDX3ChestKurnRoguelike=摩根尼斯的藏品
+
+tagGDX3ChestOneShot_Kurn=库恩秘宝
+tagGDX3ChestBossOneShot_Beronath=贝若纳斯的馈赠
+
+tagGDX3QuestChest_FirstFlame=科凡藏匿物
+tagGDX3QuestChest_VoidHeart=虚空心室
+tagGDX3QuestChest_TrialOfBlood=血祭试炼
+tagGDX3QuestChest_MidwinterCorpse=艾文的尸体
+tagGDX3QuestChest_CursedWood=遭受雷击的树干
+tagGDX3QuestChest_BlackLodgeRiddles=漆黑小屋战利品
+tagGDX3QuestChest_KurnSupplies_Corpse=库恩人尸体
+tagGDX3QuestChest_MammothBurialGround=巴尔·埃刚的宝库
+
+tagGDX3QuestChip=木片
+tagGDX3QuestChip_Desc="这得要多少木头？"
+tagGDX3QuestLog=原木
+tagGDX3QuestLog_Desc="圆圆的木。"
+tagGDX3QuestCarving=木雕
+tagGDX3QuestCarving_Desc="大师口笔。"
+tagGDX3QuestCarving02=巨木
+tagGDX3QuestCarving02_Desc="好一根擎天巨柱。"
+
+#Interactive Objects
+tagGDX3DoorLocked_Kurn= {^R} ~ 受到强大守卫封锁
+tagGDX3DoorLocked_Roguelike= {^R} ~ 受到强大符文封印
+tagGDX3ChestLocked_MammotBurialGround= {^R} ~ 受到神秘力量封锁
+
+
+
+#Dungeon Doors
+
+tagGDX3UGDoorEntrance=入口
+tagGDX3Door_ChaosTear=混沌裂隙
+tagGDX3Door_WorldTear=世界裂隙
+tagGDX3Door_WorldTear_Locked= {^R} ~ 受到虚空封印
+tagGDX3Door_WorldTearCave=不稳定的入口
+
+tagGDX3UGDoor_LodgeEntrance=小屋入口
+tagGDX3UGDoor_Lodge=小屋内部
+tagGDX3UGDoor_Grotto=洞窟入口
+
+tagGDX3UGDoor_Mountain=山口
+tagGDX3UGDoor_Beronath=登上世界之巅
+
+
+tagGDX3DoorOneWayDranghoulRoguelike=离开堡垒
+tagGDX3EpicDoor_DranghoulRoguelike=战岗城门
+tagGDX3EpicDoor_DranghoulRoguelikeLocked= {^R} ~ 受到虚空封印（需要一把骷髅钥匙）
+
+#Doors
+tagGDX3Door_Kurnhold=库恩堡城门
+tagGDX3Door_KurnStronghold=要塞大门
+
+tagGDX3Door_Dranghoul=大门
+tagGDX3Door_Vine=卷须
+
 
 
 #Prefixes 前缀
+
 tagGDX3PrefixAA301=^y降伏者(召唤生命晕抗)·
 tagGDX3PrefixAA302=^y驯服者(召唤生命冻抗)·
 tagGDX3PrefixAA303=^y激励(召唤生命减速抗)·
@@ -932,7 +1165,10 @@ tagGDX3PrefixB303_Sh_A=^g厄运召唤者(混/DA/AS)·
 tagGDX3PrefixB304_Sh_A=^g血腥之径(血/DA/混抗/CDR)·
 tagGDX3PrefixB305_Sh_A=^g浸血(血/物酸抗)·
 
+
+
 #Suffixes 后缀
+
 tagGDX3SuffixAA301=^y·恐牙(召唤%OA)
 tagGDX3SuffixAA302=^y·恐鳞(召唤%DA)
 tagGDX3SuffixAA303=^y·狼群思维(召唤全伤)
@@ -965,139 +1201,3 @@ tagGDX3SuffixB310_Sh=^g·异端蔑视(酸/DA/元抗/盾挡)
 tagGDX3SuffixB311_Sh=^g·死亡意志(全伤/%HP/混晕抗/反伤)
 tagGDX3SuffixB312_Sh=^g·血色灾厄(血/%HP/酸混抗)
 tagGDX3SuffixB313_Sh=^g·血潮(血/DA/虚抗/盾挡)
-
-
-#LootChests
-tagGDX3ChestLocked_MammotBurialGround= {^R} ~ 受到神秘力量封锁
-tagGDX3Breakable_KurnContainer=库恩容器
-tagGDX3Breakable_KurnUrn=库恩瓮
-tagGDX3Breakable_KurnUrnCluster=库恩瓮堆
-tagGDX3ChestBeronath=贝若纳斯的馈赠
-tagGDX3Chest_Dread_Dropped=漆黑脓血
-tagGDX3ChestKurnRoguelike=摩根尼斯的藏品
-tagGDX3ChestOneShot_Kurn=库恩秘宝
-tagGDX3ChestPotion01=古老祭品
-tagGDX3ChestTreasureTrove02=光辉宝藏
-tagGDX3ChestTrialOfBlood=鲜血战利品
-tagGDX3CorpseB01=干枯遗骸
-tagGDX3FrozenChestB01=极寒宝箱
-tagGDX3FrozenChestC01=冰封宝箱
-tagGDX3FrozenChestD01=冰川宝箱
-
-tagGDX3KurnChestB01=陈旧宝箱
-tagGDX3KurnChestC01=华彩宝箱
-tagGDX3KurnChestD01=奢华宝箱
-tagGDX3KurnCorruptedChestB01=血羁宝箱
-tagGDX3KurnCorruptedChestC01=血羁战利品
-tagGDX3KurnCorruptedChestD01=血羁宝藏
-
-tagGDX3QuestChest_BlackLodgeRiddles=漆黑小屋战利品
-tagGDX3QuestChest_CursedWood=遭受雷击的树干
-tagGDX3QuestChest_FirstFlame=科凡藏匿物
-tagGDX3QuestChest_MammothBurialGround=巴尔·埃刚的宝库
-tagGDX3QuestChest_MidwinterCorpse=艾文的尸体
-tagGDX3QuestChest_VoidHeart=虚空心室
-
-tagGDX3RoguelikeBonusD01=飞升战利品
-
-#Doors
-tagGDX3DoorLocked_Roguelike= {^R} ~ 受到强大符文封印
-tagGDX3DoorOneWayDranghoulRoguelike=离开堡垒
-tagGDX3Door_ChaosTear=混沌裂隙
-tagGDX3Door_Dranghoul=大门
-tagGDX3Door_WorldTear=世界裂隙
-tagGDX3Door_WorldTearCave=不稳定的入口
-tagGDX3Door_WorldTear_Locked= {^R} ~ 受到虚空封印
-tagGDX3EpicDoor_DranghoulRoguelike=战岗城门
-tagGDX3EpicDoor_DranghoulRoguelikeLocked= {^R} ~ 受到虚空封印（需要一把骷髅钥匙）
-tagGDX3UGDoorEntrance=入口
-tagGDX3UGDoor_Beronath=登上世界之巅
-tagGDX3UGDoor_Grotto=洞窟入口
-tagGDX3UGDoor_Lodge=小屋内部
-tagGDX3UGDoor_LodgeEntrance=小屋入口
-tagGDX3UGDoor_Mountain=山口
-tagGDX3DoorLocked_Kurn= {^R} ~ 受到强大守卫封锁
-tagGDX3Door_KurnStronghold=要塞大门
-tagGDX3Door_Kurnhold=库恩堡城门
-
-
-#Misc
-tagGDX3Breakable_CairnStone=凯恩之石
-tagGDX3Breakable_Corruption=冥煞腐化
-tagGDX3Breakable_FrozenBody=冰封躯壳
-tagGDX3Breakable_FrozenDebris=冰封瓦砾
-tagGDX3Breakable_FrozenFlower=冰封花朵
-tagGDX3Breakable_GlacierWall=冰墙
-tagGDX3Potions_Container_A301=药瓶
-tagGDX3Potions_Container_A302=滴瓶
-tagGDX3Potions_Container_A303=锥瓶
-tagGDX3Potions_Modifier_A301=磐石
-tagGDX3Potions_Modifier_A302=增幅
-tagGDX3Potions_Modifier_A303=血契
-tagGDX3Potions_Modifier_A304=溢电
-tagGDX3Potions_Modifier_A305=长效续航
-tagGDX3Potions_Modifier_A306=震爆
-tagGDX3Potions_Modifier_A307=寒冰护体
-tagGDX3Potions_Modifier_A308=长效疗愈
-tagGDX3Potions_Modifier_A309=长效转变
-tagGDX3Potions_Modifier_A310=续航
-tagGDX3Potions_Modifier_A311=续航
-tagGDX3Potions_Modifier_A312=净化
-tagGDX3Potions_Modifier_A313=救主
-tagGDX3Potions_Modifier_A314=无私
-tagGDX3Potions_Modifier_A315=石肤
-tagGDX3Potions_Modifier_A316=风速
-tagGDX3Potions_Modifier_A317=转换
-tagGDX3Potions_Modifier_A318=真视
-tagGDX3Potions_Modifier_A319=吸血
-tagGDX3Potions_Modifier_A320=贪财
-tagGDX3QuestCarving=木雕
-tagGDX3QuestCarving02=巨木
-tagGDX3QuestCarving02_Desc="好一根擎天巨柱。"
-tagGDX3QuestCarving_Desc="大师口笔。"
-tagGDX3QuestChip=木片
-tagGDX3QuestChip_Desc="这得要多少木头？"
-tagGDX3QuestLog=原木
-tagGDX3QuestLog_Desc="圆圆的木。"
-tagGDX3QuestSkillA01=深渊之焰
-tagGDX3QuestSkillA01_Desc=你沐浴在深渊之焰中，浑身散发着灼热的高温。
-tagGDX3Quest_AREAH_05=Purifying Altar
-tagGDX3Quest_BargollRoot=巴高尔的根须
-tagGDX3Quest_GulderFamilyBrother=瑞格·古尔德
-tagGDX3Quest_GulderFamilyMother=阿丽莎·古尔德
-tagGDX3Quest_GulderFamilySister=乔安娜·古尔德
-tagGDX3Quest_MeadMustFlowGiant="克罗克顿"费克
-tagGDX3Quest_MidwinterWraith=仲冬恶灵
-tagGDX3Quest_RestlessWight01=冈德·刺胆
-tagGDX3Quest_RestlessWight02=哈西亚·焰血
-tagGDX3Quest_RestlessWight02Normal=图里卡·虚焰
-tagGDX3Quest_RestlessWight03="被遗弃者"玛鲁达
-tagGDX3Quest_Wraith_OldWounds=迷失的托马卡
-tagGDX3QuestChest_TrialOfBlood=血祭试炼
-
-
-# tagGDX3LoreObj_AREAH_AvianNoteA02Name=Dirge to the Makers
-# tagGDX3LoreObj_AREAH_DranghoulNoteA01Name=The Rebirth of Chieftain Kruul - Part 1
-# tagGDX3LoreObj_AREAH_DranghoulNoteA02Name=The Rebirth of Chieftain Kruul - Part 2
-# tagGDX3LoreObj_AREAH_ErulanNoteA01Name=Scholar Rainart's Notes - Entry 1
-# tagGDX3LoreObj_AREAH_ErulanNoteA02Name=Scholar Rainart's Notes - Entry 2
-# tagGDX3LoreObj_AREAH_ErulanNoteA03Name=Scholar Rainart's Notes - Entry 3
-# tagGDX3LoreObj_AREAH_ErulanNoteA04Name=Scholar Rainart's Notes - Entry 4
-# tagGDX3LoreObj_AREAH_ErulanNoteA05Name=Notebook of Imperial Scholar Rainart - Entry 5
-# tagGDX3LoreObj_AREAH_ErulanNoteA06Name=A Kurn Opportunity - Part 1
-# tagGDX3LoreObj_AREAH_ErulanNoteA07Name=A Kurn Opportunity - Part 2
-# tagGDX3LoreObj_AREAH_KastorranNoteA01Name=Alymira's Envy - Part 1
-# tagGDX3LoreObj_AREAH_KastorranNoteA02Name=Alymira's Envy - Part 2
-# tagGDX3LoreObj_AREAH_KastorranNoteA03Name=Alymira's Envy - Part 3
-# tagGDX3LoreObj_AREAH_KastorranNoteA04Name=Alymira's Envy - Part 4
-# tagGDX3LoreObj_AREAH_LothulakNoteA01Name=The Kastorran Flood
-# tagGDX3LoreObj_AREAH_LothulakNoteA03Name=The Wolves that Ate the Sky
-# tagGDX3LoreObj_AREAH_LothulakNoteA04Name=The Chasm of Voices
-# tagGDX3LoreObj_AREAH_RavagerNoteA01Name=Halfor's Journal - Page 1
-# tagGDX3LoreObj_AREAH_RavagerNoteA02Name=Halfor's Journal - Page 2
-# tagGDX3LoreObj_AREAH_RavagerNoteA05Name=Finree's Journal - Page 2
-# tagGDX3LoreObj_AREAH_RavagerNoteA06Name=Finree's Journal - Page 3
-# tagGDX3MapDranghoul=Kruu'Sul Crags
-# tagGDX3MapFrozenWastes=Frostveil Highlands
-# tagGDX3NPC_AREAH_03=Thane Sulf Hinterland
-# tagGDX3NPC_ExchangeA01=Fudra ~ Keeper of Iron
