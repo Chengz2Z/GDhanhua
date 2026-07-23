@@ -1159,6 +1159,18 @@ tagGDX3PrefixAA301=^y降伏者(召唤生命晕抗)·
 tagGDX3PrefixAA302=^y驯服者(召唤生命冻抗)·
 tagGDX3PrefixAA303=^y激励(召唤生命减速抗)·
 
+tagPrefixB046_Class_A=^g野蛮(冰血/混抗/CDR)·
+
+tagPrefixB047_Class_A=^g征服者(物血/%DA/混抗)·
+tagPrefixB048_Class_A=^g亵渎者(火混/%DA/禁锢抗)·
+tagPrefixB049_Class_A=^g占卜师(混血/%体格/穿抗)·
+tagPrefixB050_Class_A=^g屠夫(穿血/%HP/虚抗)·
+tagPrefixB051_Class_A=^g奇术师(元/%DA/元抗)·
+tagPrefixB052_Class_A=^g降灵师(冰血/%OA/冻抗)·
+tagPrefixB053_Class_A=^g符文领主(穿冰/%HP/穿抗)·
+tagPrefixB054_Class_A=^g幽影(活血/%OA/血抗)·
+tagPrefixB055_Class_A=^g狂信徒(物血/混抗/甲)·
+
 tagGDX3PrefixB301_Sh_A=^g符文工匠(全伤/%HP/酸抗/CDR)·
 tagGDX3PrefixB302_Sh_A=^g伟大守护者(酸/DA/血抗/CDR)·
 tagGDX3PrefixB303_Sh_A=^g厄运召唤者(混/DA/AS)·
@@ -1172,11 +1184,6 @@ tagGDX3PrefixB305_Sh_A=^g浸血(血/物酸抗)·
 tagGDX3SuffixAA301=^y·恐牙(召唤%OA)
 tagGDX3SuffixAA302=^y·恐鳞(召唤%DA)
 tagGDX3SuffixAA303=^y·狼群思维(召唤全伤)
-
-tagGDX3SuffixB301_Wpn=^g·霜血(冰血/DA/AS)
-tagGDX3SuffixB302_Wpn=^g·血斗(暴/物血/OA)
-tagGDX3SuffixB303_Wpn=^g·野性獠牙(穿血/OA/AS)
-tagGDX3SuffixB304_Wpn=^g·腐化群峰(冰混/AS/CS)
 
 tagGDX3SuffixB301_Ar=^g·霜血(冰血/DA/混晕抗)
 tagGDX3SuffixB302_Ar=^g·永恒鲜血(混血/DA/穿晕抗)
@@ -1201,3 +1208,8 @@ tagGDX3SuffixB310_Sh=^g·异端蔑视(酸/DA/元抗/盾挡)
 tagGDX3SuffixB311_Sh=^g·死亡意志(全伤/%HP/混晕抗/反伤)
 tagGDX3SuffixB312_Sh=^g·血色灾厄(血/%HP/酸混抗)
 tagGDX3SuffixB313_Sh=^g·血潮(血/DA/虚抗/盾挡)
+
+tagGDX3SuffixB301_Wpn=^g·霜血(冰血/DA/AS)
+tagGDX3SuffixB302_Wpn=^g·血斗(暴/物血/OA)
+tagGDX3SuffixB303_Wpn=^g·野性獠牙(穿血/OA/AS)
+tagGDX3SuffixB304_Wpn=^g·腐化群峰(冰混/AS/CS)
