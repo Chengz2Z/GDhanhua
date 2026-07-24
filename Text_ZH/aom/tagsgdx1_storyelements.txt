@@ -196,6 +196,8 @@ tagNotification_AreaF_CantLeaveThemNoQuest=对这些不幸的人所做的行径.
 tagNotification_AreaF_DocksRiftgateEvent=黑铁码头已经被侵占了。
 tagNotification_AreaF_DocksEventFinished=在黑铁码头的虚灵已经被铲除了！
 
+tagNotification_Beaver05=一件配得上王座的工具...
+
 tagNotification_WarningAncientGroveGates=通往远古树林的路已经被打开。赶快，通道不会保持太久...
 tagNotification_WarningAncientGroveGatesLocked=远古树林的入口被封印了，而且不会在此次游戏中再次打开。
 tagNotification_WarningAncientGroveChallenge=腐化已经消失了。

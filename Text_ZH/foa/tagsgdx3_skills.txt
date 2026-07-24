@@ -407,6 +407,16 @@ tagGDX3_SummonMaggotDesc=从碎裂之境召唤一条蠕动的蛆虫。^o同一�
 tagGDX3_SummonDevourer=召唤小饿魔
 tagGDX3_SummonDevourerDesc=从虚空中召唤一头饥肠辘辘的小饿魔。^o同一时间只能召唤一头小饿魔，且不具备任何战斗能力。
 
+tagGDX3_SummonMiniBeaverName=召唤河狸兽幼崽
+tagGDX3_SummonMiniBeaverDesc=吸引一头尚不懂得畏惧人类的河狸兽幼崽前来。^o同一时间只能召唤一头河狸兽幼崽，且不具备任何战斗能力。
+
+tagGDX3_SummonMiniRocName=召唤巨鹏幼鸟
+tagGDX3_SummonMiniRocDesc=召唤一只忠诚的巨鹏幼鸟伴你飞行。^o同一时间只能召唤一只巨鹏幼鸟，且不具备任何战斗能力。
+
+tagGDX3_SummonMiniYeti=召唤狼崽
+tagGDX3_SummonMiniYetiDesc=与一头遭族群遗弃的恐鬃幼崽成为伙伴。^o同一时间只能召唤一头狼崽，且不具备任何战斗能力。
+
+
 
 #SkillsQuest
 tagGDX3QuestSkillA01=深渊之焰
@@ -550,4 +560,12 @@ tagGDX3EnemySkillD26_Desc=你被包裹在一堆滑腻的秽物之中。
 
 tagGDX3EnemySkillD27=被削
 tagGDX3EnemySkillD27_Desc=遭受严重削弱。
+tagGDX3ItemSkillD370=剧毒液球
+tagGDX3ItemSkillD370Desc=邪秽的剧毒液球从你体内喷涌而出，污染附近的敌人。
+tagGDX3ItemSkillD371=黑曜石断层
+tagGDX3ItemSkillD371Desc=一道断层爆裂开来，喷出黑曜石尖刺，将敌人刺穿。
+tagGDX3ItemSkillD372=复制飞弹
+tagGDX3ItemSkillD372Desc=一道仿制自帕内蒂同名法术的飞弹射向敌人。
+tagGDX3ItemSkillD373=佐尔汉的号令
+tagGDX3ItemSkillD373Desc=佐尔汉对战场的掌控鼓舞了你和附近的盟友，使你们重获力量与耐力。
 
