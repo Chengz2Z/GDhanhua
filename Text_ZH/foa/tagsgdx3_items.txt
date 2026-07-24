@@ -779,52 +779,52 @@ tagGDX3Potions_Blueprint_Modifier_A319=配方：吸血
 tagGDX3Potions_Blueprint_Modifier_A320=配方：贪财
 
 
-tagGDX3Potions_Container_A301=药瓶
+tagGDX3Potions_Container_A301=^w药瓶
 
-tagGDX3Potions_Container_A302=滴瓶
+tagGDX3Potions_Container_A302=^w滴瓶
 
-tagGDX3Potions_Container_A303=锥瓶
+tagGDX3Potions_Container_A303=^w锥瓶
 
 
-tagGDX3Potions_Modifier_A301=磐石
+tagGDX3Potions_Modifier_A301=^k磐石
 
-tagGDX3Potions_Modifier_A302=增幅
+tagGDX3Potions_Modifier_A302=^k增幅
 
-tagGDX3Potions_Modifier_A303=血契
+tagGDX3Potions_Modifier_A303=^k血契
 
-tagGDX3Potions_Modifier_A304=溢电
+tagGDX3Potions_Modifier_A304=^k溢电
 
-tagGDX3Potions_Modifier_A305=长效续航
+tagGDX3Potions_Modifier_A305=^k长效续航
 
-tagGDX3Potions_Modifier_A306=震爆
+tagGDX3Potions_Modifier_A306=^k震爆
 
-tagGDX3Potions_Modifier_A307=寒冰护体
+tagGDX3Potions_Modifier_A307=^k寒冰护体
 
-tagGDX3Potions_Modifier_A308=长效疗愈
+tagGDX3Potions_Modifier_A308=^k长效疗愈
 
-tagGDX3Potions_Modifier_A309=长效转变
+tagGDX3Potions_Modifier_A309=^k长效转变
 
-tagGDX3Potions_Modifier_A310=续航
+tagGDX3Potions_Modifier_A310=^k续航
 
-tagGDX3Potions_Modifier_A311=续航
+tagGDX3Potions_Modifier_A311=^k续航
 
-tagGDX3Potions_Modifier_A312=净化
+tagGDX3Potions_Modifier_A312=^k净化
 
-tagGDX3Potions_Modifier_A313=救主
+tagGDX3Potions_Modifier_A313=^k救主
 
-tagGDX3Potions_Modifier_A314=无私
+tagGDX3Potions_Modifier_A314=^k无私
 
-tagGDX3Potions_Modifier_A315=石肤
+tagGDX3Potions_Modifier_A315=^k石肤
 
-tagGDX3Potions_Modifier_A316=风速
+tagGDX3Potions_Modifier_A316=^k风速
 
-tagGDX3Potions_Modifier_A317=转换
+tagGDX3Potions_Modifier_A317=^k转换
 
-tagGDX3Potions_Modifier_A318=真视
+tagGDX3Potions_Modifier_A318=^k真视
 
-tagGDX3Potions_Modifier_A319=吸血
+tagGDX3Potions_Modifier_A319=^k吸血
 
-tagGDX3Potions_Modifier_A320=贪财
+tagGDX3Potions_Modifier_A320=^k贪财
 
 
 

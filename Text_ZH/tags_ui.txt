@@ -2530,8 +2530,10 @@ tagOverCapResist={%s0} {^b}{%.0f1}% {^s}(+{%.0f2}% 溢出上限)
 tagOverCapResistInt={%s0} {^b}{%d1}% {^s}(+{%d2}% 溢出上限)
 
 #patch v1.2.1
-CooldownCharges={%d0} {^E} 充能
-CooldownChargesMod=+{%d0} {^E} 充能
+CooldownCharges={%d0} {^E} 使用次数
+CooldownChargesMod=+{%d0} {^E} 使用次数
+PotionCooldownCharges={%d0} {^E}使用次数上限
+PotionCooldownChargesMod=+{%d0} {^E}使用次数上限
 SkillChanceWeightMod=+{%d0}% 使用概率 {^E}
 tagBonusLifeAbsBuff={^E}回复 {^H}{%.0f0} 生命/每秒 {^E}
 tagBonusLifePercentBuff={^E}回复 {^H}{%.0f0}% 生命/每秒 {^E}
