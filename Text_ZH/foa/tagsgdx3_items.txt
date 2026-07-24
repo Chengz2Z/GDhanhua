@@ -842,6 +842,14 @@ tagGDX3Consumable_03=被遗弃者玛鲁达的缚魂石
 tagGDX3Consumable_03_Desc="召唤弱化版的被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 tagGDX3Consumable_03B_Desc="召唤怨鬼被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 
+tagGDX3Consumable_04=河狸兽之石
+tagGDX3Consumable_04_Desc="石头上留有河狸兽的齿痕，其中蕴藏的力量正发出低沉嗡鸣。"
+
+tagGDX3Consumable_05=巨鹏之石
+tagGDX3Consumable_05_Desc="这是一块坚如磐石的巨鹏石。"
+
+tagGDX3Consumable_06=恐鬃之石
+tagGDX3Consumable_06_Desc="这块石头急需一位主人。"
 
 
 #ItemEnchantment 附魔
@@ -1048,6 +1056,24 @@ tagGDX3ItemSetD315Desc="赫若瑟纳尔的传奇装扮。他是白色巨狼之�
 
 tagGDX3ItemAwakenedSetC021BName=觉醒东方之誓
 tagGDX3ItemAwakenedSetC021BDesc="来自海对岸一位在异国受人尊敬的祭司所穿的衣服。"
+
+tagGDX3ItemAwakenedSetC103Name=觉醒烈火先知
+tagGDX3ItemAwakenedSetC103Desc="你的心脏是燃烧的余烬，无法熄灭且渴望破坏。"
+
+tagGDX3ItemAwakenedSetC105Name=觉醒恐惧行者
+tagGDX3ItemAwakenedSetC105Desc="恐惧行者的出现使附近的活物陷入不可思议的疾病。"
+
+tagGDX3ItemAwakenedSetC202Name=觉醒风暴巨蛇
+tagGDX3ItemAwakenedSetC202Desc="尽管对天之巨蛇的异端崇拜很早以前便已被光明会剿灭，但这被遗忘的信仰依旧留下了些许圣物。"
+
+tagGDX3ItemAwakenedSetC205Name=觉醒石父
+tagGDX3ItemAwakenedSetC205Desc="坚定不移的曼海尔卫士石父所穿的盔甲。"
+
+tagGDX3ItemAwakenedSetC301BName=觉醒洛科尔的愚行
+tagGDX3ItemAwakenedSetC301BDesc="洛科尔曾是侍奉莫格卓根的萨满，却在绝望之中倒向了黑暗的力量。洛科尔所立下的血契，将他所有族人的命运永远绑在了冥神的战车之上。"
+
+tagGDX3ItemAwakenedSetC302Name=觉醒血鬃
+tagGDX3ItemAwakenedSetC302Desc="雪人血鬃曾令阿斯特堪的边陲地带闻风丧胆，直到风暴之矛部族的乌定让它体会到了真正的恐怖。"
 
 tagGDX3ItemAwakenedSetD300Name=五谷轮回之铠
 tagGDX3ItemAwakenedSetD300Desc="不经打磨，实为粪作。"
