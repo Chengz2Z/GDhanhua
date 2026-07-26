@@ -660,7 +660,7 @@ tagGDX3RelicD301Desc="渴求血肉，贪婪无度。"
 tagGDX3RelicD302=^s狂战Lv60-^c破冰
 tagGDX3RelicD302Desc="足以撼动阿斯特堪冰山的万钧之力。"
 
-tagGDX3RelicD303=贝若纳斯之嚎
+tagGDX3RelicD303=^y全技能Lv90-^c贝若纳斯之嚎
 tagGDX3RelicD303Desc="贝若纳斯的苦痛化为实质。"
 
 tagGDX3RelicD304=^y全技能Lv90-^c极光

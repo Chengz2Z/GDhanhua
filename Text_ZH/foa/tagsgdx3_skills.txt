@@ -560,12 +560,16 @@ tagGDX3EnemySkillD26_Desc=你被包裹在一堆滑腻的秽物之中。
 
 tagGDX3EnemySkillD27=被削
 tagGDX3EnemySkillD27_Desc=遭受严重削弱。
+
 tagGDX3ItemSkillD370=剧毒液球
 tagGDX3ItemSkillD370Desc=邪秽的剧毒液球从你体内喷涌而出，污染附近的敌人。
+
 tagGDX3ItemSkillD371=黑曜石断层
 tagGDX3ItemSkillD371Desc=一道断层爆裂开来，喷出黑曜石尖刺，将敌人刺穿。
+
 tagGDX3ItemSkillD372=复制飞弹
 tagGDX3ItemSkillD372Desc=一道仿制自帕内蒂同名法术的飞弹射向敌人。
+
 tagGDX3ItemSkillD373=佐尔汉的号令
 tagGDX3ItemSkillD373Desc=佐尔汉对战场的掌控鼓舞了你和附近的盟友，使你们重获力量与耐力。
 

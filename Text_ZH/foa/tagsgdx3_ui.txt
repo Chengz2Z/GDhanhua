@@ -27,7 +27,7 @@ tagSoulDropsEnable=有概率掉落灵魂碎片与灵魂回响
 tagSuperBossSpawned=某种东西在阴影中蠢动...
 
 tagExclusiveAscensionFormula01={^E}闪电属性装备掉落几率提升
-tagExclusiveAscensionFormula02={^E}酸性与毒素属性装备掉落几率提升
+tagExclusiveAscensionFormula02={^E}毒酸属性装备掉落几率提升
 tagExclusiveAscensionFormula03={^E}物理属性装备掉落几率提升
 tagExclusiveAscensionFormula04={^E}混乱属性装备掉落几率提升
 tagExclusiveAscensionFormula05={^E}流血属性装备掉落几率提升
@@ -173,7 +173,7 @@ PotionTransfusion=+{%.0f0}% {^E}药水词条强度，但基础效果失效
 PotionTransfusionMod=+{%.0f0}% {^E}药水词条强度，但基础效果失效
 PotionPurity={^E}抵御环境中的致命疫病
 PotionTrueSight={^E}揭示隐藏物品
-PotionExclusive=^oExclusive Modifier - Only one Exclusive Modifier can be active at any one time.
+PotionExclusive={^o}专属修正-同一时间只能激活一个专属修正。
 FilterCaster={^E}药水效果作用于周围盟友，对自身无效
 BeamNumber={%d0} {^E}射线
 BeamNumberMod=+{%d0} {^E}射线

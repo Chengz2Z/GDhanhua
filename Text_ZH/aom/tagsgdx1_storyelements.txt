@@ -555,28 +555,28 @@ tagGDX1NPC_SmithA01=凯隆
 tagGDX1StoreTitle_SmithA01=锻造大师
 tagGDX1StoreDesc_SmithA01_1={}马尔茅斯锻造
 tagGDX1StoreDesc_SmithA01_2=凯隆是一个锻造大师，能熟练运用马尔茅斯锻造技术。他锻造的武器和护甲在那个区域是无与伦比的。
-tagGDX1StoreDesc_SmithA01_3= 
+tagGDX1StoreDesc_SmithA01_3= ""
 tagGDX1StoreDesc_SmithA01_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX1NPC_SmithA02=盖乌斯·余烬
 tagGDX1StoreTitle_SmithA02=燃烧铁匠
 tagGDX1StoreDesc_SmithA02_1={}受折磨的烈焰
 tagGDX1StoreDesc_SmithA02_2=盖乌斯被永恒的痛苦诅咒，他将折磨注入他的作品之中。
-tagGDX1StoreDesc_SmithA02_3= 
+tagGDX1StoreDesc_SmithA02_3= ""
 tagGDX1StoreDesc_SmithA02_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX1NPC_SmithA03=贝拉·法尔德
 tagGDX1StoreTitle_SmithA03=天神铁匠
 tagGDX1StoreDesc_SmithA03_1={}天神锻造
 tagGDX1StoreDesc_SmithA03_2=贝拉·法尔德的锻锤是由星辰本身熔炼而成，可锻造最高至94级的传奇装备。
-tagGDX1StoreDesc_SmithA03_3= 
+tagGDX1StoreDesc_SmithA03_3= ""
 tagGDX1StoreDesc_SmithA03_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX1NPC_SmithA04=阿克特洛斯
 tagGDX1StoreTitle_SmithA04=被诅咒的铁匠
 tagGDX1StoreDesc_SmithA04_1={}黑暗锻造
 tagGDX1StoreDesc_SmithA04_2=阿克特洛斯的锻锤已经被黑魔法堕落，几乎没有用，但是仍然能满足主人的意志。
-tagGDX1StoreDesc_SmithA04_3= 
+tagGDX1StoreDesc_SmithA04_3= ""
 tagGDX1StoreDesc_SmithA04_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX1NPC_IllusionistA01=维瓦拉

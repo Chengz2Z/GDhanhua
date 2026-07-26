@@ -718,21 +718,21 @@ tagGDX2NPC_SmithA01=伊格纳尔
 tagGDX2StoreTitle_SmithA01=蛊惑铁匠
 tagGDX2StoreDesc_SmithA01_1={}带有巫神的标记
 tagGDX2StoreDesc_SmithA01_2=伊格纳尔的工艺被巫神所标记。他的作品带有巫神祝福所赐的超凡特性。
-tagGDX2StoreDesc_SmithA01_3= 
+tagGDX2StoreDesc_SmithA01_3= ""
 tagGDX2StoreDesc_SmithA01_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX2NPC_SmithA02=艾格希亚·法尔德
 tagGDX2StoreTitle_SmithA02=天神铁匠
 tagGDX2StoreDesc_SmithA02_1={}天神锻造
 tagGDX2StoreDesc_SmithA02_2=据说艾格希亚·法尔德的锻锤是由星辰本身熔炼而成，可锻造94级的传奇装备，甚至包括被遗忘之神锻造的装备。
-tagGDX2StoreDesc_SmithA02_3= 
+tagGDX2StoreDesc_SmithA02_3= ""
 tagGDX2StoreDesc_SmithA02_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 tagGDX2NPC_SmithA03=艾格隆
 tagGDX2StoreTitle_SmithA03=被遗忘的铁匠
 tagGDX2StoreDesc_SmithA03_1={}沙漠锻造
 tagGDX2StoreDesc_SmithA03_2=虽然艾格隆的身子骨饱经风沙的洗礼，但他的锻锤技艺可谓是宝刀不老。
-tagGDX2StoreDesc_SmithA03_3= 
+tagGDX2StoreDesc_SmithA03_3= ""
 tagGDX2StoreDesc_SmithA03_4=锻造的武器，护甲和饰品会被灌注以下属性之一:
 
 #Faction Quartermasters
