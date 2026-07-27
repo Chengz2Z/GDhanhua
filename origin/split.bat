@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 
 set "SCRIPT_DIR=%~dp0"
 set "ARCHIVE_TOOL=%SCRIPT_DIR%..\ArchiveTool.exe"
@@ -14,13 +14,14 @@ if not exist "%ARCHIVE_TOOL%" (
 
 echo [INFO] Cleaning previous extracted files...
 for /d %%D in ("%SCRIPT_DIR%*") do (
-    if /I not "%%~xD"==".arc" (
+    set "dirName=%%~nxD"
+    if /I not "%%~xD"==".arc" if /I not "!dirName:~0,3!"=="tmp" (
         rd /s /q "%%~fD"
     )
 )
 
 for %%F in ("%SCRIPT_DIR%*") do (
-    if /I not "%%~xF"==".bat" if /I not "%%~xF"==".arc" del /f /q "%%~fF"
+    if /I not "%%~xF"==".bat" if /I not "%%~xF"==".arc" if /I not "%%~xF"==".py" del /f /q "%%~fF"
 )
 
 for %%A in ("%SCRIPT_DIR%*.arc") do (
