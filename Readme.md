@@ -39,12 +39,23 @@ Project/
 │  ├─ split.bat       一键解包脚本（Windows）
 │  ├─ split.py        一键解包脚本（跨平台）
 │  └─ text_*/         示例：解包后的目录
-├─ out/               编译输出目录
-│  ├─ *.arc           示例：编译生成的文件
-│  └─ _build/         示例：无词缀简述的临时文件
+├─ out/               编译输出目录（release 模式生成）
+│  ├─ arc_with_desc/  带词缀简述的归档文件
+│  │  └─ Text_ZH.arc
+│  ├─ set_with_desc/  带词缀简述的源文件目录
+│  │  └─ Text_ZH/
+│  ├─ arc_no_desc/    无词缀简述的归档文件
+│  │  └─ Text_ZH.arc
+│  └─ set_no_desc/    无词缀简述的源文件目录
+│     └─ Text_ZH/
 ├─ scripts/           构建辅助脚本目录
 │  └─ prepare-build.ps1
 │                     编译前处理词缀简述开关
+├─ tools/             实用工具目录
+│  ├─ update_entries.py
+│  │                 条目更新工具
+│  └─ diff_entries.py
+│                    条目对比工具
 ├─ ArchiveTool.exe    归档打包/解包工具（Windows）
 ├─ zlibwapi.dll       ArchiveTool 运行依赖（Windows）
 ├─ arc_tool.py        归档打包/解包工具（跨平台，使用原生 LZ4 库）
@@ -94,29 +105,16 @@ sudo apt install liblz4-dev
 build.bat
 ```
 
-`build.bat` 内默认带有：
+默认执行 `release` 模式，打包所有版本文件用于发布。
+
+可用参数：
 
 ```bat
-set ENABLE_DESC=1
-```
-
-双击脚本时，会按这个变量决定是否保留前后缀括号里的属性简述：
-
-- `set ENABLE_DESC=1`：保留词缀属性简述
-- `set ENABLE_DESC=0`：去掉词缀属性简述
-
-如果需要临时按参数覆盖这个默认值，可使用：
-
-去掉词缀名后面的属性简述括号：
-
-```bat
-build.bat no-desc
-```
-
-显式保留简述：
-
-```bat
-build.bat with-desc
+build.bat                 # 默认: release 模式，打包所有版本
+build.bat release         # 同上，显式指定 release 模式
+build.bat with-desc       # 仅打包带词缀简述版本
+build.bat no-desc         # 仅打包无词缀简述版本
+build.bat -h / --help     # 显示帮助
 ```
 
 ### macOS / Linux
@@ -124,34 +122,65 @@ build.bat with-desc
 在项目根目录下使用 Python 脚本（无需额外安装依赖）：
 
 ```bash
-python3 build.py              # 默认保留词缀简述
-python3 build.py with-desc    # 保留词缀简述
-python3 build.py no-desc      # 去除词缀简述
+python3 build.py              # 默认: release 模式，打包所有版本
+python3 build.py release      # 同上，显式指定 release 模式
+python3 build.py with-desc    # 仅打包带词缀简述版本
+python3 build.py no-desc      # 仅打包无词缀简述版本
 ```
 
 ## 编译脚本行为
 
-执行 `build.bat` 时，脚本会按以下顺序处理：
+### release 模式（默认）
+
+执行 `build.bat` 或 `build.py` 时，默认进入 release 模式，按以下顺序处理：
+
+1. **带描述构建**：将 `Text_ZH` 打包为 `out/arc_with_desc/Text_ZH.arc`
+2. **拷贝源文件**：复制 `Text_ZH` 到 `out/set_with_desc/Text_ZH/`
+3. **无描述构建**：复制 `Text_ZH` 到临时目录，移除词缀简述后打包为 `out/arc_no_desc/Text_ZH.arc`
+4. **移动源文件**：将处理后的临时目录移动到 `out/set_no_desc/Text_ZH/`
+5. **清理临时文件**：删除 `_build` 临时目录
+
+### 单次构建模式
+
+使用 `with-desc` 或 `no-desc` 参数时，仅执行单次构建：
 
 1. 检查 `./out` 目录是否存在，不存在则自动创建。
 2. 检查 `./out/Text_ZH.arc` 是否已存在，若存在则先删除旧文件。
-3. 根据 `build.bat` 里的 `ENABLE_DESC` 变量，或命令行传入的覆盖参数，决定是否保留前后缀属性简述。
-4. 如果最终为“不带简述”模式，则先复制 `./Text_ZH` 到临时目录，并移除 `tagPrefix/tagSuffix` 项末尾括号中的属性简述。
-5. 调用 `ArchiveTool.exe` 将构建源目录重新打包。
+3. 根据参数决定是否保留前后缀属性简述。
+4. 如果为"不带简述"模式，则先复制 `./Text_ZH` 到临时目录，并移除词缀简述。
+5. 调用打包工具重新打包。
 6. 编译成功后输出成功提示。
-7. 编译失败时输出失败提示，并暂停窗口，方便查看日志。
 
 不带简述模式只影响编译时的临时副本，不会修改仓库里的原始 `Text_ZH` 文本。
 
 ## 输出文件
 
-编译完成后，输出文件为：
+### release 模式输出
+
+编译完成后，在 `out/` 目录下生成四个子目录：
+
+```text
+out/
+├─ arc_with_desc/     带词缀简述的归档文件
+│  └─ Text_ZH.arc
+├─ set_with_desc/     带词缀简述的源文件目录（可直接用于游戏替换）
+│  └─ Text_ZH/
+├─ arc_no_desc/       无词缀简述的归档文件
+│  └─ Text_ZH.arc
+└─ set_no_desc/       无词缀简述的源文件目录
+   └─ Text_ZH/
+```
+
+- `arc_*` 目录：包含打包后的 `.arc` 归档文件，可直接用于游戏替换
+- `set_*` 目录：包含解包后的源文件目录，便于查看或进一步编辑
+
+### 单次构建模式输出
+
+使用 `with-desc` 或 `no-desc` 参数时，输出文件为：
 
 ```text
 ./out/Text_ZH.arc
 ```
-
-这是当前仓库生成的汉化归档文件。
 
 ## 原始文件解包
 
@@ -211,8 +240,12 @@ origin/Text_JP.arc  -> origin/text_jp
 2. 运行构建脚本：
    - Windows：`build.bat`
    - macOS / Linux：`python3 build.py`
-3. 检查是否成功生成 `./out/Text_ZH.arc`。
-4. 将生成结果用于后续测试、替换或发布。
+3. 检查 `out/` 目录下是否成功生成以下内容：
+   - `arc_with_desc/Text_ZH.arc`（带描述版本）
+   - `arc_no_desc/Text_ZH.arc`（无描述版本）
+4. 将生成的 `.arc` 文件用于游戏替换或发布。
+
+如果只需要单个版本，可使用 `with-desc` 或 `no-desc` 参数。
 
 ## arc_tool.py 使用说明
 
@@ -277,11 +310,16 @@ python3 arc_tool.py info <input.arc>
 
 ### 修改文本后如何重新生成
 
-直接重新运行一次 `build.bat` 即可。脚本会自动删除旧文件并重新编译。
+直接重新运行一次 `build.bat`（或 `python3 build.py`）即可。脚本会自动删除旧文件并重新编译。
+
+### release 模式和单次构建有什么区别
+
+- **release 模式**（默认）：同时生成带描述和无描述两个版本，以及对应的源文件目录，适合发布
+- **单次构建**（`with-desc` 或 `no-desc`）：仅生成单个版本，适合快速测试
 
 ### 删除旧文件失败怎么办
 
-通常表示 `Text_ZH.arc` 正被其他程序占用。关闭正在使用该文件的程序后，再重新执行脚本即可。
+通常表示 `.arc` 文件正被其他程序占用。关闭正在使用该文件的程序后，再重新执行脚本即可。
 
 ### 解包时出现错误弹窗怎么办
 
