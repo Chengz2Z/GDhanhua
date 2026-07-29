@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/generated/db-zh.js"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://www\\.grimtools\\.com/db/itemdb/l10n/zh\\.js(\\?[0-9]+)?$",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/generated/editor-zh.js"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://www\\.grimtools\\.com/editor/js/l10n/zh\\.js(\\?[0-9]+)?$",
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source_root": "../../Text_ZH",
+  "include": [
+    "**/*_items.txt",
+    "**/*_skills.txt"
+  ],
+  "exclude": [],
+  "duplicate_policy": "last"
+}
