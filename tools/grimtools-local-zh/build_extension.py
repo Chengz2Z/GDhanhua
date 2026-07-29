@@ -13,7 +13,10 @@ from typing import Dict, Iterable, List, Sequence, Tuple
 
 TOOL_DIR = Path(__file__).resolve().parent
 DEFAULT_CONFIG = TOOL_DIR / "config.json"
-DEFAULT_OUTPUT_DIR = TOOL_DIR / "extension" / "generated"
+DEFAULT_OUTPUT_DIRS = (
+    TOOL_DIR / "extension" / "generated",
+    TOOL_DIR / "extension-safari" / "generated",
+)
 
 
 @dataclass(frozen=True)
@@ -182,34 +185,43 @@ def relative_label(path: Path, root: Path) -> str:
         return str(path)
 
 
-def build(config_path: Path, output_dir: Path) -> int:
+def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
     config = load_config(config_path)
     source_root, files = discover_files(config_path, config)
     duplicate_policy = config.get("duplicate_policy", "last")
     entries, conflicts = collect_entries(files, duplicate_policy)
 
-    targets = (
+    loaders = (
         (
-            output_dir / "db-zh.js",
-            "db_l10n_texts",
-            "/db/itemdb/l10n/zh.js",
+            "db-zh.js",
+            make_loader(
+                "db_l10n_texts",
+                "/db/itemdb/l10n/zh.js",
+                entries,
+            ),
         ),
         (
-            output_dir / "editor-zh.js",
-            "b_l10n_texts",
-            "/editor/js/l10n/zh.js",
+            "editor-zh.js",
+            make_loader(
+                "b_l10n_texts",
+                "/editor/js/l10n/zh.js",
+                entries,
+            ),
         ),
     )
     changed_count = 0
-    for output_path, variable_name, remote_path in targets:
-        content = make_loader(variable_name, remote_path, entries)
-        changed_count += int(write_if_changed(output_path, content))
+    for output_dir in output_dirs:
+        for filename, content in loaders:
+            changed_count += int(write_if_changed(output_dir / filename, content))
 
     print("[完成] 汉化目录: {}".format(source_root))
     print("[完成] 白名单文件: {} 个".format(len(files)))
     for path in files:
         print("  - {}".format(relative_label(path, source_root)))
     print("[完成] 本地 KEY: {} 个".format(len(entries)))
+    print("[完成] 扩展目标: {} 个".format(len(output_dirs)))
+    for output_dir in output_dirs:
+        print("  - {}".format(output_dir))
     print("[完成] 生成文件更新: {} 个".format(changed_count))
 
     if conflicts:
@@ -244,8 +256,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=DEFAULT_OUTPUT_DIR,
-        help="生成目录（默认: %(default)s）",
+        action="append",
+        help=(
+            "自定义生成目录；可重复指定。"
+            "省略时同时生成 Chromium 和 Safari 扩展资源"
+        ),
     )
     return parser.parse_args()
 
@@ -253,7 +268,12 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     try:
-        return build(args.config.resolve(), args.output_dir.resolve())
+        output_dirs = (
+            [path.resolve() for path in args.output_dir]
+            if args.output_dir
+            else list(DEFAULT_OUTPUT_DIRS)
+        )
+        return build(args.config.resolve(), output_dirs)
     except (OSError, ValueError, json.JSONDecodeError) as error:
         print("[错误] {}".format(error), file=sys.stderr)
         return 1

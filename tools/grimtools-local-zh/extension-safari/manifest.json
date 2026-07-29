@@ -3,9 +3,8 @@
   "name": "GrimTools 本地汉化优先",
   "version": "0.2.0",
   "description": "让 GrimTools 构筑模拟器优先使用本地 Text_ZH 汉化，缺失 KEY 自动回退网页中文。",
-  "minimum_chrome_version": "88",
   "permissions": [
-    "declarativeNetRequest"
+    "declarativeNetRequestWithHostAccess"
   ],
   "host_permissions": [
     "https://www.grimtools.com/*"
