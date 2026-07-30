@@ -4,7 +4,7 @@
 
 本工具用于在 GrimTools《恐怖黎明》构筑模拟器中预览本工程正在开发的中文汉化。
 
-工具直接读取仓库根目录的 `Text_ZH`：
+工具按配置顺序选择汉化目录：优先读取工具目录内的 `Text_ZH`，如果不存在或没有匹配白名单的文件，再读取仓库根目录的 `Text_ZH`：
 
 - 本地汉化存在同名 KEY：优先显示本地内容。
 - 本地汉化不存在该 KEY：继续使用 GrimTools 网页自带的中文内容。
@@ -20,9 +20,10 @@
 
 ### 2.1 生成扩展资源
 
-构建脚本默认读取：
+构建脚本默认依次尝试：
 
 ```text
+Text_ZH
 ../../Text_ZH
 ```
 
@@ -134,7 +135,7 @@ GrimTools 本地汉化
 正常情况下会看到类似：
 
 ```text
-[GrimTools 本地汉化] 已覆盖 13707 个 KEY，远程回退 16271 个 KEY。
+[GrimTools 本地汉化] 已覆盖 11076 个 KEY，远程回退 16271 个 KEY。
 ```
 
 KEY 数量会随着白名单及汉化内容变化，不要求与示例完全相同。
@@ -160,29 +161,36 @@ grimtools-local-zh/
 
 两套 `generated` 中的文件由构建脚本自动生成，不要手工修改。
 
-## 四、白名单配置
+## 四、配置说明
 
 `config.json` 当前配置：
 
 ```json
 {
-  "source_root": "../../Text_ZH",
+  "source_roots": [
+    "Text_ZH",
+    "../../Text_ZH"
+  ],
   "include": [
     "**/*_items.txt",
     "**/*_skills.txt",
     "**/*_ui.txt"
   ],
   "exclude": [],
-  "duplicate_policy": "last"
+  "duplicate_policy": "last",
+  "remove_markers": [
+    "^-"
+  ]
 }
 ```
 
 字段说明：
 
-- `source_root`：相对于 `config.json` 的汉化根目录。
+- `source_roots`：相对于 `config.json` 的候选汉化目录，按数组顺序选择第一个能匹配白名单文件的目录。
 - `include`：需要读取的文件 glob 白名单。
 - `exclude`：需要从白名单结果中排除的文件。
 - `duplicate_policy`：重复 KEY 的处理方式。
+- `remove_markers`：生成网页词典时需要移除的字符串数组。
 
 `duplicate_policy` 支持：
 
@@ -191,6 +199,10 @@ grimtools-local-zh/
 - `error`：发现重复 KEY 后停止构建。
 
 同一个 KEY 对应不同文本时，脚本会列出来源文件及行号，但不会修改汉化源文件。
+
+`remove_markers` 默认包含游戏专用的 `^-` 格式控制标记。需要增加其他标记时，继续向数组添加字符串；脚本按数组顺序处理，设置为空数组 `[]` 可关闭移除功能。该转换只影响生成结果，不会修改 `Text_ZH`；未配置的颜色、变量和换行标记保持原样。
+
+旧版单路径配置 `source_root` 仍然兼容，但不能和 `source_roots` 同时设置。
 
 ## 五、构建脚本参数
 
@@ -260,10 +272,12 @@ GrimTools 会动态加载：
 扩展使用不依赖版本号的规则，把请求重定向到本地生成脚本。本地脚本随后：
 
 1. 读取 GrimTools 当前版本的完整中文词典。
-2. 使用本工程 `Text_ZH` 中的白名单 KEY 覆盖网页词典。
+2. 使用配置选中的 `Text_ZH` 中的白名单 KEY 覆盖网页词典。
 3. 将合并结果交给构筑模拟器。
 
 因此未在本地汉化中找到的 KEY 会继续使用网页中文。若远程中文词典读取失败，页面仍会使用本地已有 KEY，并在控制台输出警告。
+
+游戏会把 `^-` 解释为格式控制标记，但 GrimTools 会把它显示成额外字符。本工具会在写入扩展词典前，移除 `config.json` 的 `remove_markers` 数组中列出的全部字符串。
 
 ## 八、常见问题
 

@@ -1,9 +1,16 @@
 {
-  "source_root": "../../Text_ZH",
+  "source_roots": [
+    "Text_ZH",
+    "../../Text_ZH"
+  ],
   "include": [
     "**/*_items.txt",
-    "**/*_skills.txt"
+    "**/*_skills.txt",
+    "**/*_ui.txt"
   ],
   "exclude": [],
-  "duplicate_policy": "last"
+  "duplicate_policy": "last",
+  "remove_markers": [
+    "^-"
+  ]
 }

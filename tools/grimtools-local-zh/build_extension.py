@@ -30,15 +30,42 @@ def load_config(path: Path) -> dict:
     with path.open("r", encoding="utf-8-sig") as handle:
         config = json.load(handle)
 
-    required = {"source_root", "include"}
+    required = {"include"}
     missing = sorted(required.difference(config))
     if missing:
         raise ValueError("配置缺少字段: {}".format(", ".join(missing)))
 
+    has_source_root = "source_root" in config
+    has_source_roots = "source_roots" in config
+    if has_source_root == has_source_roots:
+        raise ValueError("配置必须且只能设置 source_root 或 source_roots")
+    if has_source_root and (
+        not isinstance(config["source_root"], str)
+        or not config["source_root"].strip()
+    ):
+        raise ValueError("source_root 必须是非空字符串")
+    if has_source_roots:
+        source_roots = config["source_roots"]
+        if not isinstance(source_roots, list) or not source_roots:
+            raise ValueError("source_roots 必须是非空数组")
+        if any(
+            not isinstance(source_root, str) or not source_root.strip()
+            for source_root in source_roots
+        ):
+            raise ValueError("source_roots 只能包含非空字符串")
+        if len(source_roots) != len(set(source_roots)):
+            raise ValueError("source_roots 不能包含重复项")
     if not isinstance(config["include"], list) or not config["include"]:
         raise ValueError("include 必须是非空数组")
     if config.get("duplicate_policy", "last") not in {"first", "last", "error"}:
         raise ValueError("duplicate_policy 只能是 first、last 或 error")
+    remove_markers = config.get("remove_markers", [])
+    if not isinstance(remove_markers, list):
+        raise ValueError("remove_markers 必须是数组")
+    if any(not isinstance(marker, str) or not marker for marker in remove_markers):
+        raise ValueError("remove_markers 只能包含非空字符串")
+    if len(remove_markers) != len(set(remove_markers)):
+        raise ValueError("remove_markers 不能包含重复项")
     return config
 
 
@@ -47,26 +74,40 @@ def matches_any(path: Path, patterns: Sequence[str]) -> bool:
     return any(path.match(pattern) or Path(normalized).match(pattern) for pattern in patterns)
 
 
+def configured_source_roots(config: dict) -> List[str]:
+    if "source_roots" in config:
+        return config["source_roots"]
+    return [config["source_root"]]
+
+
 def discover_files(config_path: Path, config: dict) -> Tuple[Path, List[Path]]:
-    source_root = (config_path.parent / config["source_root"]).resolve()
-    if not source_root.is_dir():
-        raise FileNotFoundError("汉化目录不存在: {}".format(source_root))
-
     excluded = config.get("exclude", [])
-    discovered: Dict[str, Path] = {}
-    for pattern in config["include"]:
-        for path in source_root.glob(pattern):
-            if not path.is_file():
-                continue
-            relative = path.relative_to(source_root)
-            if matches_any(relative, excluded):
-                continue
-            discovered[relative.as_posix().casefold()] = path
+    attempts: List[Tuple[Path, str]] = []
+    for configured_root in configured_source_roots(config):
+        source_root = (config_path.parent / configured_root).resolve()
+        if not source_root.is_dir():
+            attempts.append((source_root, "目录不存在"))
+            continue
 
-    files = [discovered[key] for key in sorted(discovered)]
-    if not files:
-        raise FileNotFoundError("白名单没有匹配到任何汉化文件")
-    return source_root, files
+        discovered: Dict[str, Path] = {}
+        for pattern in config["include"]:
+            for path in source_root.glob(pattern):
+                if not path.is_file():
+                    continue
+                relative = path.relative_to(source_root)
+                if matches_any(relative, excluded):
+                    continue
+                discovered[relative.as_posix().casefold()] = path
+
+        files = [discovered[key] for key in sorted(discovered)]
+        if files:
+            return source_root, files
+        attempts.append((source_root, "没有匹配白名单的文件"))
+
+    details = "\n".join(
+        "  - {} ({})".format(path, reason) for path, reason in attempts
+    )
+    raise FileNotFoundError("未找到可用的汉化目录:\n{}".format(details))
 
 
 def iter_entries(path: Path) -> Iterable[Tuple[int, str, str]]:
@@ -81,9 +122,31 @@ def iter_entries(path: Path) -> Iterable[Tuple[int, str, str]]:
                 yield line_number, key, value
 
 
+def normalize_web_value(value: str, remove_markers: Sequence[str]) -> str:
+    """Remove game-only formatting markers unsupported by GrimTools."""
+    for marker in remove_markers:
+        value = value.replace(marker, "")
+    return value
+
+
+def count_removed_markers(value: str, remove_markers: Sequence[str]) -> int:
+    """Count replacements using the same ordered process as normalization."""
+    count = 0
+    for marker in remove_markers:
+        count += value.count(marker)
+        value = value.replace(marker, "")
+    return count
+
+
 def collect_entries(
-    files: Sequence[Path], duplicate_policy: str
-) -> Tuple[Dict[str, str], List[Tuple[str, EntrySource, EntrySource]]]:
+    files: Sequence[Path],
+    duplicate_policy: str,
+    remove_markers: Sequence[str],
+) -> Tuple[
+    Dict[str, str],
+    List[Tuple[str, EntrySource, EntrySource]],
+    int,
+]:
     entries: Dict[str, str] = {}
     sources: Dict[str, EntrySource] = {}
     conflicts: List[Tuple[str, EntrySource, EntrySource]] = []
@@ -107,10 +170,14 @@ def collect_entries(
                     )
                 if duplicate_policy == "first":
                     continue
-            entries[key] = value
+            entries[key] = normalize_web_value(value, remove_markers)
             sources[key] = current
 
-    return entries, conflicts
+    removed_marker_count = sum(
+        count_removed_markers(source.value, remove_markers)
+        for source in sources.values()
+    )
+    return entries, conflicts, removed_marker_count
 
 
 def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -> str:
@@ -189,7 +256,10 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
     config = load_config(config_path)
     source_root, files = discover_files(config_path, config)
     duplicate_policy = config.get("duplicate_policy", "last")
-    entries, conflicts = collect_entries(files, duplicate_policy)
+    remove_markers = config.get("remove_markers", [])
+    entries, conflicts, removed_marker_count = collect_entries(
+        files, duplicate_policy, remove_markers
+    )
 
     loaders = (
         (
@@ -219,6 +289,9 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
     for path in files:
         print("  - {}".format(relative_label(path, source_root)))
     print("[完成] 本地 KEY: {} 个".format(len(entries)))
+    marker_label = json.dumps(remove_markers, ensure_ascii=False)
+    print("[完成] 配置移除标记: {}".format(marker_label))
+    print("[完成] 移除标记出现次数: {} 个".format(removed_marker_count))
     print("[完成] 扩展目标: {} 个".format(len(output_dirs)))
     for output_dir in output_dirs:
         print("  - {}".format(output_dir))

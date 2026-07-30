@@ -9,3 +9,10 @@
 
 # Browser metadata generated when loading the Safari extension locally
 /extension-safari/_metadata/
+
+# text folder
+/Text_ZH/
+
+# doc file
+*.doc
+*.docx
