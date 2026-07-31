@@ -17,6 +17,9 @@ DEFAULT_OUTPUT_DIRS = (
     TOOL_DIR / "extension" / "generated",
     TOOL_DIR / "extension-safari" / "generated",
 )
+MODE_STORAGE_KEY = "grimtools_local_zh_mode"
+MODE_OFFICIAL = "official"
+MODE_LOCAL = "local"
 
 
 @dataclass(frozen=True)
@@ -194,7 +197,24 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
 
   const REMOTE_URL = "https://www.grimtools.com{remote_path}?grim-local-zh-bypass=1";
   const OVERRIDES = {overrides_json};
+  const MODE_STORAGE_KEY = "{mode_storage_key}";
+  const MODE_OFFICIAL = "{mode_official}";
+  const MODE_LOCAL = "{mode_local}";
+  let mode = MODE_OFFICIAL;
   let remoteTexts = {{}};
+
+  try {{
+    mode =
+      globalThis.localStorage &&
+      globalThis.localStorage.getItem(MODE_STORAGE_KEY) === MODE_LOCAL
+        ? MODE_LOCAL
+        : MODE_OFFICIAL;
+  }} catch (error) {{
+    console.warn(
+      "[GrimTools 本地汉化] 无法读取语言模式，将使用官方简体中文。",
+      error
+    );
+  }}
 
   try {{
     const request = new XMLHttpRequest();
@@ -213,7 +233,12 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
     }}
     remoteTexts = JSON.parse(source.slice(objectStart, objectEnd + 1));
   }} catch (error) {{
-    console.warn("[GrimTools 本地汉化] 远程中文词典读取失败，将只使用本地 KEY。", error);
+    console.warn(
+      mode === MODE_LOCAL
+        ? "[GrimTools 本地汉化] 远程中文词典读取失败，将只使用本地 KEY。"
+        : "[GrimTools 本地汉化] 远程中文词典读取失败，官方简体中文暂不可用。",
+      error
+    );
   }}
 
   const dictionaries =
@@ -221,18 +246,156 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
       ? globalThis.{variable_name}
       : (globalThis.{variable_name} = {{}});
 
-  dictionaries.zh = Object.assign({{}}, remoteTexts, OVERRIDES);
-  console.info(
-    "[GrimTools 本地汉化] 已覆盖 %d 个 KEY，远程回退 %d 个 KEY。",
-    Object.keys(OVERRIDES).length,
-    Object.keys(remoteTexts).length
-  );
+  if (mode === MODE_LOCAL) {{
+    dictionaries.zh = Object.assign({{}}, remoteTexts, OVERRIDES);
+    console.info(
+      "[GrimTools 本地汉化] 当前模式: local；已覆盖 %d 个 KEY，远程回退 %d 个 KEY。",
+      Object.keys(OVERRIDES).length,
+      Object.keys(remoteTexts).length
+    );
+  }} else {{
+    dictionaries.zh = Object.assign({{}}, remoteTexts);
+    console.info(
+      "[GrimTools 本地汉化] 当前模式: official；使用 GrimTools 官方简体中文。"
+    );
+  }}
 }})();
 """.format(
         variable_name=variable_name,
         remote_path=remote_path,
         overrides_json=overrides_json,
+        mode_storage_key=MODE_STORAGE_KEY,
+        mode_official=MODE_OFFICIAL,
+        mode_local=MODE_LOCAL,
     )
+
+
+def make_language_mode_selector() -> str:
+    return """\
+// 此文件由 build_extension.py 自动生成，请勿手工修改。
+(() => {
+  "use strict";
+
+  const MODE_STORAGE_KEY = "grimtools_local_zh_mode";
+  const MODE_OFFICIAL = "official";
+  const MODE_LOCAL = "local";
+  const LOCAL_OPTION_LABEL = "简体中文-本地化";
+  const POPUP_SELECTOR = ".language-selector-popup";
+  const LOCAL_OPTION_ATTRIBUTE = "data-grimtools-local-zh-option";
+  const OFFICIAL_BOUND_ATTRIBUTE = "data-grimtools-local-zh-official-bound";
+
+  function readMode() {
+    try {
+      const storedMode = window.localStorage.getItem(MODE_STORAGE_KEY);
+      if (storedMode === MODE_LOCAL || storedMode === MODE_OFFICIAL) {
+        return storedMode;
+      }
+      window.localStorage.setItem(MODE_STORAGE_KEY, MODE_OFFICIAL);
+    } catch (error) {
+      console.warn(
+        "[GrimTools 本地汉化] 无法读取语言模式，默认使用官方简体中文。",
+        error
+      );
+    }
+    return MODE_OFFICIAL;
+  }
+
+  function switchMode(mode, event) {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    try {
+      window.localStorage.setItem(MODE_STORAGE_KEY, mode);
+      window.localStorage.setItem("app_locale", "zh");
+    } catch (error) {
+      console.error("[GrimTools 本地汉化] 无法保存语言模式。", error);
+      return;
+    }
+    window.location.reload();
+  }
+
+  function isOfficialChineseLink(link) {
+    if (link.hasAttribute(LOCAL_OPTION_ATTRIBUTE)) {
+      return false;
+    }
+    try {
+      const path = new URL(link.getAttribute("href") || "", window.location.href)
+        .pathname.replace(/\\/+$/, "");
+      return path.endsWith("/zh");
+    } catch (error) {
+      return false;
+    }
+  }
+
+  function setLocalOptionLabel(link) {
+    const flag = link.querySelector(".flag");
+    const flagClone = flag ? flag.cloneNode(true) : null;
+    link.replaceChildren();
+    if (flagClone) {
+      link.appendChild(flagClone);
+    }
+    link.appendChild(document.createTextNode(LOCAL_OPTION_LABEL));
+  }
+
+  function setCurrentState(link, selected) {
+    if (selected) {
+      link.setAttribute("aria-current", "true");
+    } else {
+      link.removeAttribute("aria-current");
+    }
+  }
+
+  function installOptions(popup) {
+    const officialLink = Array.from(popup.querySelectorAll("a")).find(
+      isOfficialChineseLink
+    );
+    if (!officialLink) {
+      return;
+    }
+
+    if (!officialLink.hasAttribute(OFFICIAL_BOUND_ATTRIBUTE)) {
+      officialLink.setAttribute(OFFICIAL_BOUND_ATTRIBUTE, "true");
+      officialLink.addEventListener(
+        "click",
+        (event) => switchMode(MODE_OFFICIAL, event),
+        true
+      );
+    }
+
+    let localLink = popup.querySelector(`[${LOCAL_OPTION_ATTRIBUTE}]`);
+    if (!localLink) {
+      localLink = officialLink.cloneNode(true);
+      localLink.removeAttribute(OFFICIAL_BOUND_ATTRIBUTE);
+      localLink.setAttribute(LOCAL_OPTION_ATTRIBUTE, "true");
+      setLocalOptionLabel(localLink);
+      localLink.addEventListener(
+        "click",
+        (event) => switchMode(MODE_LOCAL, event),
+        true
+      );
+      officialLink.insertAdjacentElement("afterend", localLink);
+    }
+
+    const mode = readMode();
+    setCurrentState(officialLink, mode === MODE_OFFICIAL);
+    setCurrentState(localLink, mode === MODE_LOCAL);
+  }
+
+  function start() {
+    const popup = document.querySelector(POPUP_SELECTOR);
+    if (!popup) {
+      window.setTimeout(start, 100);
+      return;
+    }
+
+    installOptions(popup);
+    new MutationObserver(() => installOptions(popup)).observe(popup, {
+      childList: true,
+    });
+  }
+
+  start();
+})();
+"""
 
 
 def write_if_changed(path: Path, content: str) -> bool:
@@ -261,7 +424,7 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
         files, duplicate_policy, remove_markers
     )
 
-    loaders = (
+    generated_files = (
         (
             "db-zh.js",
             make_loader(
@@ -278,10 +441,14 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
                 entries,
             ),
         ),
+        (
+            "language-mode-selector.js",
+            make_language_mode_selector(),
+        ),
     )
     changed_count = 0
     for output_dir in output_dirs:
-        for filename, content in loaders:
+        for filename, content in generated_files:
             changed_count += int(write_if_changed(output_dir / filename, content))
 
     print("[完成] 汉化目录: {}".format(source_root))

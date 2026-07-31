@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GrimTools 本地汉化优先",
-  "version": "0.2.0",
-  "description": "让 GrimTools 构筑模拟器优先使用本地 Text_ZH 汉化，缺失 KEY 自动回退网页中文。",
+  "name": "GrimTools 本地化",
+  "version": "0.3.0",
+  "description": "为 GrimTools 增加可切换的本地简体中文，本地缺失 KEY 自动回退网页中文。",
   "permissions": [
     "declarativeNetRequestWithHostAccess"
   ],
@@ -18,6 +18,17 @@
       }
     ]
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.grimtools.com/calc*"
+      ],
+      "js": [
+        "generated/language-mode-selector.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
   "web_accessible_resources": [
     {
       "resources": [
