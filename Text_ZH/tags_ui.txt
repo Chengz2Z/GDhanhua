@@ -408,8 +408,8 @@ tagAchievementsComplete={%d0} / {%d1}
 tagHUDMenu=菜单按钮
 tagHUDAttacks=当前攻击
 tagHUDSkills=快捷栏
-tagHUD_PotionHealth=生命药水
-tagHUD_PotionEnergy=能量药水
+tagHUD_PotionHealth={^F}生命药水{^-}
+tagHUD_PotionEnergy={^T}能量药水{^-}
 
 tagPortraitKick=从服务器踢出
 tagPortraitTrade=交易
@@ -2248,10 +2248,10 @@ DefenseManaLeachMaxResist={%+.0f0}% {^E}最大能量吸取抗性
 DefenseManaLeachMaxResistR={%+.0f0}-{%.0f1}% {^E}最大能量吸取抗性
 DefenseTrapMaxResist={%+.0f0}% {^E}最大禁锢时间缩短
 DefenseTrapMaxResistR={%+.0f0}-{%.0f1}% {^E}最大禁锢时间缩短
-DefenseFreezeMaxResist={%+.0f0}% {^E}最大冻结持续时间缩短
-DefenseFreezeMaxResistR={%+.0f0}-{%.0f1}% {^E}最大冻结持续时间缩短
-DefensePetrifyMaxResist={%+.0f0}% {^E}最大石化持续时间缩短
-DefensePetrifyMaxResistR={%+.0f0}-{%.0f1}% {^E}最大石化持续时间缩短
+DefenseFreezeMaxResist={%+.0f0}% {^E}最大冻结时间缩短
+DefenseFreezeMaxResistR={%+.0f0}-{%.0f1}% {^E}最大冻结时间缩短
+DefensePetrifyMaxResist={%+.0f0}% {^E}最大石化时间缩短
+DefensePetrifyMaxResistR={%+.0f0}-{%.0f1}% {^E}最大石化时间缩短
 DefenseDisruptionMaxResist={%+.0f0}% {^E}最大技能打断保护
 DefenseDisruptionMaxResistR={%+.0f0}-{%.0f1}% {^E}最大技能打断保护
 DefenseBleedingMaxResist={^M}{%+.0f0}% {^M}最大流血抗性
@@ -2543,11 +2543,12 @@ tagDamageConversionR={%.0f0}%-{%.0f1}% {^E}{%s2}转化为{%s3}
 tagDamageRemovalR={%.0f0}%-{%.0f1}% {^E}{%s2}减免
 
 MaxDurationRefresh=最大持续时间
-tagSkillDurationRefresh={%t0}持续时间增加 {^H}{%.1f1} {%z2}（最多 {^H}{%.1f3} {%z4}）
-tagSkillDurationRefreshName={%t0}{%s1}的持续时间增加 {^H}{%.1f2} {%z3}（最多 {^H}{%.1f4} {%z5}）
-tagSkillCooldownRefresh={%t0}主动技能的冷却时间减少 {^H}{%.1f1} {%z2}
-tagSkillCooldownRefreshName={%t0}{%s1}的冷却时间减少 {^H}{%.1f2} {%z3}
-
+tagSkillDurationRefresh={%t0} {^H}持续时间{^E}增加 {^H}{%.1f1} {%z2}
+tagSkillDurationRefreshName={%t0}{%s1} {^H}持续时间{^E}增加 {^H}{%.1f2} {%z3}
+tagSkillDurationRefreshMax={%t0} {^H}持续时间{^E}增加 {^H}{%.1f1} {%z2}（最多 {^H}{%.1f3} {%z4}）
+tagSkillDurationRefreshNameMax={%t0}{%s1} {^H}持续时间{^E}增加 {^H}{%.1f2} {%z3}（最多 {^H}{%.1f4} {%z5}）
+tagSkillCooldownRefresh={%t0} {^H}冷却时间{^E}减少 {^H}{%.1f1} {%z2}
+tagSkillCooldownRefreshName={%t0}{%s1} {^H}冷却时间{^E}减少 {^H}{%.1f2} {%z3}
 
 # The following tags were localized before, but we need additional variants of them with new code references. These should match previous localization where possible:
 DamageColdR={%t0}-{%t1} {^E}寒气伤害

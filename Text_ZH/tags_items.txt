@@ -3657,14 +3657,14 @@ tagBoosterEXILE_C03=神话级放逐者通缉令
 tagMoney01=铁币
 tagMoneyFormat={^s}{%d0}{%s1}
 
-tagPotionHealthA01=生命药水
+tagPotionHealthA01={^F}生命药水{^-}
 tagPotionHealthA01Desc="愈合伤口，修复骨折。"
-tagPotionHealthA02=治疗药水
+tagPotionHealthA02={^F}治疗药水{^-}
 tagPotionHealthA02Desc="愈合伤口，修复骨折。"
-tagPotionHealthA03=恢复药水
+tagPotionHealthA03={^F}恢复药水{^-}
 tagPotionHealthA03Desc="愈合伤口，修复骨折。"
 
-tagPotionEnergyA01=^a能量药水
+tagPotionEnergyA01={^T}能量药水{^-}
 tagPotionEnergyA01Desc="恢复精力，补充灵魂。"
 
 tagPotionConstitutionA01=食物补给
@@ -3678,23 +3678,23 @@ tagCombineStacks=[Ctrl+左键来拆分堆叠物品]
 tagHideTooltip=[按住Ctrl 来隐藏装备信息窗口]
 
 #Bonuses 奖励
-tagBonusLifePercentAbsPercent={^E}恢复 {^H}{%.0f0}%+{%.0f1} {^E}生命 {^H}+{%.0f2}% {^E}持续恢复量
-tagBonusLifePercentPercent={^w}恢复 {^H}{%.0f0}% {^w}生命 {^H}+{%.0f1}% {^w}持续恢复量
-tagBonusLifePercentSlow={^E}恢复 {^H}{%.0f0}% 生命 {^E} 持续恢复量
-tagBonusLifePercentAbs={^w}恢复{^H}{%.0f0}%+{%.0f1}{^w}生命
-tagBonusLifePercent={^w}恢复{^H}{%.0f0}%{^w}生命
-tagBonusLifeAbs={^w}恢复{^H}{%.0f0}{^w}生命
+tagBonusLifePercentAbsPercent={^w}持续恢复 {^H}{%.0f0}%+{%.0f1}+{%.0f2}% {^w}生命
+tagBonusLifePercentPercent={^w}持续恢复 {^H}{%.0f0}%+{%.0f1}% {^w}生命
+tagBonusLifePercentSlow={^w}持续恢复 {^H}{%.0f0}% {^w}生命
+tagBonusLifePercentAbs={^w}恢复 {^H}{%.0f0}%+{%.0f1} {^w}生命
+tagBonusLifePercent={^w}恢复 {^H}{%.0f0}% {^w}生命
+tagBonusLifeAbs={^w}恢复 {^H}{%.0f0} {^w}生命
 tagBonusLifeAbsBuff={^E}恢复 {^H}{%.0f0} 生命/每秒 {^E}
 tagBonusLifePercentBuff={^E}恢复 {^H}{%.0f0}% 生命/每秒 {^E}
-tagBonusManaPercentAbs={^w}恢复{^H}{%.0f0}%+{%.0f1}{^w}能量
-tagBonusManaPercent={^w}恢复{^H}{%.0f0}%{^w}能量
-tagBonusManaAbs={^w}恢复{^H}{%.0f0}%{^w}能量
+tagBonusManaPercentAbs={^w}恢复 {^H}{%.0f0}%+{%.0f1} {^w}能量
+tagBonusManaPercent={^w}恢复 {^H}{%.0f0}% {^w}能量
+tagBonusManaAbs={^w}恢复 {^H}{%.0f0}% {^w}能量
 tagBonusExperience={%+d0}经验值
 tagBonusMoney={%+d0}铁币
 tagBonusSkillPoint={%+d0}技能点数
 tagBonusAttribPoint={%+d0}属性点数
-tagBonusManaPercentSlow={^E}持续恢复 {^H}{%.0f0}% {^E} 能量
-tagBonusManaAbsSlow={^E}持续恢复 {^H}{%.0f0} {^E} 能量
+tagBonusManaPercentSlow={^w}持续恢复 {^H}{%.0f0}% {^w}能量
+tagBonusManaAbsSlow={{^w}持续恢复 {^H}{%.0f0} {^w}能量
 
 #Devotion 虔诚
 tagDevotionReset={^E}使用来重置你的虔诚点数
