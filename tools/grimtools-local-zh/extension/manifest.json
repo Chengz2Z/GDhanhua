@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GrimTools 本地化",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "为 GrimTools 增加可切换的本地简体中文，本地缺失 KEY 自动回退网页中文。",
   "minimum_chrome_version": "88",
   "permissions": [

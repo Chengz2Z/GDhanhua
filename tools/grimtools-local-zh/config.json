@@ -4,9 +4,7 @@
     "../../Text_ZH"
   ],
   "include": [
-    "**/*_items.txt",
-    "**/*_skills.txt",
-    "**/*_ui.txt"
+    "**/tags*.txt"
   ],
   "exclude": [],
   "duplicate_policy": "last",

@@ -185,3 +185,55 @@ ItemDB_tagAdvSearchValueMin=最小值
 ItemDB_tagAdvSearchValueMax=最大值
 ItemDB_tagAdvSearchValueSelect=选择...
 ItemDB_tagAdvSearchAddMod=添加...
+
+# Obtained from / Drop sources
+ItemDB_tagObtainedFrom=获得来源:
+ItemDB_tagObtainedFromNpc=来自NPC:
+ItemDB_tagObtainedByCrafting=合成 - {%s0}
+ItemDB_tagQuestReward=任务奖励:
+ItemDB_tagRandomDrop=随机掉落
+ItemDB_tagSpecificMonstersGeneric=特定怪物 ({%d0})
+ItemDB_tagSpecificMonstersMore=+({%d0}) 更多怪物
+ItemDB_tagEveryBlacksmith=所有铁匠
+ItemDB_tagKnownByCrafter=已知由以下工匠制作:
+
+# Ascended Affixes
+ItemDB_tagAscendedAffix=飞升词缀
+ItemDB_tagAscendedAffixGroupMastery=专精词缀
+ItemDB_tagAscendedAffixGroupRegular=普通词缀
+ItemDB_tagAscendedRarityAny=任意稀有度
+ItemDB_tagItemAscendedAffixes=飞升词缀
+ItemDB_tagTabAscendedAffixes=飞升词缀
+ItemDB_tagVersionNewAscendedAffixes=新增飞升词缀
+ItemDB_tagMenuItemShowHighestLevelAffixes=仅显示组内最高等级词缀
+ItemDB_tagAffixAllAccessories=所有饰品
+ItemDB_tagAffixAllItemsExceptTwoHanded=所有物品（除双手武器外）
+
+# Category additions
+ItemDB_tagAccessories=饰品
+ItemDB_tagAwakenedItems=觉醒物品
+ItemDB_tagCategoryBows=弓
+ItemDB_tagCategorySpears=矛
+ItemDB_tagCategoryTwoHandedSpears=双手矛
+ItemDB_tagCategoryPotionBlueprints=药水蓝图
+ItemDB_tagCategoryPotionContainerBlueprints=药水容器
+ItemDB_tagCategoryPotionModifierBlueprints=药水词条
+ItemDB_tagDefaultSkillsGroup=默认技能
+
+# Pet modifiers
+ItemDB_tagPetModifierAetherRevenants=虚化骷髅亡灵
+ItemDB_tagPetModifierChaosMages=混乱法师骷髅
+ItemDB_tagPetModifierColdArchers=冰冷射手骷髅
+ItemDB_tagPetModifierRevenants=骷髅亡灵
+ItemDB_tagPetSkillDebuff=[减益]
+ItemDB_tagPetPlayerScalingConversion={^E}使 {%s0} 受玩家加成影响
+ItemDB_tagSummonConversion={^E}始终召唤 {^H}{%s0}
+
+# Misc additions
+ItemDB_tagContagionSpread={^E}传播至 {^H}{%d0}{^E} 个 {^H}{%.1f1}{^E} 米内的附近敌人
+ItemDB_tagPotionContainerName={%s0} (等级 {%d1})
+ItemDB_tagTimeBetweenAttacks={^E}每 {^H}{%.2f0}{^E} 秒攻击一次
+ItemDB_tagBeamMaxRange={%.1f0} {^E}米射线范围
+ItemDB_tagBeamNumber=+{%d0} {^E}射线
+ItemDB_tagLoadingChanges=加载中...
+ItemDB_tagMenuItemShowHighestLevelItems=仅显示组内最高等级物品
