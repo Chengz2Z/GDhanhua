@@ -22,7 +22,7 @@ tagConsoleCreateCharacter=创建
 tagCloudSaveLimit=恐怖黎明的云存储已满，请先删除现有角色后再创建新角色。
 
 #Options Menu 选项菜单
-tagKeybindingTitle01=控制器
+tagKeybindingTitle01=手柄
 tagConsoleMenuScreenSetup=屏幕设置
 tagConsoleMenuScreenSetupDesc=调整屏幕的可视区域，直到与你的显示器匹配。
 tagConsoleMenuGammaSetup=调整伽马值
@@ -42,7 +42,7 @@ tagConsoleTargetFPSUnlocked=已解锁
 tagConsoleTargetFPS=帧率限制
 tagConsoleTargetFPSDesc=目标渲染帧率。
 tagGameplayOption33=暴击震动
-tagGameplayDesc33=控制器会在暴击时震动。
+tagGameplayDesc33=手柄会在暴击时震动。
 
 #Exit Menu 退出菜单
 tagOptionsMenuQuit=退出游戏
@@ -67,7 +67,7 @@ tagKeybind18=使用生命药水
 tagKeybind19=使用能量药水
 
 #UI 用户界面
-tagConsoleReconnectController=请为用户 {^b}{%t0}{^-} 连接一个控制器。
+tagConsoleReconnectController=请为用户 {^b}{%t0}{^-} 连接一个手柄。
 tagMPInvite=添加
 tagMPFriends=邀请
 tagConsoleInviteInfo=选择一个角色，按开始键加入 {^b}{%t0}{^-}。
@@ -81,10 +81,10 @@ tagControllerButtonStart=菜单按钮
 tagControllerButtonBack=查看按钮
 tagControllerButtonLeftStick=左摇杆
 tagControllerButtonRightStick=右摇杆
-tagControllerButtonLeftBumper=左保险杠
-tagControllerButtonRightBumper=右保险杠
-tagControllerButtonLeftTrigger=左触发器
-tagControllerButtonRightTrigger=右触发器
+tagControllerButtonLeftBumper=LB
+tagControllerButtonRightBumper=RB
+tagControllerButtonLeftTrigger=LT
+tagControllerButtonRightTrigger=RT
 tagControllerButtonA=A
 tagControllerButtonB=B
 tagControllerButtonX=X

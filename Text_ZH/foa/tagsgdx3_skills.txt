@@ -1,11 +1,11 @@
 tagSkillClassName10=狂战士
 
-tagSkillClassName0110=蛮王^T（士兵+狂战）
+tagSkillClassName0110=领主^T（士兵+狂战）
 tagSkillClassName0210=无畏战士^T（爆破+狂战）
 tagSkillClassName0310=古魔士^T（神秘+狂战）
 tagSkillClassName0410=劫掠者^T（夜刃+狂战）
 tagSkillClassName0510=唤魔师^T（奥术+狂战）
-tagSkillClassName0610=原始巫士^T（萨满+狂战）
+tagSkillClassName0610=原始术士^T（萨满+狂战）
 tagSkillClassName0710=符文师^T（审判+狂战）
 tagSkillClassName0810=帷幕行者^T（死灵+狂战）
 tagSkillClassName0910=狂信徒^T（守誓+狂战）
@@ -195,17 +195,17 @@ tagGDX3ItemSkillD312Desc=一根剧毒尖刺自你身上迸射而出，贯穿沿�
 tagGDX3ItemSkillD313Name=无限
 tagGDX3ItemSkillD313Desc=发射一连串天界弹矢，撕裂你周围的现实。
 
-tagGDX3ItemSkillD314Name=贝若纳斯的极冻吐息
-tagGDX3ItemSkillD314Desc=宣泄贝若纳斯的狂怒，向前方释放一道极冻寒流。^o贝若纳斯的吐息造成的初始伤害降低 30%，随着向外扩散逐渐提升至最大威力。
+tagGDX3ItemSkillD314Name=贝若纳斯的急冻爪击
+tagGDX3ItemSkillD314Desc=宣泄贝若纳斯的狂怒，挥爪穿过敌人。爪击留下印记，短暂延迟后爆炸，造成额外双倍伤害。
 
-tagGDX3ItemSkillD315Name=贝若纳斯的风暴吐息
-tagGDX3ItemSkillD315Desc=宣泄贝若纳斯的狂怒，向前方释放一道雷电奔流。^o贝若纳斯的吐息造成的初始伤害降低 30%，随着向外扩散逐渐提升至最大威力。
+tagGDX3ItemSkillD315Name=贝若纳斯的风暴爪击
+tagGDX3ItemSkillD315Desc=宣泄贝若纳斯的狂怒，挥爪穿过敌人。爪击留下印记，短暂延迟后爆炸，造成额外双倍伤害。
 
-tagGDX3ItemSkillD316Name=贝若纳斯的炼狱吐息
-tagGDX3ItemSkillD316Desc=宣泄贝若纳斯的狂怒，向前方释放一股炼狱烈焰。^o贝若纳斯的吐息造成的初始伤害降低 30%，随着向外扩散逐渐提升至最大威力。
+tagGDX3ItemSkillD316Name=贝若纳斯的炼狱爪击
+tagGDX3ItemSkillD316Desc=宣泄贝若纳斯的狂怒，挥爪穿过敌人。爪击留下印记，短暂延迟后爆炸，造成额外双倍伤害。
 
-tagGDX3ItemSkillD317Name=贝若纳斯的污浊吐息
-tagGDX3ItemSkillD317Desc=宣泄贝若纳斯的狂怒，向前方释放一股污浊能量。^o贝若纳斯的吐息造成的初始伤害降低 30%，随着向外扩散逐渐提升至最大威力。
+tagGDX3ItemSkillD317Name=贝若纳斯的污浊爪击
+tagGDX3ItemSkillD317Desc=宣泄贝若纳斯的狂怒，挥爪穿过敌人。爪击留下印记，短暂延迟后爆炸，造成额外双倍伤害。
 
 tagGDX3ItemSkillD318Name=石手重击
 tagGDX3ItemSkillD318Desc=伴随着一声毛骨悚然的沉闷巨响，将敌人砸得晕头转向。^o需要一把近战武器。
@@ -362,6 +362,18 @@ tagGDX3ItemSkillD368_Pet01Desc=白色巨狼释放恐怖威压，粉碎周围敌�
 tagGDX3ItemSkillD369Name=略微下降
 tagGDX3ItemSkillD369Desc=这个 BD 明显需要削弱。
 
+tagGDX3ItemSkillD370=毒球
+tagGDX3ItemSkillD370Desc=剧毒圆球自你体内涌出，感染周围的敌人。
+
+tagGDX3ItemSkillD371=黑曜石地裂波
+tagGDX3ItemSkillD371Desc=黑曜石刺构成的地裂波从地底涌出，刺穿敌人。
+
+tagGDX3ItemSkillD372=复制飞弹
+tagGDX3ItemSkillD372Desc=帕内蒂冠名法术的复制品飞向你的敌人。
+
+tagGDX3ItemSkillD373=佐尔汉的敕令
+tagGDX3ItemSkillD373Desc=佐尔汉对战场的掌控使你与周围盟友获得力量和耐力。
+
 #Relic Skills
 
 tagGDX3RelicSkillC301Name=冰爆
@@ -508,7 +520,7 @@ tagGDX3EnemySkillD09=影魔
 tagGDX3EnemySkillD09_Desc=周围一团躁动的阴影令你心神不宁，无法专心瞄准。
 
 tagGDX3EnemySkillD10=毒瘴
-tagGDX3EnemySkillD10_Desc=博里厄斯的毒气令你咽喉发紧，攻击速度与施法速度减慢。
+tagGDX3EnemySkillD10_Desc=幽域之主的毒气令你咽喉发紧，攻击速度与施法速度减慢。
 
 tagGDX3EnemySkillD11=末日印记
 tagGDX3EnemySkillD11_Desc=奈亚拉松标记了你。你每走一步，脚下都会喷涌出漆黑脓血。站在脓血中的生物将会迅速流失活力与力量。
@@ -560,16 +572,3 @@ tagGDX3EnemySkillD26_Desc=你被包裹在一堆滑腻的秽物之中。
 
 tagGDX3EnemySkillD27=被削
 tagGDX3EnemySkillD27_Desc=遭受严重削弱。
-
-tagGDX3ItemSkillD370=剧毒液球
-tagGDX3ItemSkillD370Desc=邪秽的剧毒液球从你体内喷涌而出，污染附近的敌人。
-
-tagGDX3ItemSkillD371=黑曜石断层
-tagGDX3ItemSkillD371Desc=一道断层爆裂开来，喷出黑曜石尖刺，将敌人刺穿。
-
-tagGDX3ItemSkillD372=复制飞弹
-tagGDX3ItemSkillD372Desc=一道仿制自帕内蒂同名法术的飞弹射向敌人。
-
-tagGDX3ItemSkillD373=佐尔汉的号令
-tagGDX3ItemSkillD373Desc=佐尔汉对战场的掌控鼓舞了你和附近的盟友，使你们重获力量与耐力。
-

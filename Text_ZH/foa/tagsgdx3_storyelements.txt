@@ -154,7 +154,7 @@ tagNotification_Beaver01=面前的悬崖开始移动...
 tagNotification_Beaver02=附近的一扇门吱呀一声打开了...
 tagNotification_Beaver03=被 N’erf 选中的人啊，渡水过来吧！
 tagNotification_Beaver04=附近有种十分违和的气味...
-适合王座的工具...
+tagNotification_Beaver05=适合王座的工具...
 
 tagNotification_VoidmarkedChest_Opened=宝藏吸引到了虚空恐兽！
 
@@ -449,6 +449,7 @@ tagGDX3Quest_AREAH_10=血盆
 tagGDX3Quest_AREAH_11=伊格瓦号角
 tagGDX3Quest_AREAH_12=巴尔·埃刚石碑
 tagGDX3Quest_AREAH_13=N'erf 神像
+tagGDX3Quest_AREAH_14=恐魔碎片
 
 
 #Rift Names
@@ -844,28 +845,28 @@ tagGDX3NPC_SmithA01B=格尔德林
 tagGDX3StoreTitle_SmithA01=阿斯特堪铁匠
 tagGDX3StoreDesc_SmithA01_1={}阿斯特堪大师
 tagGDX3StoreDesc_SmithA01_2=双胞胎格拉和格尔德林出身于名门锻造世家，他们的作品中延续着世代相传的精工匠心。
-
+tagGDX3StoreDesc_SmithA01_3= ""
 tagGDX3StoreDesc_SmithA01_4=打造武器、护甲、饰品时赋予以下属性之一：
 
 tagGDX3NPC_SmithA02=卢里亚·法尔德
 tagGDX3StoreTitle_SmithA02=天神铁匠
 tagGDX3StoreDesc_SmithA02_1={}天神锻炉
 tagGDX3StoreDesc_SmithA02_2=卢里亚·法尔德的锤子据说是以星辰铸就，能够打造最高 94 级的传奇装备，注入"贝若纳斯之相"的装备同样包含在内。
-
+tagGDX3StoreDesc_SmithA02_3= ""
 tagGDX3StoreDesc_SmithA02_4=打造武器、护甲、饰品时赋予以下属性之一：
 
 tagGDX3NPC_SmithA03=符文球体
 tagGDX3StoreTitle_SmithA03=赫拉纳克圣物
 tagGDX3StoreDesc_SmithA03_1={}赫拉纳克锻造术
 tagGDX3StoreDesc_SmithA03_2=赫拉纳克先民掌握的许多技术如今都已失传。这颗符文球体能够唤醒装备真正的潜能，价值无可估量。
-
+tagGDX3StoreDesc_SmithA03_3= ""
 tagGDX3StoreDesc_SmithA03_4=打造武器、护甲、饰品时赋予以下属性之一：
 
 tagGDX3NPC_SmithA04=便所
 tagGDX3StoreTitle_SmithA04=便座
 tagGDX3StoreDesc_SmithA04_1={}便座
 tagGDX3StoreDesc_SmithA04_2=一种新奇的"锻造"工艺。成品如何，一闻便知。
-
+tagGDX3StoreDesc_SmithA04_3= ""
 tagGDX3StoreDesc_SmithA04_4=打造武器、护甲、饰品时赋予以下属性之一：
 
 #Faction Quartermasters

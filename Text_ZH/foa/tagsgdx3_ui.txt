@@ -173,7 +173,7 @@ PotionTransfusion=+{%.0f0}% {^E}药水词条强度，但基础效果失效
 PotionTransfusionMod=+{%.0f0}% {^E}药水词条强度，但基础效果失效
 PotionPurity={^E}抵御环境中的致命疫病
 PotionTrueSight={^E}揭示隐藏物品
-PotionExclusive={^o}专属修正-同一时间只能激活一个专属修正。
+PotionExclusive={^o}限定词条 - 任何时候都只会有一条限定词条生效。
 FilterCaster={^E}药水效果作用于周围盟友，对自身无效
 BeamNumber={%d0} {^E}射线
 BeamNumberMod=+{%d0} {^E}射线
@@ -181,12 +181,12 @@ BeamAngle={%.1f0} {^E}射线弧度
 BeamAngleMod=+{%.1f0} {^E}射线弧度
 DefenseNegativeDamageMult=+{%.0f0}% {^E}承受伤害
 MaxDurationRefresh=最大持续时间
-tagSkillDurationRefresh={%t0}持续时间增加 {^H}{%.1f1} {%z2}
-tagSkillDurationRefreshName={%t0}{%s1}的持续时间增加 {^H}{%.1f2} {%z3}
-tagSkillDurationRefreshMax={%t0}持续时间刷新 {^H}{%.1f1} {%z2}（最多 {^H}{%.1f3} {%z4}）
-tagSkillDurationRefreshNameMax={%t0}{%s1}的持续时间刷新 {^H}{%.1f2} {%z3}（最多 {^H}{%.1f4} {%z5}）
-tagSkillCooldownRefresh={%t0}冷却时间减少 {^H}{%.1f1} {%z2}
-tagSkillCooldownRefreshName={%t0}{%s1}的冷却时间减少 {^H}{%.1f2} {%z3}
+tagSkillDurationRefresh={%t0} {^H}持续时间{^E}增加 {^H}{%.1f1} {%z2}
+tagSkillDurationRefreshName={%t0}{%s1} {^H}持续时间{^E}增加 {^H}{%.1f2} {%z3}
+tagSkillDurationRefreshMax={%t0} {^H}持续时间{^E}刷新 {^H}{%.1f1} {%z2}（最多 {^H}{%.1f3} {%z4}）
+tagSkillDurationRefreshNameMax={%t0}{%s1} {^H}持续时间{^E}刷新 {^H}{%.1f2} {%z3}（最多 {^H}{%.1f4} {%z5}）
+tagSkillCooldownRefresh={%t0} {^H}冷却时间{^E}减少 {^H}{%.1f1} {%z2}
+tagSkillCooldownRefreshName={%t0}{%s1} {^H}冷却时间{^E}减少 {^H}{%.1f2} {%z3}
 ProjectileDuration=投射物持续时间
 
 tagRefreshSkillCondition01={^H}{%.0f1}% {^E}生命值时有 {%d0}% {^E}几率触发
@@ -215,3 +215,5 @@ tagCharStatsBerserkerSkillsBonus=狂战士技能
 tagCharStatsBerserkerSkillsBonusInfo=狂战士专精中所有已习得的技能获得加成。
 tagCharIncreasedGold={%+.0f0}% {^E}获得铁币数
 tagCharIncreasedGoldR={%+.0f0}-{%.0f1}% {^E}获得铁币数
+
+

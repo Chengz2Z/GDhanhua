@@ -87,7 +87,7 @@ tagRDifficultyDesc03=必须完成老兵难度才能解锁精英难度。
 tagDifficultyTitleSet=选择难度：
 tagDifficultyTitleShow=可加入难度：
 tagDifficultyNormal=普通难度
-tagDifficultyNormalVeteran={^k}老兵难度
+tagDifficultyNormalVeteran=老兵难度
 tagDifficultyElite=精英难度
 tagDifficultyUltimate=终极难度
 tagDifficultyJoinNormal=只加入普通难度
@@ -710,7 +710,7 @@ tagProtanopia=红色盲
 tagDeuteranopia=绿色盲
 tagTritanopia=蓝色盲
 
-tagOverwriteKeymap=该功能^y{%t0}^w已经被映射到^y{%t1}^w了。是否覆盖？
+tagOverwriteKeymap=该功能^y{%t0}{^-}已经被映射到^y{%t1}{^-}了。是否覆盖？
 tagHardDiskError=计算机硬盘空间不足，恐怖黎明可能会无法存档。释放更多硬盘空间以避免该问题。
 tagMenuError10=无法连接至服务器。Mod或者地图版本与主机不匹配。
 
@@ -734,3 +734,11 @@ tagDifficultyResists=* {%d0}% 玩家抗性
 
 tagHideDetails=^O[放开 Ctrl 以隐藏详情]
 tagHideDetailsGamepad=^O[放开 LT 以隐藏详情]
+
+#patch v1.3.0.4
+
+tagGameplayOption36=向光标闪避
+tagGameplayDesc36=启用此选项，基础闪避技能会将角色朝光标方向移动。如禁用，角色会向模型面对方向闪避。{^n}仅用键盘控制时默认禁用此选项。
+
+tagHUDOption26=大型光标
+tagHUDDesc26=启用大型光标，提高其能见度。

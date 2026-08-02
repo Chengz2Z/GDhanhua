@@ -2614,7 +2614,7 @@ tagLargeReagentStack=999+
 tagDifficultyWindowTitle=难度选择
 tagDifficultyExp=* +{%d0}% 经验奖励
 PentaStringFormat={%s0}{%s1}{%s2}{%s3}{%s4}
-tagToggleHotslotSet=显示备用热插槽组
+tagToggleHotslotSet=显示备用快捷栏组
 tagToggleUI=隐藏UI
 
 #Grim Internals 模组
@@ -2724,3 +2724,8 @@ tagMoveForward=前
 tagMoveBackward=后
 tagMoveLeft=左
 tagMoveRight=右
+
+#patch v1.3.0.4
+
+tagToggleHotslotSet=显示备用快捷栏组
+tagCaravanChangeTabName=更改名称：

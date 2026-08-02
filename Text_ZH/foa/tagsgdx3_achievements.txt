@@ -160,7 +160,7 @@ achGDX351Desc=击杀位于战岗堡垒的"劫掠者"科乔克。
 achGDX352Title=灭世者
 achGDX352Desc=在终极难度下，击杀位于战岗堡垒的"劫掠者"科乔克。
 
-achGDX353Title=灭世者
+achGDX353Title=灭世者（飞升）
 achGDX353Desc=在飞升模式中，击杀位于战岗堡垒的"劫掠者"科乔克。
 
 achGDX354Title=灭世者（不朽）

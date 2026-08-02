@@ -568,7 +568,7 @@ tagNPC_AreaC_20=中士瑟里夫
 tagNPC_AreaC_21=武器大师波若
 tagNPC_AreaC_22=信使
 tagNPC_AreaC_23=灵魂守卫坎德瑞斯
-tagNPC_AreaC_24=
+tagNPC_AreaC_24=布鲁努克·勒维厄
 tagNPC_AreaC_25=
 
 tagNPC_AldritchCaptive_01=卡特琳

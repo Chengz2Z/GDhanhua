@@ -542,8 +542,8 @@ tagGDX3NecklaceF305=帷幕低语者
 
 #Medals 勋章
 
-tagGDX3MedalB300=贝坎之印
-tagGDX3MedalB300_Desc="带有此印记者，方有资格踏入真正的贝坎殿堂。"
+tagGDX3MedalB300=N'erf 印记
+tagGDX3MedalB300_Desc="携带此印记者，方能踏入真正的 N'erf 神殿。"
 tagGDX3MedalB3000=N'erf 印记
 tagGDX3MedalB3000_Desc="夯"
 tagGDX3MedalB301=^l凝霜羽饰
@@ -595,7 +595,8 @@ tagGDX3Blueprint_RelicD305=设计图：圣物-阿玛托克之握
 tagGDX3Blueprint_WaistF301A=设计图：库恩寒冽护腰
 tagGDX3Blueprint_WaistF301B=设计图：库恩寒冽束腰
 
-tagGDX3Blueprint_WeaponD301=设计图：奥秘全视之眼
+
+tagGDX3Blueprint_WeaponD301=设计图：无穷奥秘之眼
 tagGDX3Blueprint_WeaponD302=设计图：余烬降生之槌
 tagGDX3Blueprint_WeaponD303=设计图：贝若纳斯的天神之角
 
@@ -631,6 +632,9 @@ tagGDX3Blueprint_ArmorD313=设计图：世界守护者的凝视
 tagGDX3Blueprint_ArmorD314=设计图：扎库尔的面容
 tagGDX3Blueprint_ArmorD315=设计图：冰霜之王的冠冕
 tagGDX3Blueprint_ArmorD316=设计图：原初烈焰的灰烬之容
+tagGDX3Blueprint_ArmorD317=设计图：神话 野性嚎叫兜帽
+tagGDX3Blueprint_ArmorD318=设计图：神话 原初风暴之眼
+tagGDX3Blueprint_ArmorD319=设计图：神话 永恒梦魇之角
 
 tagGDX1Blueprint_AccessoryD121J=设计图：狂乱低语之引
 
@@ -684,8 +688,8 @@ tagGDX2CraftRandomLegendaryDesc3C=铁匠汇聚素材中蕴含的原始奥术能�
 tagGDX2CraftRandomLegendaryAccessoryDesc3C=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，包含由"遗忘诸神"锻造的物品，但注入"贝若纳斯之相"的物品除外。等级不足 58 级的角色只能打造出史诗品质装备。
 tagGDX2CraftRandomLegendaryItemDesc3C=铁匠锻造一件与角色等级相匹配的传奇品质附魔物品。物品等级上限 94 级，包含由"遗忘诸神"锻造的物品，但注入"贝若纳斯之相"的物品除外。
 
-tagGDX3CraftRandomLegendaryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色有机会打造出史诗品质装备。
-tagGDX3CraftRandomLegendaryAccessoryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，甚至包含注入"贝若纳斯之相"的物品。等级不足 58 级的角色只能打造出史诗品质装备。
+tagGDX3CraftRandomLegendaryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，注入"贝若纳斯之相"的物品也包含在内。等级不足 58 级的角色有机会打造出史诗品质装备。
+tagGDX3CraftRandomLegendaryAccessoryDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，注入"贝若纳斯之相"的物品也包含在内。等级不足 58 级的角色只能打造出史诗品质装备。
 tagGDX3CraftRandomLegendaryItemDesc4=铁匠汇聚素材中蕴含的原始奥术能量，锻造一件具有传奇潜力的物品。物品等级上限 94 级，注入"贝若纳斯之相"的物品也包含在内。
 
 tagGDX3CraftMaterial_Beronath=贝若纳斯之相
@@ -723,60 +727,60 @@ tagGDX2CraftMaterial_IronExchange_02_Desc=在这死亡横行的世界中，铁�
 tagGDX3Potions_Blueprint_A301Desc=一个经过精心附魔的容器，用于盛放强效魔法药剂。
 tagGDX3Potions_Blueprint_A302Desc=一张记录着化学反应与奥术仪式的复杂图表。
 
-tagGDX3Potions_Blueprint_A301=配方：强化药瓶
-tagGDX3Potions_Blueprint_A302=配方：附魔药瓶
-tagGDX3Potions_Blueprint_A303=配方：注能药瓶
-tagGDX3Potions_Blueprint_A304=配方：完美药瓶
+tagGDX3Potions_Blueprint_A301=^f配方：强化药瓶
+tagGDX3Potions_Blueprint_A302=^f配方：附魔药瓶
+tagGDX3Potions_Blueprint_A303=^f配方：注能药瓶
+tagGDX3Potions_Blueprint_A304=^f配方：完美药瓶
 
-tagGDX3Potions_Blueprint_B301=配方：强化滴瓶
-tagGDX3Potions_Blueprint_B302=配方：附魔滴瓶
-tagGDX3Potions_Blueprint_B303=配方：注能滴瓶
-tagGDX3Potions_Blueprint_B304=配方：完美滴瓶
+tagGDX3Potions_Blueprint_B301=^f配方：强化滴瓶
+tagGDX3Potions_Blueprint_B302=^f配方：附魔滴瓶
+tagGDX3Potions_Blueprint_B303=^f配方：注能滴瓶
+tagGDX3Potions_Blueprint_B304=^f配方：完美滴瓶
 
-tagGDX3Potions_Blueprint_C301=配方：强化锥瓶
-tagGDX3Potions_Blueprint_C302=配方：附魔锥瓶
-tagGDX3Potions_Blueprint_C303=配方：注能锥瓶
-tagGDX3Potions_Blueprint_C304=配方：完美锥瓶
+tagGDX3Potions_Blueprint_C301=^f配方：强化锥瓶
+tagGDX3Potions_Blueprint_C302=^f配方：附魔锥瓶
+tagGDX3Potions_Blueprint_C303=^f配方：注能锥瓶
+tagGDX3Potions_Blueprint_C304=^f配方：完美锥瓶
 
-tagGDX3Potions_Blueprint_Modifier_A301=配方：磐石
+tagGDX3Potions_Blueprint_Modifier_A301=^f配方：磐石
 
-tagGDX3Potions_Blueprint_Modifier_A302=配方：增幅
+tagGDX3Potions_Blueprint_Modifier_A302=^f配方：增幅
 
-tagGDX3Potions_Blueprint_Modifier_A303=配方：血契
+tagGDX3Potions_Blueprint_Modifier_A303=^f配方：血契
 
-tagGDX3Potions_Blueprint_Modifier_A304=配方：溢电
+tagGDX3Potions_Blueprint_Modifier_A304=^f配方：溢电
 
-tagGDX3Potions_Blueprint_Modifier_A305=配方：长效续航
+tagGDX3Potions_Blueprint_Modifier_A305=^f配方：长效续航
 
-tagGDX3Potions_Blueprint_Modifier_A306=配方：震爆
+tagGDX3Potions_Blueprint_Modifier_A306=^f配方：震爆
 
-tagGDX3Potions_Blueprint_Modifier_A307=配方：寒冰护体
+tagGDX3Potions_Blueprint_Modifier_A307=^f配方：寒冰护体
 
-tagGDX3Potions_Blueprint_Modifier_A308=配方：长效疗愈
+tagGDX3Potions_Blueprint_Modifier_A308=^f配方：长效疗愈
 
-tagGDX3Potions_Blueprint_Modifier_A309=配方：长效转变
+tagGDX3Potions_Blueprint_Modifier_A309=^f配方：长效转变
 
-tagGDX3Potions_Blueprint_Modifier_A310=配方：续航
+tagGDX3Potions_Blueprint_Modifier_A310=^f配方：续航
 
-tagGDX3Potions_Blueprint_Modifier_A311=配方：疗愈
+tagGDX3Potions_Blueprint_Modifier_A311=^f配方：疗愈
 
-tagGDX3Potions_Blueprint_Modifier_A312=配方：净化
+tagGDX3Potions_Blueprint_Modifier_A312=^f配方：净化
 
-tagGDX3Potions_Blueprint_Modifier_A313=配方：救主
+tagGDX3Potions_Blueprint_Modifier_A313=^f配方：救主
 
-tagGDX3Potions_Blueprint_Modifier_A314=配方：无私
+tagGDX3Potions_Blueprint_Modifier_A314=^f配方：无私
 
-tagGDX3Potions_Blueprint_Modifier_A315=配方：石肤
+tagGDX3Potions_Blueprint_Modifier_A315=^f配方：石肤
 
-tagGDX3Potions_Blueprint_Modifier_A316=配方：风速
+tagGDX3Potions_Blueprint_Modifier_A316=^f配方：风速
 
-tagGDX3Potions_Blueprint_Modifier_A317=配方：转换
+tagGDX3Potions_Blueprint_Modifier_A317=^f配方：转换
 
-tagGDX3Potions_Blueprint_Modifier_A318=配方：真视
+tagGDX3Potions_Blueprint_Modifier_A318=^f配方：真视
 
-tagGDX3Potions_Blueprint_Modifier_A319=配方：吸血
+tagGDX3Potions_Blueprint_Modifier_A319=^f配方：吸血
 
-tagGDX3Potions_Blueprint_Modifier_A320=配方：贪财
+tagGDX3Potions_Blueprint_Modifier_A320=^f配方：贪财
 
 
 tagGDX3Potions_Container_A301=^w药瓶
@@ -806,7 +810,7 @@ tagGDX3Potions_Modifier_A309=^k长效转变
 
 tagGDX3Potions_Modifier_A310=^k续航
 
-tagGDX3Potions_Modifier_A311=^k续航
+tagGDX3Potions_Modifier_A311=^k疗愈
 
 tagGDX3Potions_Modifier_A312=^k净化
 
@@ -838,18 +842,18 @@ tagGDX3Consumable_02=哈西亚·焰血的缚魂石
 tagGDX3Consumable_02_Desc="召唤弱化版的哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 tagGDX3Consumable_02B_Desc="召唤怨鬼哈西亚·焰血协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 
-tagGDX3Consumable_03=被遗弃者玛鲁达的缚魂石
+tagGDX3Consumable_03="被遗弃者"玛鲁达的缚魂石
 tagGDX3Consumable_03_Desc="召唤弱化版的被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 tagGDX3Consumable_03B_Desc="召唤怨鬼被遗弃者玛鲁达协助作战，直至她的灵体挣脱控制，穿过帷幕逃离。"
 
-tagGDX3Consumable_04=河狸兽之石
-tagGDX3Consumable_04_Desc="石头上留有河狸兽的齿痕，其中蕴藏的力量正发出低沉嗡鸣。"
+tagGDX3Consumable_04=河狸兽石
+tagGDX3Consumable_04_Desc="石头上遍布河狸兽的牙印。有一股隐藏的力量从中辐射而出。"
 
-tagGDX3Consumable_05=巨鹏之石
-tagGDX3Consumable_05_Desc="这是一块坚如磐石的巨鹏石。"
+tagGDX3Consumable_05=巨鹏石
+tagGDX3Consumable_05_Desc="巨鹏的友谊坚如磐石。"
 
-tagGDX3Consumable_06=恐鬃之石
-tagGDX3Consumable_06_Desc="这块石头急需一位主人。"
+tagGDX3Consumable_06=狼石
+tagGDX3Consumable_06_Desc="这块狼迹天涯的石头终于想要个家了。"
 
 
 #ItemEnchantment 附魔
