@@ -11,6 +11,8 @@
   "exclude": [],
   "duplicate_policy": "last",
   "remove_markers": [
-    "^-"
+    "^-",
+    "★",
+    "☆"
   ]
 }
