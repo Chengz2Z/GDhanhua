@@ -184,6 +184,9 @@ def collect_entries(
 
 
 def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -> str:
+    if not remote_path.endswith("/zh.js"):
+        raise ValueError("远程中文词典路径必须以 /zh.js 结尾")
+    remote_english_path = remote_path[: -len("zh.js")] + "en.js"
     overrides_json = json.dumps(
         entries,
         ensure_ascii=False,
@@ -195,13 +198,33 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
 (() => {{
   "use strict";
 
-  const REMOTE_URL = "https://www.grimtools.com{remote_path}?grim-local-zh-bypass=1";
+  const REMOTE_ZH_URL = "https://www.grimtools.com{remote_path}?grim-local-zh-bypass=1";
+  const REMOTE_EN_URL = "https://www.grimtools.com{remote_english_path}?grim-local-zh-bypass=1";
   const OVERRIDES = {overrides_json};
   const MODE_STORAGE_KEY = "{mode_storage_key}";
   const MODE_OFFICIAL = "{mode_official}";
   const MODE_LOCAL = "{mode_local}";
   let mode = MODE_OFFICIAL;
-  let remoteTexts = {{}};
+  let remoteChineseTexts = {{}};
+  let remoteEnglishTexts = {{}};
+
+  function loadRemoteTexts(url) {{
+    const request = new XMLHttpRequest();
+    request.open("GET", url, false);
+    request.overrideMimeType("text/plain; charset=utf-8");
+    request.send(null);
+    if (request.status < 200 || request.status >= 300) {{
+      throw new Error(`HTTP ${{request.status}}`);
+    }}
+
+    const source = request.responseText;
+    const objectStart = source.indexOf("{{");
+    const objectEnd = source.lastIndexOf("}}");
+    if (objectStart < 0 || objectEnd <= objectStart) {{
+      throw new Error("无法识别远程语言文件格式");
+    }}
+    return JSON.parse(source.slice(objectStart, objectEnd + 1));
+  }}
 
   try {{
     mode =
@@ -217,28 +240,25 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
   }}
 
   try {{
-    const request = new XMLHttpRequest();
-    request.open("GET", REMOTE_URL, false);
-    request.overrideMimeType("text/plain; charset=utf-8");
-    request.send(null);
-    if (request.status < 200 || request.status >= 300) {{
-      throw new Error(`HTTP ${{request.status}}`);
-    }}
-
-    const source = request.responseText;
-    const objectStart = source.indexOf("{{");
-    const objectEnd = source.lastIndexOf("}}");
-    if (objectStart < 0 || objectEnd <= objectStart) {{
-      throw new Error("无法识别远程语言文件格式");
-    }}
-    remoteTexts = JSON.parse(source.slice(objectStart, objectEnd + 1));
+    remoteChineseTexts = loadRemoteTexts(REMOTE_ZH_URL);
   }} catch (error) {{
     console.warn(
       mode === MODE_LOCAL
-        ? "[GrimTools 本地汉化] 远程中文词典读取失败，将只使用本地 KEY。"
+        ? "[GrimTools 本地汉化] 官方中文词典读取失败，将使用本地 KEY 和官方英文回退。"
         : "[GrimTools 本地汉化] 远程中文词典读取失败，官方简体中文暂不可用。",
       error
     );
+  }}
+
+  if (mode === MODE_LOCAL) {{
+    try {{
+      remoteEnglishTexts = loadRemoteTexts(REMOTE_EN_URL);
+    }} catch (error) {{
+      console.warn(
+        "[GrimTools 本地汉化] 官方英文回退词典读取失败。",
+        error
+      );
+    }}
   }}
 
   const dictionaries =
@@ -247,14 +267,25 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
       : (globalThis.{variable_name} = {{}});
 
   if (mode === MODE_LOCAL) {{
-    dictionaries.zh = Object.assign({{}}, remoteTexts, OVERRIDES);
+    const englishFallbackCount = Object.keys(remoteEnglishTexts).filter(
+      (key) =>
+        !Object.prototype.hasOwnProperty.call(remoteChineseTexts, key) &&
+        !Object.prototype.hasOwnProperty.call(OVERRIDES, key)
+    ).length;
+    dictionaries.zh = Object.assign(
+      {{}},
+      remoteEnglishTexts,
+      remoteChineseTexts,
+      OVERRIDES
+    );
     console.info(
-      "[GrimTools 本地汉化] 当前模式: local；已覆盖 %d 个 KEY，远程回退 %d 个 KEY。",
+      "[GrimTools 本地汉化] 当前模式: local；本地覆盖 %d 个 KEY，官方中文 %d 个 KEY，官方英文回退 %d 个 KEY。",
       Object.keys(OVERRIDES).length,
-      Object.keys(remoteTexts).length
+      Object.keys(remoteChineseTexts).length,
+      englishFallbackCount
     );
   }} else {{
-    dictionaries.zh = Object.assign({{}}, remoteTexts);
+    dictionaries.zh = Object.assign({{}}, remoteChineseTexts);
     console.info(
       "[GrimTools 本地汉化] 当前模式: official；使用 GrimTools 官方简体中文。"
     );
@@ -263,6 +294,7 @@ def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -
 """.format(
         variable_name=variable_name,
         remote_path=remote_path,
+        remote_english_path=remote_english_path,
         overrides_json=overrides_json,
         mode_storage_key=MODE_STORAGE_KEY,
         mode_official=MODE_OFFICIAL,
