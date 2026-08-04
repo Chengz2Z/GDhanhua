@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -69,6 +70,22 @@ def load_config(path: Path) -> dict:
         raise ValueError("remove_markers 只能包含非空字符串")
     if len(remove_markers) != len(set(remove_markers)):
         raise ValueError("remove_markers 不能包含重复项")
+    remove_patterns = config.get("remove_patterns", [])
+    if not isinstance(remove_patterns, list):
+        raise ValueError("remove_patterns 必须是数组")
+    if any(not isinstance(pattern, str) or not pattern for pattern in remove_patterns):
+        raise ValueError("remove_patterns 只能包含非空字符串")
+    if len(remove_patterns) != len(set(remove_patterns)):
+        raise ValueError("remove_patterns 不能包含重复项")
+    for pattern in remove_patterns:
+        try:
+            re.compile(pattern)
+        except re.error as error:
+            raise ValueError(
+                "remove_patterns 包含无效正则表达式 {!r}: {}".format(
+                    pattern, error
+                )
+            ) from error
     return config
 
 
@@ -125,10 +142,16 @@ def iter_entries(path: Path) -> Iterable[Tuple[int, str, str]]:
                 yield line_number, key, value
 
 
-def normalize_web_value(value: str, remove_markers: Sequence[str]) -> str:
+def normalize_web_value(
+    value: str,
+    remove_markers: Sequence[str],
+    remove_patterns: Sequence[re.Pattern[str]],
+) -> str:
     """Remove game-only formatting markers unsupported by GrimTools."""
     for marker in remove_markers:
         value = value.replace(marker, "")
+    for pattern in remove_patterns:
+        value = pattern.sub("", value)
     return value
 
 
@@ -141,13 +164,30 @@ def count_removed_markers(value: str, remove_markers: Sequence[str]) -> int:
     return count
 
 
+def count_removed_patterns(
+    value: str,
+    remove_markers: Sequence[str],
+    remove_patterns: Sequence[re.Pattern[str]],
+) -> int:
+    """Count regex matches after applying configured marker replacements."""
+    for marker in remove_markers:
+        value = value.replace(marker, "")
+    count = 0
+    for pattern in remove_patterns:
+        value, replacements = pattern.subn("", value)
+        count += replacements
+    return count
+
+
 def collect_entries(
     files: Sequence[Path],
     duplicate_policy: str,
     remove_markers: Sequence[str],
+    remove_patterns: Sequence[re.Pattern[str]],
 ) -> Tuple[
     Dict[str, str],
     List[Tuple[str, EntrySource, EntrySource]],
+    int,
     int,
 ]:
     entries: Dict[str, str] = {}
@@ -173,14 +213,20 @@ def collect_entries(
                     )
                 if duplicate_policy == "first":
                     continue
-            entries[key] = normalize_web_value(value, remove_markers)
+            entries[key] = normalize_web_value(
+                value, remove_markers, remove_patterns
+            )
             sources[key] = current
 
     removed_marker_count = sum(
         count_removed_markers(source.value, remove_markers)
         for source in sources.values()
     )
-    return entries, conflicts, removed_marker_count
+    removed_pattern_count = sum(
+        count_removed_patterns(source.value, remove_markers, remove_patterns)
+        for source in sources.values()
+    )
+    return entries, conflicts, removed_marker_count, removed_pattern_count
 
 
 def make_loader(variable_name: str, remote_path: str, entries: Dict[str, str]) -> str:
@@ -452,8 +498,10 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
     source_root, files = discover_files(config_path, config)
     duplicate_policy = config.get("duplicate_policy", "last")
     remove_markers = config.get("remove_markers", [])
-    entries, conflicts, removed_marker_count = collect_entries(
-        files, duplicate_policy, remove_markers
+    remove_pattern_strings = config.get("remove_patterns", [])
+    remove_patterns = [re.compile(pattern) for pattern in remove_pattern_strings]
+    entries, conflicts, removed_marker_count, removed_pattern_count = collect_entries(
+        files, duplicate_policy, remove_markers, remove_patterns
     )
 
     generated_files = (
@@ -491,6 +539,9 @@ def build(config_path: Path, output_dirs: Sequence[Path]) -> int:
     marker_label = json.dumps(remove_markers, ensure_ascii=False)
     print("[完成] 配置移除标记: {}".format(marker_label))
     print("[完成] 移除标记出现次数: {} 个".format(removed_marker_count))
+    pattern_label = json.dumps(remove_pattern_strings, ensure_ascii=False)
+    print("[完成] 配置移除正则: {}".format(pattern_label))
+    print("[完成] 正则匹配移除次数: {} 个".format(removed_pattern_count))
     print("[完成] 扩展目标: {} 个".format(len(output_dirs)))
     for output_dir in output_dirs:
         print("  - {}".format(output_dir))

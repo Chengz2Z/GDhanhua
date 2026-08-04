@@ -186,14 +186,17 @@ grimtools-local-zh/
     "../../Text_ZH"
   ],
   "include": [
-    "**/*_items.txt",
-    "**/*_skills.txt",
-    "**/*_ui.txt"
+    "**/tags*.txt"
   ],
   "exclude": [],
   "duplicate_policy": "last",
   "remove_markers": [
-    "^-"
+    "^-",
+    "★",
+    "☆"
+  ],
+  "remove_patterns": [
+    "[ \\t]*\\^s\\([^\\r\\n()]*[A-Za-z][^\\r\\n()]*\\)"
   ]
 }
 ```
@@ -205,6 +208,7 @@ grimtools-local-zh/
 - `exclude`：需要从白名单结果中排除的文件。
 - `duplicate_policy`：重复 KEY 的处理方式。
 - `remove_markers`：生成网页词典时需要移除的字符串数组。
+- `remove_patterns`：生成网页词典时需要移除的正则表达式数组，按数组顺序执行。
 
 `duplicate_policy` 支持：
 
@@ -214,7 +218,11 @@ grimtools-local-zh/
 
 同一个 KEY 对应不同文本时，脚本会列出来源文件及行号，但不会修改汉化源文件。
 
-`remove_markers` 默认包含游戏专用的 `^-` 格式控制标记。需要增加其他标记时，继续向数组添加字符串；脚本按数组顺序处理，设置为空数组 `[]` 可关闭移除功能。该转换只影响生成结果，不会修改 `Text_ZH`；未配置的颜色、变量和换行标记保持原样。
+`remove_markers` 默认包含游戏专用的 `^-` 格式控制标记以及不需要在网页中显示的符号。需要增加其他固定文本时，继续向数组添加字符串。
+
+`remove_patterns` 默认移除包含英文字母的 `^s(...)` 字段，例如技能名称后的 `^s(Werewolf)`；字段前的空格或制表符也会一并移除。纯中文字段（例如 `^s(棕)`）不会被该规则匹配。正则表达式需要按 JSON 规则转义反斜杠；设置为空数组 `[]` 可关闭正则移除功能。
+
+以上转换只影响生成结果，不会修改 `Text_ZH`；未配置的颜色、变量和换行标记保持原样。
 
 旧版单路径配置 `source_root` 仍然兼容，但不能和 `source_roots` 同时设置。
 
@@ -302,7 +310,7 @@ grimtools_local_zh_mode = local
 
 因此 `local` 模式中未在本地汉化找到的 KEY 会先使用官方中文；官方中文也没有该 KEY 时，再显示官方英文。例如官方中文缺少 `ItemDB_tagRandomDrop`，本地汉化未提供时会显示官方英文 `Random drop`，提供本地翻译后则显示本地内容。任一远程词典读取失败时，脚本仍会使用其余已成功读取的词典和本地 KEY，并在控制台输出警告。
 
-游戏会把 `^-` 解释为格式控制标记，但 GrimTools 会把它显示成额外字符。本工具会在写入扩展词典前，移除 `config.json` 的 `remove_markers` 数组中列出的全部字符串。
+游戏会解释部分格式控制字段，但 GrimTools 可能将其显示成额外字符。本工具会在写入扩展词典前，先移除 `config.json` 的 `remove_markers` 固定字符串，再按顺序应用 `remove_patterns` 正则表达式。默认会移除 `^-` 和技能名称后的英文原名，例如 `^s(Werewolf)`。
 
 ## 八、常见问题
 
