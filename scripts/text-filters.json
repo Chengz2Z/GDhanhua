@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "with_desc": {
+      "rules": []
+    },
+    "no_desc": {
+      "rules": [
+        {
+          "include": [
+            "tags*items.txt"
+          ],
+          "replace_patterns": [
+            {
+              "pattern": "(?m)^(tag(?:GDX\\d+)?(?:Prefix|Suffix)[^=\\r\\n]*=)(.*)\\(([^()\\r\\n]*)\\)(\\s*·?\\s*)$",
+              "keep_groups": [
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "include": [
+            "tags*skills.txt"
+          ],
+          "remove_patterns": [
+            "[ \\t]*\\^s\\([^()\\r\\n]*[A-Za-z][^()\\r\\n]*\\)"
+          ]
+        }
+      ]
+    }
+  }
+}

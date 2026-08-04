@@ -22,9 +22,13 @@
 2.增加全部新内容的辅助描述并修正部分内容；
 2.待做：增加技能/物品等条目的新手友好辅助描述。
 
-☆ 如若发现本项目汉化上有遗漏和错误，或有更好的修改意见；
-☆ 请附带意向联系我QQ:1819365107；
-☆ 有能力者可参与汉化的优化工作。
+### 2026年08月04日 更新
+1.更新构建脚本支持替换规则和删除规则；
+2.增加并完善Grimtool本地化扩展构建工具；
+3.同步官中，并优化部分文本内容和颜色显示；
+4.待做：增加技能/物品等条目的新手友好辅助描述。
+
+
 
 ## 目录结构
 
@@ -49,8 +53,10 @@ Project/
 │  └─ set_no_desc/    无词缀简述的源文件目录
 │     └─ Text_ZH/
 ├─ scripts/           构建辅助脚本目录
-│  └─ prepare-build.ps1
-│                     编译前处理词缀简述开关
+│  ├─ prepare-build.ps1
+│  │                   Windows 编译前文本处理脚本
+│  └─ text-filters.json
+│                      有简述版与无简述版的文本过滤配置
 ├─ tools/             实用工具目录
 │  ├─ update_entries.py
 │  │                 条目更新工具
@@ -113,7 +119,7 @@ build.bat
 build.bat                 # 默认: release 模式，打包所有版本
 build.bat release         # 同上，显式指定 release 模式
 build.bat with-desc       # 仅打包带词缀简述版本
-build.bat no-desc         # 仅打包无词缀简述版本
+build.bat no-desc         # 打包无简述版本，并应用 no_desc 过滤规则
 build.bat -h / --help     # 显示帮助
 ```
 
@@ -125,8 +131,65 @@ build.bat -h / --help     # 显示帮助
 python3 build.py              # 默认: release 模式，打包所有版本
 python3 build.py release      # 同上，显式指定 release 模式
 python3 build.py with-desc    # 仅打包带词缀简述版本
-python3 build.py no-desc      # 仅打包无词缀简述版本
+python3 build.py no-desc      # 打包无简述版本，并应用 no_desc 过滤规则
 ```
+
+### 文本过滤配置
+
+文本过滤规则统一放在 `scripts/text-filters.json`，分别为有简述版和无简述版提供独立配置：
+
+```json
+{
+  "profiles": {
+    "with_desc": {
+      "rules": []
+    },
+    "no_desc": {
+      "rules": [
+        {
+          "include": ["tags*items.txt"],
+          "replace_patterns": [
+            {
+              "pattern": "(?m)^(tag(?:GDX\\d+)?(?:Prefix|Suffix)[^=\\r\\n]*=)(.*)\\(([^()\\r\\n]*)\\)(\\s*·?\\s*)$",
+              "keep_groups": [1, 2, 4]
+            }
+          ]
+        },
+        {
+          "include": ["tags*skills.txt"],
+          "remove_patterns": [
+            "[ \\t]*\\^s\\([^()\\r\\n]*[A-Za-z][^()\\r\\n]*\\)"
+          ]
+        }
+      ]
+    }
+  }
+}
+```
+
+- `with_desc`：有简述版使用的过滤规则，默认不移除任何内容。
+- `no_desc`：无简述版使用的过滤规则，默认移除词缀简述和技能英文原名。
+- `rules`：当前版本的过滤规则组数组；设置为 `[]` 即不进行文本过滤。
+- `include`：仅供当前规则组使用的文件通配符白名单。
+- `remove_patterns`：仅应用于同组 `include` 文件的正则表达式，按数组顺序执行。
+- `replace_patterns`：匹配完整内容后进行捕获组替换的规则数组。
+- `pattern`：替换规则使用的正则表达式。
+- `keep_groups`：替换后需要按顺序保留的捕获组编号。
+
+默认 `no_desc` 包含两个规则组：第一个从物品词缀条目中去除末尾属性简述，第二个移除技能名称中包含英文字母的 `^s(...)` 字段，例如 `^s(Werewolf)`。纯中文字段不会被匹配。`with_desc` 默认不进行过滤。
+
+同一个文件如果匹配多个规则组，会按 `rules` 数组顺序依次处理；同一规则组内先执行 `replace_patterns`，再执行 `remove_patterns`。后续增加其他文件类型时，追加新的规则组即可，不会把新正则应用到已有规则组的文件。修改配置后，`build.bat` 与 `build.py` 会使用同一套规则，无需再修改构建脚本。
+
+例如给物品文件增加独立过滤规则：
+
+```json
+{
+  "include": ["tags*items.txt"],
+  "remove_patterns": ["物品文件专用正则"]
+}
+```
+
+将这个对象追加到相应版本的 `rules` 数组即可。
 
 ## 编译脚本行为
 
@@ -134,10 +197,10 @@ python3 build.py no-desc      # 仅打包无词缀简述版本
 
 执行 `build.bat` 或 `build.py` 时，默认进入 release 模式，按以下顺序处理：
 
-1. **带描述构建**：将 `Text_ZH` 打包为 `out/arc_with_desc/Text_ZH.arc`
-2. **拷贝源文件**：复制 `Text_ZH` 到 `out/set_with_desc/Text_ZH/`
-3. **无描述构建**：复制 `Text_ZH` 到临时目录，移除词缀简述后打包为 `out/arc_no_desc/Text_ZH.arc`
-4. **移动源文件**：将处理后的临时目录移动到 `out/set_no_desc/Text_ZH/`
+1. **带描述构建**：保留词缀简述并应用 `with_desc` 过滤规则，输出为 `out/arc_with_desc/Text_ZH.arc`。
+2. **拷贝带描述源文件**：复制到 `out/set_with_desc/Text_ZH/`。
+3. **无描述构建**：移除词缀简述并应用 `no_desc` 过滤规则，输出为 `out/arc_no_desc/Text_ZH.arc`。
+4. **移动无描述源文件**：移动到 `out/set_no_desc/Text_ZH/`。
 5. **清理临时文件**：删除 `_build` 临时目录
 
 ### 单次构建模式
@@ -146,12 +209,11 @@ python3 build.py no-desc      # 仅打包无词缀简述版本
 
 1. 检查 `./out` 目录是否存在，不存在则自动创建。
 2. 检查 `./out/Text_ZH.arc` 是否已存在，若存在则先删除旧文件。
-3. 根据参数决定是否保留前后缀属性简述。
-4. 如果为"不带简述"模式，则先复制 `./Text_ZH` 到临时目录，并移除词缀简述。
-5. 调用打包工具重新打包。
-6. 编译成功后输出成功提示。
+3. 根据该模式对应的 `text-filters.json` 配置处理词缀简述和其他文本过滤规则。
+4. 调用打包工具重新打包。
+5. 编译成功后输出成功提示。
 
-不带简述模式只影响编译时的临时副本，不会修改仓库里的原始 `Text_ZH` 文本。
+过滤规则只作用于编译时的临时副本，不会修改仓库里的原始 `Text_ZH` 文本。
 
 ## 输出文件
 
@@ -163,11 +225,11 @@ python3 build.py no-desc      # 仅打包无词缀简述版本
 out/
 ├─ arc_with_desc/     带词缀简述的归档文件
 │  └─ Text_ZH.arc
-├─ set_with_desc/     带词缀简述的源文件目录（可直接用于游戏替换）
+├─ set_with_desc/     对应的源文件目录
 │  └─ Text_ZH/
 ├─ arc_no_desc/       无词缀简述的归档文件
 │  └─ Text_ZH.arc
-└─ set_no_desc/       无词缀简述的源文件目录
+└─ set_no_desc/       对应的源文件目录
    └─ Text_ZH/
 ```
 
