@@ -14,7 +14,7 @@ tagGDX3WeaponSwordC301=虚空挽歌
 tagGDX3WeaponSwordD301=末日浩劫
 tagGDX3WeaponSwordD301_Desc="滔天浩劫，在此显现。"
 tagGDX3WeaponSwordD302=刻罪者
-tagGDX3WeaponSwordD303=血欲之刃
+tagGDX3WeaponSwordD303=渴血之刃
 tagGDX3WeaponSwordD303_Desc="握住这把利刃的瞬间，你的皮肤隐隐刺痛，仿佛体内的血液在回应它的渴求。"
 tagGDX3WeaponSwordD304=邪能符文
 tagGDX3WeaponSwordD305=血之苏醒
@@ -102,7 +102,7 @@ tagGDX3WeaponMelee2hB301=^l岩石琢刻之刃
 tagGDX3WeaponMelee2hB301_Desc="乍看之下，这柄剑刃似乎只是件礼器，但那锋锐的刃口瞬间便能打消对其真正用途的一切质疑。"
 tagGDX3WeaponMelee2hB302=^l虚空琢刻之刃
 tagGDX3WeaponMelee2hB303=^l受命之刃
-tagGDX3WeaponMelee2hB303_Desc="卡瓦赫拉纳克的一员，受命者纳多的剑刃。他的身体与剑刃上都涂抹着冥神之血。"
+tagGDX3WeaponMelee2hB303_Desc="卡瓦赫拉纳克的一员，"受命者"纳多的剑刃。他的身体与剑刃上都涂抹着冥神之血。"
 tagGDX3WeaponMelee2hB304=^l泰坦的锯齿长矛
 tagGDX3WeaponMelee2hB305=^l泰坦的淬毒长矛
 tagGDX3WeaponMelee2hB306=^l暴风降生长矛
@@ -186,8 +186,8 @@ tagGDX3WeaponCaster1hD308_Desc="贝若纳斯之角，在虚空的腐化侵蚀下
 tagGDX3WeaponCaster1hF301=库恩仪式符刃
 tagGDX3WeaponCaster1hF302=库恩献祭符刃
 tagGDX3WeaponCaster1hF303="风暴驾驭者"桑多希尔
-tagGDX3WeaponCaster1hF303_Desc="在风暴的祝福下，桑多希尔的锋刃破空而至，重归库恩人之手。"
-tagGDX3WeaponCaster1hF304="罡风"阿努弗尔
+tagGDX3WeaponCaster1hF303_Desc="乘着风暴的祝福，桑多希尔的锋刃破空而至，重归库恩人之手。"
+tagGDX3WeaponCaster1hF304="朔风"阿努弗尔
 tagGDX3WeaponCaster1hF304_Desc="阿斯特堪的凛冽之息自剑刃上吹拂而出。"
 
 #Shields 盾牌
@@ -203,7 +203,7 @@ tagGDX3ShieldB306=^l霜棘之盾
 tagGDX3ShieldB307=^l霜棘防御者
 tagGDX3ShieldB308=^l血羁防御者
 tagGDX3ShieldB309=^l血羁守护者
-tagGDX3ShieldB310=^l黑心壁障
+tagGDX3ShieldB310=^l黑心坚壁
 tagGDX3ShieldB311=^l冰川防御者
 
 tagGDX3ShieldC301=虚核壁垒
@@ -233,7 +233,7 @@ tagGDX3FocusB309=^l加米尔之角
 
 tagGDX3FocusC301=虚空裂痕
 tagGDX3FocusC302=帕内蒂的复写法典
-tagGDX3FocusC302_Desc="其中数页的内容几乎与前文一丝不差，是某种实验？还是病态的笔录习惯？"
+tagGDX3FocusC302_Desc="其中数页的内容几乎与前文一字不差，是某种实验？还是病态的笔录习惯？"
 
 tagGDX3FocusD301=无穷奥秘之眼
 tagGDX3FocusD301_Desc="持有者永远无法确认这只眼睛到底是一份馈赠，还是有另一双眼睛正透过那没有眼睑的眼球窥视着自己。"
@@ -279,10 +279,10 @@ tagGDX3HeadD303_Desc="穿戴者将以噩梦缠身为代价，窥见令人发狂�
 tagGDX3HeadD304=芬里斯风帽
 tagGDX3HeadD305=雅尔丁之眼
 tagGDX3HeadD306=阿波克利普顿的凝视
-tagGDX3HeadD307=血欲疤痕
+tagGDX3HeadD307=渴血疤痕
 tagGDX3HeadD308=埃尔德伦的诅咒视界
 tagGDX3HeadD309=扭转命运之凝视
-tagGDX3HeadD310=幽暗骑士头盔
+tagGDX3HeadD310=晦暗骑士头盔
 tagGDX3HeadD311=风暴之牙风帽
 tagGDX3HeadD312=梦行者之容
 tagGDX3HeadD313=世界守护者的凝视
@@ -343,10 +343,10 @@ tagGDX3ShoulderD304=芬里斯的护肩
 tagGDX3ShoulderD305=血月毛皮
 tagGDX3ShoulderD306=雅尔丁的毛皮
 tagGDX3ShoulderD307=阿波克利普顿的光环
-tagGDX3ShoulderD308=血欲护肩
+tagGDX3ShoulderD308=渴血护肩
 tagGDX3ShoulderD309=埃尔德伦的披肩
 tagGDX3ShoulderD310=扭转命运护肩
-tagGDX3ShoulderD311=幽暗骑士肩铠
+tagGDX3ShoulderD311=晦暗骑士肩铠
 tagGDX3ShoulderD312=风暴之牙皮毛
 tagGDX3ShoulderD313=梦行者披肩
 tagGDX3ShoulderD314=余烬降生护肩
@@ -376,15 +376,15 @@ tagGDX3TorsoC302=洛科尔的服饰
 tagGDX3TorsoC303=血鬃胸铠
 
 tagGDX3TorsoD301=野性嚎叫护甲
-tagGDX3TorsoD302=时空风暴服饰
+tagGDX3TorsoD302=时空风暴上衣
 tagGDX3TorsoD303=荒芜灰烬胸铠
 tagGDX3TorsoD304=芬里斯护甲
 tagGDX3TorsoD305=血月护甲
 tagGDX3TorsoD306=雅尔丁的伤疤
 tagGDX3TorsoD307=阿波克利普顿的凶兆
-tagGDX3TorsoD308=血欲护甲
+tagGDX3TorsoD308=渴血护甲
 tagGDX3TorsoD309=扭转命运护甲
-tagGDX3TorsoD310=幽暗骑士胸铠
+tagGDX3TorsoD310=晦暗骑士胸铠
 tagGDX3TorsoD311=风暴之牙护甲
 tagGDX3TorsoD312=余烬降生板甲
 tagGDX3TorsoD313=扎库尔的骨笼
@@ -426,7 +426,7 @@ tagGDX3LegsC301=鲜血仪式护腿
 tagGDX3LegsD301=虚空编织腿甲
 tagGDX3LegsD302=时间编织者护腿
 tagGDX3LegsD303=缚影者的长裤
-tagGDX3LegsD304=巫邪阴谋者的裹腿
+tagGDX3LegsD304=邪术阴谋者的裹腿
 tagGDX3LegsD305=血月护腿
 tagGDX3LegsD306=黑刃护腿
 
@@ -474,7 +474,7 @@ tagGDX3RingB305=^l吞噬者戒指
 tagGDX3RingB306=^l阿洛丝崔亚的印戒
 tagGDX3RingB306_Desc="戴上这枚戒指令你毛骨悚然，仿佛又回到了在那道熟悉的声音操控下身不由己的日子。"
 tagGDX3RingB307=^l阿洛丝崔亚的玺戒
-tagGDX3RingB308=^l希夫之契
+tagGDX3RingB308=^l希夫誓约之证
 tagGDX3RingB308_Desc="这枚戒指曾经的主人似乎与巨狼希夫关系匪浅。"
 
 tagGDX3RingC301=奥术织流印戒
@@ -565,10 +565,10 @@ tagGDX3MedalD302=无限魔印
 tagGDX3MedalD303=猩红连队烙印
 tagGDX3MedalD303_Desc="象征着猩红连队成员绝对忠诚的印记。"
 tagGDX3MedalD304=痛苦碎片
-tagGDX3MedalD305=流言回响
+tagGDX3MedalD305=风言回响
 tagGDX3MedalD306=雅尔丁的徽记
 tagGDX3MedalD307=夜铸徽记
-tagGDX3MedalD308=幽暗骑士徽章
+tagGDX3MedalD308=晦暗骑士徽章
 tagGDX3MedalD309=梦行者之忆
 tagGDX3MedalD310=扎库尔的徽记
 tagGDX3MedalD311=世界守护者之心
@@ -611,7 +611,7 @@ tagGDX3Blueprint_WeaponF308=设计图："风暴驾驭者"桑多希尔
 tagGDX3Blueprint_WeaponF309=设计图：次元石壁垒
 tagGDX3Blueprint_WeaponF310=设计图：阿斯特堪之魂
 tagGDX3Blueprint_WeaponF311=设计图：无畏
-tagGDX3Blueprint_WeaponF312=设计图："罡风"阿努弗尔
+tagGDX3Blueprint_WeaponF312=设计图："朔风"阿努弗尔
 
 
 tagGDX3Blueprint_ArmorC301=设计图：血鬃头盔
@@ -622,10 +622,10 @@ tagGDX3Blueprint_ArmorD303=设计图：原初风暴之眼
 tagGDX3Blueprint_ArmorD304=设计图：永恒梦魇之角
 tagGDX3Blueprint_ArmorD305=设计图：芬里斯风帽
 tagGDX3Blueprint_ArmorD306=设计图：雅尔丁之眼
-tagGDX3Blueprint_ArmorD307=设计图：血欲兜帽
+tagGDX3Blueprint_ArmorD307=设计图：渴血兜帽
 tagGDX3Blueprint_ArmorD308=设计图：埃尔德伦的诅咒视界
 tagGDX3Blueprint_ArmorD309=设计图：扭转命运之凝视
-tagGDX3Blueprint_ArmorD310=设计图：幽暗骑士头盔
+tagGDX3Blueprint_ArmorD310=设计图：晦暗骑士头盔
 tagGDX3Blueprint_ArmorD311=设计图：风暴之牙风帽
 tagGDX3Blueprint_ArmorD312=设计图：梦行者之容
 tagGDX3Blueprint_ArmorD313=设计图：世界守护者的凝视
@@ -711,7 +711,7 @@ tagGDX3CraftMaterial_ActiveOrb=岩浆法球
 tagGDX3CraftMaterial_ActiveOrb_Desc="一颗散发着灼热高温的石球，其热量足以熔化冰川。尽管石球表面热浪滚滚，触感却出奇地冰凉。"
 
 tagGDX3CraftMaterial_SoulGreater=灵魂碎片
-tagGDX3CraftMaterial_SoulGreater_Desc="以粗暴手段从强敌身上提取出的精粹。"
+tagGDX3CraftMaterial_SoulGreater_Desc="以粗暴手段从强敌身上抽出的精魂。"
 
 tagGDX3CraftMaterial_SoulLesser=灵魂回响
 tagGDX3CraftMaterial_SoulLesser_Desc="敌人被击败后留下的残响。精通古老技艺者或许能将其融合为更强大的事物。"
@@ -859,10 +859,10 @@ tagGDX3Consumable_06_Desc="这块狼迹天涯的石头终于想要个家了。"
 #ItemEnchantment 附魔
 
 tagGDX3EnchantA301A=战骨之息
-tagGDX3EnchantA301Desc="在那场大战令诸部族分崩离析之前，战骨兽人曾是库恩人的坚定盟友。这种粉尘便是由战骨兽人萨满研制，专门用于抵御冰冻亡灵。"^w^n（用于所有单手武器，盾牌和法器副手）
+tagGDX3EnchantA301Desc="在那场大战令诸氏族分崩离析之前，战骨兽人曾是库恩人的坚定盟友。这种粉尘便是由战骨兽人萨满研制，专门用于抵御冰冻亡灵。"^w^n（用于所有单手武器，盾牌和法器副手）
 
 tagGDX3EnchantA302A=强效战骨之息 
-tagGDX3EnchantA302Desc="在那场大战令诸部族分崩离析之前，战骨兽人曾是库恩人的坚定盟友。这种粉尘便是由战骨兽人萨满研制，专门用于抵御冰冻亡灵。"^w^n（用于所有双手武器）
+tagGDX3EnchantA302Desc="在那场大战令诸氏族分崩离析之前，战骨兽人曾是库恩人的坚定盟友。这种粉尘便是由战骨兽人萨满研制，专门用于抵御冰冻亡灵。"^w^n（用于所有双手武器）
 
 tagGDX3EnchantA303A=血羁祭品
 tagGDX3EnchantA303Desc="愿意改邪归正、摒弃黑暗邪神的血羁库恩人，必须在身上涂抹这些染血的灰烬，度过一整个月相周期。这不仅是为了赎罪，也是在警醒其余族人对其多加提防。"^w^n（用于所有单手武器，盾牌和法器副手）
@@ -883,7 +883,7 @@ tagGDX3EnchantA308A=霜棘兽余灰
 tagGDX3EnchantA308Desc="在霜棘兽尸体下方垫一层白鼠尾草，随后点火焚烧所得到的强力粉末，在库恩神谕者中已有数百年的使用历史。"^w^n（用于戒指和项链）
 
 tagGDX3EnchantA309A=怨鬼皮粉末
-tagGDX3EnchantA309Desc="怨鬼是因过往罪孽而生的不死生物，无论是战死沙场却无人安葬的库恩英雄，还是曝尸荒野的叛徒，都有可能化为怨鬼。怨鬼的血肉中浸透着邪恶的死亡能量，但只要方法得当，仍然可以用于正途。”^w^n（用于戒指和项链）
+tagGDX3EnchantA309Desc="怨鬼是因过往罪孽而生的不死生物，无论是战死沙场却无人安葬的库恩英雄，还是曝尸荒野的叛徒，都有可能化为怨鬼。其血肉中浸透着邪恶的死亡能量，但只要方法得当，仍然可以用于正途。”^w^n（用于戒指和项链）
 
 tagGDX3EnchantA310A=巨人长牙粉末
 tagGDX3EnchantA310Desc="敢从阿斯特堪比蒙嘴里拔牙的库恩人，要么是真正的勇士，要么就是十足的蠢货。尽管如此，其珍贵的药用价值依然令人趋之若鹜。"^w^n（用于戒指和项链）
@@ -898,7 +898,7 @@ tagGDX3EnchantA313A=驭兽人粉末
 tagGDX3EnchantA313Desc="提取自阿斯特堪血蕨根部的药粉，可用于安抚暴躁难训的猛兽。"^w^n（用于戒指和项链）
 
 tagGDX3EnchantA314A=牛鞭草粉末
-tagGDX3EnchantA314Desc="由阿斯特堪牛鞭草的花朵制成的提神粉末，是战前准备与漫长庆典中必不可少的常备品。"^w^n（用于戒指与项链）
+tagGDX3EnchantA314Desc="由阿斯特堪牛鞭草的花朵制成的提神粉末，是进行战前准备与庆祝活动的必备品。"^w^n（用于戒指与项链）
 
 tagGDX3EnchantA315A=冰川粉尘
 tagGDX3EnchantA315Desc="从阿斯特堪的巨型冰川上取下冰块并融化后，利用残留的微粒提炼而成的仪式用粉尘。"^w^n（用于戒指与项链）
@@ -922,13 +922,13 @@ tagGDX3EnchantB306A=强效原初灰烬
 tagGDX3EnchantB306Desc="阿斯特堪的灼烧荒原宛如人间炼狱，胆敢涉足其中者寥寥无几。但只要敢于冒些风险，荒原上饱受污染的火山土其实大有用处。"^w^n（用于所有双手武器）
 
 tagGDX3EnchantB307A=阿玛托克之牙
-tagGDX3EnchantB307Desc="相传在经历一个漫长的严冬后，最初的库恩人曾一度陷入饥荒的绝境。阿玛托克见此情此景，便赠予他们自己的一颗牙齿。从那牙齿中，涌出了一条奔腾的河流，浪花中满是银白色的鲑鱼。"^w^n（用于戒指和项链）
+tagGDX3EnchantB307Desc="相传在经历一个漫长的严冬后，最初的库恩人曾一度陷入饥荒的绝境。阿玛托克见此情此景，便赠予他们自己的一颗牙齿。河水从牙齿中奔腾而出，其中满是银白色的鲑鱼。"^w^n（用于戒指和项链）
 
 tagGDX3EnchantB308A=艾尔洛的生命之水
 tagGDX3EnchantB308Desc="相传在最初的时候，正是艾尔洛的圣水赋予了阿斯特堪山谷生命，进而孕育了库恩人。时至今日，许多人仍将她奉为库恩人之母。"^w^n（用于戒指和项链）
 
 tagGDX3EnchantB309A=莫格卓根的恩赐
-tagGDX3EnchantB309Desc="白色巨狼自古以来，便是阿斯特堪力量的象征。历代一统库恩诸部族的传奇酋长，追根溯源无不是出自这位野兽之神的辉煌血脉。"^w^n（用于戒指和项链）
+tagGDX3EnchantB309Desc="白色巨狼自古以来，便是阿斯特堪力量的象征。历代一统库恩诸氏族的传奇酋长，追根溯源无不是出自这位野兽之神的辉煌血脉。"^w^n（用于戒指和项链）
 
 tagGDX3EnchantB310A=掠夺者的馈赠
 tagGDX3EnchantB310Desc="尽管近几百年间，掠夺者的影响力已经大不如前，但仍有部分库恩人将其视为自身原始恐惧与欲望的化身，为这位以负面情感为食的贪婪神明提供着养料。"^w^n（用于戒指和项链）
@@ -995,7 +995,7 @@ tagGDX3BoosterKurn_C01=血羁通缉令
 
 #ItemSets 套装
 
-tagItemSetC004NameC=鲜血收割者的宰割
+tagItemSetC004NameC=鲜血收割者的残杀
 tagItemSetC022NameC=自然召唤者的号召
 
 tagGDX3ItemSetC301Name=洛科尔的狂乱
@@ -1003,16 +1003,16 @@ tagGDX3ItemSetC301BName=洛科尔的愚行
 tagGDX3ItemSetC301Desc="洛科尔曾是侍奉莫格卓根的萨满，却在绝望之中倒向了黑暗的力量。洛科尔所立下的血契，将他所有族人的命运永远绑在了冥神的战车之上。"
 
 tagGDX3ItemSetC302Name=血鬃
-tagGDX3ItemSetC302Desc="雪人血鬃曾令阿斯特堪的边陲地带闻风丧胆，直到风暴之矛部族的乌定让它体会到了真正的恐怖。"
+tagGDX3ItemSetC302Desc="雪人血鬃曾令阿斯特堪的边陲地带闻风丧胆，直到风暴之矛氏族的乌定让它体会到了真正的恐怖。"
 
 tagGDX3ItemSetD300Name=遗矢之王的御用行头
 tagGDX3ItemSetD300Desc="此等利器，方才与那白瓷王座相称。"
 
 tagGDX3ItemSetD301Name=芬里斯
-tagGDX3ItemSetD301Desc="赫若瑟纳尔之子芬里斯，曾无数次率部劫掠伊露兰，在库恩人中享有至高无上的传奇地位。在他的葬礼上，火葬堆燃烧得犹如烈日般耀眼。"
+tagGDX3ItemSetD301Desc="赫若瑟纳尔之子芬里斯曾无数次率部劫掠伊露兰，在库恩人中享有至高无上的传奇地位。在他的葬礼上，火葬堆燃烧得犹如烈日般耀眼。"
 
 tagGDX3ItemSetD302Name=血色月轮
-tagGDX3ItemSetD302Desc="每当阿斯特堪红月高悬之际，贝若纳斯的子嗣们便会爆发出嗜血的狂暴。崇拜红月的库恩人将这一异象视为血腥大胜来临的前兆。"
+tagGDX3ItemSetD302Desc="每当阿斯特堪红月高悬之际，贝若纳斯的子嗣们便会爆发出嗜血的狂暴。因此，崇拜红月的库恩人将这一异象视为血腥大胜来临的前兆。"
 
 tagGDX3ItemSetD303Name=雅尔丁的狂怒
 tagGDX3ItemSetD303Desc="雅尔丁的力量举世无双。他曾探访世间强者乃至恐怖怪物，只求能痛快一战。"
@@ -1023,7 +1023,7 @@ tagGDX3ItemSetD304Desc="夜铸沉醉于清冷的月芒，秘行见不得破晓�
 tagGDX3ItemSetD305Name=阿波克利普顿
 tagGDX3ItemSetD305Desc="尽管世界并未如阿波克利普顿所预言那般陷入火海，但近期的种种异变却令世人对这一恐怖预言产生了全新的见解。"
 
-tagGDX3ItemSetD306Name=血欲
+tagGDX3ItemSetD306Name=渴血
 tagGDX3ItemSetD306Desc="迷失于杀戮之中的凡人，其命运固然可悲，但这些一无所依之人，往往也是最可靠的战争鹰犬。"
 
 tagGDX3ItemSetD307Name=埃尔德伦的沉思
@@ -1032,8 +1032,8 @@ tagGDX3ItemSetD307Desc="埃尔德伦自幼便双目失明，但在追寻风暴�
 tagGDX3ItemSetD308Name=逆转命运
 tagGDX3ItemSetD308Desc="阿兹拉卡出于仁慈，会让凡人一窥伊恩所织就的命运丝线，以期他们能逆转命运，解开自身的劫数。"
 
-tagGDX3ItemSetD309Name=幽暗骑士
-tagGDX3ItemSetD309Desc="无人能活着知晓幽暗骑士的真身，就连那副剧毒盔甲下是否从始至终只有同一副凡人之躯，都无从得知。"
+tagGDX3ItemSetD309Name=晦暗骑士
+tagGDX3ItemSetD309Desc="无人能活着知晓晦暗骑士的真身，就连那副剧毒盔甲下是否从始至终只有同一副凡人之躯，都无从得知。"
 
 tagGDX3ItemSetD310Name=风暴之牙
 tagGDX3ItemSetD310Desc="风暴之牙性情之残忍，只有她对风暴的精湛掌控才能相提并论。那肆虐的风暴，或许正是她混乱内心的对外映射。"

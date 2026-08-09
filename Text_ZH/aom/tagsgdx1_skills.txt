@@ -237,8 +237,8 @@ tagGDX1ItemSkillB101Desc=从你的攻击中爆发一阵火焰冲击波。
 tagGDX1ItemSkillB102Name=奇形打击
 tagGDX1ItemSkillB102Desc=伴随你的每一次攻击，血肉领主的腐化之力都会创伤你的敌人。^o当作为默认武器攻击时，奇形打击会增强你的攻击。
 
-tagGDX1ItemSkillB103Name=虚化爆发
-tagGDX1ItemSkillB103Desc=从你的武器中爆发一阵虚化能量。
+tagGDX1ItemSkillB103Name=虚灵爆发
+tagGDX1ItemSkillB103Desc=一股虚灵能量从你身上迸发。
 
 
 tagGDX1ItemSkillC101Name=灵魂分裂

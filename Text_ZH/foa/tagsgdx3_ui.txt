@@ -25,6 +25,7 @@ tagMarkedChestEnable=有概率出现虚空印记宝箱
 tagSoulDropsEnable=有概率掉落灵魂碎片与灵魂回响
 
 tagSuperBossSpawned={^R}某种东西在阴影中蠢动...
+tagBossRoomLocked= {^R} ~ 封锁，战斗进行中
 
 tagExclusiveAscensionFormula01={^C}闪电属性{^E}装备掉落几率提升
 tagExclusiveAscensionFormula02={^G}毒酸属性{^E}装备掉落几率提升

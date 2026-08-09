@@ -420,13 +420,13 @@ tagGDX3_SummonDevourer=召唤小饿魔
 tagGDX3_SummonDevourerDesc=从虚空中召唤一头饥肠辘辘的小饿魔。^o同一时间只能召唤一头小饿魔，且不具备任何战斗能力。
 
 tagGDX3_SummonMiniBeaverName=召唤河狸兽幼崽
-tagGDX3_SummonMiniBeaverDesc=吸引一头尚不懂得畏惧人类的河狸兽幼崽前来。^o同一时间只能召唤一头河狸兽幼崽，且不具备任何战斗能力。
+tagGDX3_SummonMiniBeaverDesc=召唤一头尚未怕人的河狸兽幼崽。^o同一时间只能召唤一头河狸兽幼崽，且不具备任何战斗能力。
 
 tagGDX3_SummonMiniRocName=召唤巨鹏幼鸟
-tagGDX3_SummonMiniRocDesc=召唤一只忠诚的巨鹏幼鸟伴你飞行。^o同一时间只能召唤一只巨鹏幼鸟，且不具备任何战斗能力。
+tagGDX3_SummonMiniRocDesc=召唤一头为你效忠的巨鹏飞在你左右。^o同一时间只能召唤一头巨鹏幼鸟，且不具备任何战斗能力。
 
 tagGDX3_SummonMiniYeti=召唤狼崽
-tagGDX3_SummonMiniYetiDesc=与一头遭族群遗弃的恐鬃幼崽成为伙伴。^o同一时间只能召唤一头狼崽，且不具备任何战斗能力。
+tagGDX3_SummonMiniYetiDesc=召唤一只离群的恐鬃。^o同一时间只能召唤一头狼崽，且不具备任何战斗能力。
 
 
 
