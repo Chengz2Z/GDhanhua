@@ -1,11 +1,11 @@
 tagSkillClassName10=狂战士
 
-tagSkillClassName0110=领主^T（士兵+狂战）
+tagSkillClassName0110=蛮王^T（士兵+狂战）
 tagSkillClassName0210=无畏战士^T（爆破+狂战）
 tagSkillClassName0310=古魔士^T（神秘+狂战）
 tagSkillClassName0410=劫掠者^T（夜刃+狂战）
 tagSkillClassName0510=唤魔师^T（奥术+狂战）
-tagSkillClassName0610=原始术士^T（萨满+狂战）
+tagSkillClassName0610=原术师^T（萨满+狂战）
 tagSkillClassName0710=符文师^T（审判+狂战）
 tagSkillClassName0810=帷幕行者^T（死灵+狂战）
 tagSkillClassName0910=狂信徒^T（守誓+狂战）

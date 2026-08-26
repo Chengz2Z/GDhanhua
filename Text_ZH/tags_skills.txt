@@ -116,7 +116,7 @@ tagClass01SkillName04A=^g<^F士兵^g>^c战吼 ^s(War Cry)
 tagClass01SkillDescription04A=令人毛骨悚然的战吼削弱敌人的意志，分散他们的注意力。
 tagClass01SkillName04C=恐惧怒吼 ^s(Terrify)
 tagClass01SkillDescription04C=意志不坚定的敌人在听到你可怕的挑衅声后会四散逃逸，他们的弱点暴露无遗。
-tagClass01SkillName04B=^g<^F士兵^g>^c破胆怒吼 ^(Break Morale)
+tagClass01SkillName04B=^g<^F士兵^g>^c破胆怒吼 ^s(Break Morale)
 tagClass01SkillDescription04B=战吼粉碎敌人的斗志，导致他们无力与你战斗。
 
 tagClass01SkillName05A=^g<^F士兵^g>^c刀锋横扫 ^s(Blade Arc)
